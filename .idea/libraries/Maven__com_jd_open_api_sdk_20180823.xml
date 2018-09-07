@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.jd:open-api-sdk:20180823">
+    <CLASSES>
+      <root url="jar://D:/soft/maven/repository/com/jd/open-api-sdk/20180823/open-api-sdk-20180823.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/soft/maven/repository/com/jd/open-api-sdk/20180823/open-api-sdk-20180823-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/soft/maven/repository/com/jd/open-api-sdk/20180823/open-api-sdk-20180823-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
