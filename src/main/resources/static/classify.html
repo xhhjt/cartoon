@@ -13,13 +13,20 @@
 
     <meta name="apple-mobile-web-app-title" content="电波漫画">
 
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="http://hbztjg.com/dianbo/static/dist/ppm/images/apple-touch-icon-57.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://hbztjg.com/dianbo/static/dist/ppm/images/apple-touch-icon-72.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://hbztjg.com/dianbo/static/dist/ppm/images/apple-touch-icon-114.png">
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="http://hbztjg.com/dianbo/static/dist/ppm/images/apple-touch-icon-120.png">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://hbztjg.com/dianbo/static/dist/ppm/images/apple-touch-icon-144.png">
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="http://hbztjg.com/dianbo/static/dist/ppm/images/apple-touch-icon-152.png">
-    <link rel="apple-touch-icon-precomposed" sizes="512x512" href="http://hbztjg.com/dianbo/static/dist/ppm/images/apple-touch-icon-512.png">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57"
+          href="http://hbztjg.com/dianbo/static/dist/ppm/images/apple-touch-icon-57.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72"
+          href="http://hbztjg.com/dianbo/static/dist/ppm/images/apple-touch-icon-72.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114"
+          href="http://hbztjg.com/dianbo/static/dist/ppm/images/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120"
+          href="http://hbztjg.com/dianbo/static/dist/ppm/images/apple-touch-icon-120.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144"
+          href="http://hbztjg.com/dianbo/static/dist/ppm/images/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152"
+          href="http://hbztjg.com/dianbo/static/dist/ppm/images/apple-touch-icon-152.png">
+    <link rel="apple-touch-icon-precomposed" sizes="512x512"
+          href="http://hbztjg.com/dianbo/static/dist/ppm/images/apple-touch-icon-512.png">
 
 
     <meta name="Keywords" content="漫画,在线漫画,手机漫画,韩漫,韩国漫画,福利,178漫画"/>
@@ -40,14 +47,14 @@
     <script type="text/javascript" src="/assets/js/main.js"></script>
 
     <script>
-    var _hmt = _hmt || [];
-    (function() {
-        var hm = document.createElement("script");
-        hm.src = 'https://hm.baidu.com/hm.js?3a4907169cc43a2333a5b186b346d94e';
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(hm, s);
-    })();
-</script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = 'https://hm.baidu.com/hm.js?3a4907169cc43a2333a5b186b346d94e';
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
     <script type="text/javascript">
         window.cdnStaticRoot = "http://hbztjg.com/dianbo/static";
     </script>
@@ -56,9 +63,9 @@
 
 <body>
 <script>
-    $(function(){
+    $(function () {
         UserCookie();
-        if(m_global.isLogin==true){
+        if (m_global.isLogin == true) {
             m_global.userPhoto = "";
             m_global.crcck = "1PRQ95";
             $(".head img").show().attr("src", m_global.userPhoto);
@@ -67,8 +74,7 @@
 </script>
 
 
-
-<script type="text/javascript" src="/assets/js/m_classify.js" ></script>
+<script type="text/javascript" src="/assets/js/m_classify.js"></script>
 <script type="text/javascript">
 
     var htmlTemplate =
@@ -88,15 +94,15 @@
         $(".show_c").hide();
 
         url = '/api/classify/' + flag;
-        T.restGet(url, {}, function(resjson) {
+        T.restGet(url, {}, function (resjson) {
 
-            if(resjson.code==0 && resjson.data.comics.length >= 0){
+            if (resjson.code == 0 && resjson.data.comics.length >= 0) {
                 var html = '';
                 for (var i = 0; i < resjson.data.comics.length; i++) {
                     var temp = htmlTemplate;
                     var comic = resjson.data.comics[i];
 
-                    var href = '/1PRQ95/comic/'+comic['id'];
+                    var href = '/1PRQ95/comic/' + comic['id'];
                     temp = temp.replace('{href}', href);
 
                     var img_src = comic['cover'];
@@ -108,14 +114,14 @@
                     var comic_name = comic['title'];
                     temp = temp.replace('{name}', comic_name);
 
-                    var is_over = comic['isend']==1 ? '<em></em>' : '';
+                    var is_over = comic['isend'] == 1 ? '<em></em>' : '';
                     temp = temp.replace('{is_over}', is_over);
 
                     html += temp;
                 }
 
 //                console.log(currFlag);
-                if(currFlag.lastObject() > 1) {
+                if (currFlag.lastObject() > 1) {
                     $("#classify_container").append(html);
                 } else {
                     $("#classify_container").html(html);
@@ -123,19 +129,20 @@
                 imgStyle();
             }
 
-            if(resjson.code!=0 || resjson.data.comics.length==0){
+            if (resjson.code != 0 || resjson.data.comics.length == 0) {
                 $("#loadding").show().text("已经没有了");
                 $(window).unbind('scroll', request_classify_func);
 //                    return false;
-            }else{
+            } else {
                 $(window).bind('scroll', request_classify_func);
                 $("#loadding").hide();
             }
 
-        },function(){
+        }, function () {
             $(window).bind('scroll', request_classify_func);
         });
     }
+
     $(window).bind('scroll', request_classify_func);
 </script>
 
@@ -158,41 +165,41 @@
     <div class="classopen" id="classCon">
         <ul>
             <li><a onclick="itemClickAction(0, 0)">全部</a></li>
-                        <li><a onclick="itemClickAction(0, 58)">冒险</a></li>
-                        <li><a onclick="itemClickAction(0, 57)">欢乐向</a></li>
-                        <li><a onclick="itemClickAction(0, 56)">格斗</a></li>
-                        <li><a onclick="itemClickAction(0, 55)">科幻</a></li>
-                        <li><a onclick="itemClickAction(0, 54)">爱情</a></li>
-                        <li><a onclick="itemClickAction(0, 53)">侦探</a></li>
-                        <li><a onclick="itemClickAction(0, 51)">魔法</a></li>
-                        <li><a onclick="itemClickAction(0, 50)">神鬼</a></li>
-                        <li><a onclick="itemClickAction(0, 49)">校园</a></li>
-                        <li><a onclick="itemClickAction(0, 48)">恐怖</a></li>
-                        <li><a onclick="itemClickAction(0, 47)">其他</a></li>
-                        <li><a onclick="itemClickAction(0, 45)">生活</a></li>
-                        <li><a onclick="itemClickAction(0, 42)">悬疑</a></li>
-                        <li><a onclick="itemClickAction(0, 41)">耽美</a></li>
-                        <li><a onclick="itemClickAction(0, 40)">热血</a></li>
-                        <li><a onclick="itemClickAction(0, 39)">后宫</a></li>
-                        <li><a onclick="itemClickAction(0, 38)">历史</a></li>
-                        <li><a onclick="itemClickAction(0, 37)">战争</a></li>
-                        <li><a onclick="itemClickAction(0, 36)">萌系</a></li>
-                        <li><a onclick="itemClickAction(0, 35)">宅系</a></li>
-                        <li><a onclick="itemClickAction(0, 34)">治愈</a></li>
-                        <li><a onclick="itemClickAction(0, 32)">武侠</a></li>
-                        <li><a onclick="itemClickAction(0, 26)">东方</a></li>
-                        <li><a onclick="itemClickAction(0, 24)">魔幻</a></li>
-                        <li><a onclick="itemClickAction(0, 23)">奇幻</a></li>
-                        <li><a onclick="itemClickAction(0, 22)">节操</a></li>
-                        <li><a onclick="itemClickAction(0, 20)">颜艺</a></li>
-                        <li><a onclick="itemClickAction(0, 19)">搞笑</a></li>
-                    </ul>
+            <li><a onclick="itemClickAction(0, 58)">冒险</a></li>
+            <li><a onclick="itemClickAction(0, 57)">欢乐向</a></li>
+            <li><a onclick="itemClickAction(0, 56)">格斗</a></li>
+            <li><a onclick="itemClickAction(0, 55)">科幻</a></li>
+            <li><a onclick="itemClickAction(0, 54)">爱情</a></li>
+            <li><a onclick="itemClickAction(0, 53)">侦探</a></li>
+            <li><a onclick="itemClickAction(0, 51)">魔法</a></li>
+            <li><a onclick="itemClickAction(0, 50)">神鬼</a></li>
+            <li><a onclick="itemClickAction(0, 49)">校园</a></li>
+            <li><a onclick="itemClickAction(0, 48)">恐怖</a></li>
+            <li><a onclick="itemClickAction(0, 47)">其他</a></li>
+            <li><a onclick="itemClickAction(0, 45)">生活</a></li>
+            <li><a onclick="itemClickAction(0, 42)">悬疑</a></li>
+            <li><a onclick="itemClickAction(0, 41)">耽美</a></li>
+            <li><a onclick="itemClickAction(0, 40)">热血</a></li>
+            <li><a onclick="itemClickAction(0, 39)">后宫</a></li>
+            <li><a onclick="itemClickAction(0, 38)">历史</a></li>
+            <li><a onclick="itemClickAction(0, 37)">战争</a></li>
+            <li><a onclick="itemClickAction(0, 36)">萌系</a></li>
+            <li><a onclick="itemClickAction(0, 35)">宅系</a></li>
+            <li><a onclick="itemClickAction(0, 34)">治愈</a></li>
+            <li><a onclick="itemClickAction(0, 32)">武侠</a></li>
+            <li><a onclick="itemClickAction(0, 26)">东方</a></li>
+            <li><a onclick="itemClickAction(0, 24)">魔幻</a></li>
+            <li><a onclick="itemClickAction(0, 23)">奇幻</a></li>
+            <li><a onclick="itemClickAction(0, 22)">节操</a></li>
+            <li><a onclick="itemClickAction(0, 20)">颜艺</a></li>
+            <li><a onclick="itemClickAction(0, 19)">搞笑</a></li>
+        </ul>
         <ul>
             <li><a onclick="itemClickAction(1, 0)">全部</a></li>
-                        <li><a onclick="itemClickAction(1, 3)">少年</a></li>
-                        <li><a onclick="itemClickAction(1, 2)">少女</a></li>
-                        <li><a onclick="itemClickAction(1, 1)">青年</a></li>
-                    </ul>
+            <li><a onclick="itemClickAction(1, 3)">少年</a></li>
+            <li><a onclick="itemClickAction(1, 2)">少女</a></li>
+            <li><a onclick="itemClickAction(1, 1)">青年</a></li>
+        </ul>
         <ul>
             <li><a onclick="itemClickAction(2, 0)">全部</a></li>
             <li><a onclick="itemClickAction(2, 1)">连载</a></li>
@@ -200,11 +207,11 @@
         </ul>
         <ul>
             <li><a onclick="itemClickAction(3, 0)">全部</a></li>
-                        <li><a onclick="itemClickAction(3, 6)">日本</a></li>
-                        <li><a onclick="itemClickAction(3, 5)">韩国</a></li>
-                        <li><a onclick="itemClickAction(3, 3)">欧美</a></li>
-                        <li><a onclick="itemClickAction(3, 2)">港台</a></li>
-                    </ul>
+            <li><a onclick="itemClickAction(3, 6)">日本</a></li>
+            <li><a onclick="itemClickAction(3, 5)">韩国</a></li>
+            <li><a onclick="itemClickAction(3, 3)">欧美</a></li>
+            <li><a onclick="itemClickAction(3, 2)">港台</a></li>
+        </ul>
 
     </div>
 </div>
@@ -219,114 +226,114 @@
     </div>
 
     <ul class="col_3_1" id="classify_container">
-                <li>
+        <li>
             <a class="ImgA autoHeight" href="/1PRQ95/comic/6304">
                 <img src="/assets/picture/8f46d40d2e7b434da01b7ad9074b553c.gif" width="100%"/>
-                            </a>
+            </a>
             <a class="txtA">H-Mate</a>
             <span class="info">作者：龟足</span>
         </li>
-                <li>
+        <li>
             <a class="ImgA autoHeight" href="/1PRQ95/comic/6345">
                 <img src="/assets/picture/ee2dc862a0f3469cad444f10768f6c2b.gif" width="100%"/>
-                                <em></em>
-                            </a>
+                <em></em>
+            </a>
             <a class="txtA">恋爱辅助器</a>
             <span class="info">作者：KKUN,INSANE</span>
         </li>
-                <li>
+        <li>
             <a class="ImgA autoHeight" href="/1PRQ95/comic/6352">
                 <img src="/assets/picture/8894b84f7fbd485a89d3062f24bcfbd1.gif" width="100%"/>
-                            </a>
+            </a>
             <a class="txtA">Roommate</a>
             <span class="info">作者：R</span>
         </li>
-                <li>
+        <li>
             <a class="ImgA autoHeight" href="/1PRQ95/comic/6353">
                 <img src="/assets/picture/4384df68cb734ec0b10d1ac4ad1b6126.gif" width="100%"/>
-                            </a>
+            </a>
             <a class="txtA">偷窥</a>
             <span class="info">作者：REC</span>
         </li>
-                <li>
+        <li>
             <a class="ImgA autoHeight" href="/1PRQ95/comic/6346">
                 <img src="/assets/picture/cdef9038eeea4bdfb7b64dbfaf74d68c.gif" width="100%"/>
-                            </a>
+            </a>
             <a class="txtA">愉快的旅行</a>
             <span class="info">作者：倂秀氏</span>
         </li>
-                <li>
+        <li>
             <a class="ImgA autoHeight" href="/1PRQ95/comic/6347">
                 <img src="/assets/picture/e1f5b4441d7048229bc897f948fa8486.gif" width="100%"/>
-                            </a>
+            </a>
             <a class="txtA">偶然</a>
             <span class="info">作者：嘮叨雞,洋世</span>
         </li>
-                <li>
+        <li>
             <a class="ImgA autoHeight" href="/1PRQ95/comic/6349">
                 <img src="/assets/picture/7dffcf489a39400a80d3c199dcc8b287.gif" width="100%"/>
-                            </a>
+            </a>
             <a class="txtA">邻家少女</a>
             <span class="info">作者：SUN</span>
         </li>
-                <li>
+        <li>
             <a class="ImgA autoHeight" href="/1PRQ95/comic/6354">
                 <img src="/assets/picture/bcf743c1b2384eb8982c521271e09a97.gif" width="100%"/>
-                                <em></em>
-                            </a>
+                <em></em>
+            </a>
             <a class="txtA">解禁</a>
             <span class="info">作者：初</span>
         </li>
-                <li>
+        <li>
             <a class="ImgA autoHeight" href="/1PRQ95/comic/6348">
                 <img src="/assets/picture/d0f8cf9deeb145a8b0b572b6430fb982.gif" width="100%"/>
-                            </a>
+            </a>
             <a class="txtA">同居</a>
             <span class="info">作者：倂秀氏</span>
         </li>
-                <li>
+        <li>
             <a class="ImgA autoHeight" href="/1PRQ95/comic/6355">
                 <img src="/assets/picture/142f89c544a348a49eb2627d5946f3cb.gif" width="100%"/>
-                            </a>
+            </a>
             <a class="txtA">玩火</a>
             <span class="info">作者：PArt</span>
         </li>
-                <li>
+        <li>
             <a class="ImgA autoHeight" href="/1PRQ95/comic/6351">
                 <img src="/assets/picture/dc84463f1e2c4c4aa3f8237186b8ad1e.gif" width="100%"/>
-                            </a>
+            </a>
             <a class="txtA">三姐妹</a>
             <span class="info">作者：阿壳</span>
         </li>
-                <li>
+        <li>
             <a class="ImgA autoHeight" href="/1PRQ95/comic/6356">
                 <img src="/assets/picture/55f75623be174f12b20e8618b644966a.gif" width="100%"/>
-                            </a>
+            </a>
             <a class="txtA">姐姐</a>
             <span class="info">作者：洪班长</span>
         </li>
-                <li>
+        <li>
             <a class="ImgA autoHeight" href="/1PRQ95/comic/6308">
                 <img src="/assets/picture/425597d9532d4345bbfc271e7e800b69.gif" width="100%"/>
-                            </a>
+            </a>
             <a class="txtA">肤浅女</a>
             <span class="info">作者：胎毛,野大豆</span>
         </li>
-                <li>
+        <li>
             <a class="ImgA autoHeight" href="/1PRQ95/comic/6360">
                 <img src="/assets/picture/48f67d51c0e24a78bdb5122f6babc20b.gif" width="100%"/>
-                            </a>
+            </a>
             <a class="txtA">癖好</a>
             <span class="info">作者：洗发精</span>
         </li>
-                <li>
+        <li>
             <a class="ImgA autoHeight" href="/1PRQ95/comic/6350">
                 <img src="/assets/picture/60d1841f53974da1b532f6023f6f67b0.gif" width="100%"/>
-                            </a>
+            </a>
             <a class="txtA">阴湿路</a>
             <span class="info">作者：咔咔</span>
         </li>
-            </ul>
+    </ul>
 </div>
 <div id='loadding' style="display:none">正在加载中...</div>
 

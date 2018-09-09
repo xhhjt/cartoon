@@ -13,13 +13,20 @@
 
     <meta name="apple-mobile-web-app-title" content="电波漫画">
 
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="http://hbztjg.com/dianbo/static/dist/ppm/images/apple-touch-icon-57.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://hbztjg.com/dianbo/static/dist/ppm/images/apple-touch-icon-72.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://hbztjg.com/dianbo/static/dist/ppm/images/apple-touch-icon-114.png">
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="http://hbztjg.com/dianbo/static/dist/ppm/images/apple-touch-icon-120.png">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://hbztjg.com/dianbo/static/dist/ppm/images/apple-touch-icon-144.png">
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="http://hbztjg.com/dianbo/static/dist/ppm/images/apple-touch-icon-152.png">
-    <link rel="apple-touch-icon-precomposed" sizes="512x512" href="http://hbztjg.com/dianbo/static/dist/ppm/images/apple-touch-icon-512.png">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57"
+          href="http://hbztjg.com/dianbo/static/dist/ppm/images/apple-touch-icon-57.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72"
+          href="http://hbztjg.com/dianbo/static/dist/ppm/images/apple-touch-icon-72.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114"
+          href="http://hbztjg.com/dianbo/static/dist/ppm/images/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120"
+          href="http://hbztjg.com/dianbo/static/dist/ppm/images/apple-touch-icon-120.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144"
+          href="http://hbztjg.com/dianbo/static/dist/ppm/images/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152"
+          href="http://hbztjg.com/dianbo/static/dist/ppm/images/apple-touch-icon-152.png">
+    <link rel="apple-touch-icon-precomposed" sizes="512x512"
+          href="http://hbztjg.com/dianbo/static/dist/ppm/images/apple-touch-icon-512.png">
 
 
     <meta name="Keywords" content="漫画,在线漫画,手机漫画,韩漫,韩国漫画,福利,178漫画"/>
@@ -40,14 +47,14 @@
     <script type="text/javascript" src="/assets/js/main.js"></script>
 
     <script>
-    var _hmt = _hmt || [];
-    (function() {
-        var hm = document.createElement("script");
-        hm.src = 'https://hm.baidu.com/hm.js?3a4907169cc43a2333a5b186b346d94e';
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(hm, s);
-    })();
-</script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = 'https://hm.baidu.com/hm.js?3a4907169cc43a2333a5b186b346d94e';
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
     <script type="text/javascript">
         window.cdnStaticRoot = "http://hbztjg.com/dianbo/static";
     </script>
@@ -57,20 +64,21 @@
 <!--<link type="text/css" href="css/animate.min.css" rel="stylesheet"/>-->
 
 <body>
-    <script>
-        window.ccm=[];
-        $(function(){
-            UserCookie();
-            if(m_global.isLogin==true){
-                m_global.userPhoto = "";
-                m_global.crcck = "1PRRAK";
-                $(".head img").show().attr("src", m_global.userPhoto);
-            }else{}
-        })
-    </script>
+<script>
+    window.ccm = [];
+    $(function () {
+        UserCookie();
+        if (m_global.isLogin == true) {
+            m_global.userPhoto = "";
+            m_global.crcck = "1PRRAK";
+            $(".head img").show().attr("src", m_global.userPhoto);
+        } else {
+        }
+    })
+</script>
 
-    
-    <!--head-->
+
+<!--head-->
 <div class="header">
     <!--搜索-->
     <div class="serCh" id="serCh" style="z-index: 999999 !important;">
@@ -78,7 +86,8 @@
             <a href="javascript:void(0);" onClick="m_global.closed('serCh')" class="searClose"></a>
             <a href="javascript:void(0);" onClick="serchAction()" class="searBtn"></a>
 
-            <div class="serChinputBox"><input type="search" class="searInput" placeholder="漫画名或作者" autosave="" id="searInput"></div>
+            <div class="serChinputBox"><input type="search" class="searInput" placeholder="漫画名或作者" autosave=""
+                                              id="searInput"></div>
         </form>
     </div>
     <div class="messagSjr" style="z-index: 999999 !important;">
@@ -88,81 +97,82 @@
     </div>
     <!--搜索 end-->
 
-<!--    <div class="logo"><a href="/"><img src="picture/head_logo.gif" width="105" height="44"></a></div> -->
+    <!--    <div class="logo"><a href="/"><img src="picture/head_logo.gif" width="105" height="44"></a></div> -->
 
     <a href="javascript:;" title="" class="icon serch" onClick="m_global.serchAction('serCh')"></a>
-    
-    <a title="" class="icon head" href="/1PRRAK/my"><img style="display:none" src="picture/photo.png" width="36" height="36"><span class="tip" id="subscribe"></span></a>
+
+    <a title="" class="icon head" href="/1PRRAK/my"><img style="display:none" src="picture/photo.png" width="36"
+                                                         height="36"><span class="tip" id="subscribe"></span></a>
 
 </div>
 <!--head end-->
 
-    <!--焦点图-->
+<!--焦点图-->
 
 <div class="main_visual" style="height:400px; background:#000">
 
     <div class="flicking_con">
-                    <a href="#">0</a>
-                        <a href="#">1</a>
-                        <a href="#">2</a>
-                        <a href="#">3</a>
-                        <a href="#">4</a>
-                </div>
+        <a href="#">0</a>
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+    </div>
 
     <div class="flicking_conTit">
-                    <span>他进入了她们的城堡...</span>
-                        <span>那一夜无比疯狂</span>
-                        <span>爷爷总在深夜来看姐姐</span>
-                        <span>基友的女朋友，居然和我...</span>
-                        <span>初恋的三个女儿...</span>
-                </div>
+        <span>他进入了她们的城堡...</span>
+        <span>那一夜无比疯狂</span>
+        <span>爷爷总在深夜来看姐姐</span>
+        <span>基友的女朋友，居然和我...</span>
+        <span>初恋的三个女儿...</span>
+    </div>
 
     <div class="main_image">
         <ul>
-                            <li>
-                    <a href="/1PRRAK/comic/6354">
-                        <img src="/assets/picture/fd1368c25b89405497976f27fe5f9b02.gif" width="100%" height="100%"/>
-                    </a>
-                </li>
-                                <li>
-                    <a href="/1PRRAK/comic/6355">
-                        <img src="/assets/picture/8de45ab8036943359a5b2a54c0790767.gif" width="100%" height="100%"/>
-                    </a>
-                </li>
-                                <li>
-                    <a href="/1PRRAK/comic/6356">
-                        <img src="/assets/picture/781f7eba00f246279083c31e85f5abb4.gif" width="100%" height="100%"/>
-                    </a>
-                </li>
-                                <li>
-                    <a href="/1PRRAK/comic/6346">
-                        <img src="/assets/picture/7479b481f6de44ab9fd835a0f9bc6887.gif" width="100%" height="100%"/>
-                    </a>
-                </li>
-                                <li>
-                    <a href="/1PRRAK/comic/6351">
-                        <img src="/assets/picture/afd8f14885ac4129b15d105f5a004828.gif" width="100%" height="100%"/>
-                    </a>
-                </li>
-                        </ul>
+            <li>
+                <a href="/1PRRAK/comic/6354">
+                    <img src="/assets/picture/fd1368c25b89405497976f27fe5f9b02.gif" width="100%" height="100%"/>
+                </a>
+            </li>
+            <li>
+                <a href="/1PRRAK/comic/6355">
+                    <img src="/assets/picture/8de45ab8036943359a5b2a54c0790767.gif" width="100%" height="100%"/>
+                </a>
+            </li>
+            <li>
+                <a href="/1PRRAK/comic/6356">
+                    <img src="/assets/picture/781f7eba00f246279083c31e85f5abb4.gif" width="100%" height="100%"/>
+                </a>
+            </li>
+            <li>
+                <a href="/1PRRAK/comic/6346">
+                    <img src="/assets/picture/7479b481f6de44ab9fd835a0f9bc6887.gif" width="100%" height="100%"/>
+                </a>
+            </li>
+            <li>
+                <a href="/1PRRAK/comic/6351">
+                    <img src="/assets/picture/afd8f14885ac4129b15d105f5a004828.gif" width="100%" height="100%"/>
+                </a>
+            </li>
+        </ul>
         <div class="circle_cover"></div>
     </div>
 
 </div>
 <script type="text/javascript" src="/assets/js/indextouchslider.js"></script>
 <script>
-    $(function(){
+    $(function () {
         m_global.navStyle(0);
     })
 </script>
-    <div class="cm-box">
+<div class="cm-box">
     <a class="items" href="/1PRRAK/hcmr/0">女生榜</a>
     <a class="items" href="/1PRRAK/hcmr/1">男生榜</a>
     <a class="items" href="/1PRRAK/hcmr/2">人气榜</a>
     <a class="items" href="/1PRRAK/hcmr/3">新作榜</a>
     <a class="items" href="/1PRRAK/hcmr/4">追更榜</a>
 </div>
-    <div class="imgBox">
+<div class="imgBox">
 
     <div class="Sub_H2">
         <span class="icon"><img src="/assets/picture/79b16497550f2ffbd8cfaa16aa7651.png"/></span>
@@ -171,9 +181,9 @@
     </div>
 
     <ul class="col_3_2" id="4">
-                <li>
-                        <a class="ImgA autoHeight" href="/1PRRAK/comic/6304">
-                
+        <li>
+            <a class="ImgA autoHeight" href="/1PRRAK/comic/6304">
+
                 <img src="/assets/picture/8f46d40d2e7b434da01b7ad9074b553c.gif" width="100%"/>
             </a>
 
@@ -181,9 +191,9 @@
             <span class="info">作者:龟足</span>
 
         </li>
-                <li>
-                        <a class="ImgA autoHeight" href="/1PRRAK/comic/6345">
-                
+        <li>
+            <a class="ImgA autoHeight" href="/1PRRAK/comic/6345">
+
                 <img src="/assets/picture/ee2dc862a0f3469cad444f10768f6c2b.gif" width="100%"/>
             </a>
 
@@ -191,9 +201,9 @@
             <span class="info">作者:KKUN,INSANE</span>
 
         </li>
-                <li>
-                        <a class="ImgA autoHeight" href="/1PRRAK/comic/6352">
-                
+        <li>
+            <a class="ImgA autoHeight" href="/1PRRAK/comic/6352">
+
                 <img src="/assets/picture/8894b84f7fbd485a89d3062f24bcfbd1.gif" width="100%"/>
             </a>
 
@@ -201,9 +211,9 @@
             <span class="info">作者:R</span>
 
         </li>
-                <li>
-                        <a class="ImgA autoHeight" href="/1PRRAK/comic/6346">
-                
+        <li>
+            <a class="ImgA autoHeight" href="/1PRRAK/comic/6346">
+
                 <img src="/assets/picture/cdef9038eeea4bdfb7b64dbfaf74d68c.gif" width="100%"/>
             </a>
 
@@ -211,9 +221,9 @@
             <span class="info">作者:倂秀氏</span>
 
         </li>
-                <li>
-                        <a class="ImgA autoHeight" href="/1PRRAK/comic/6353">
-                
+        <li>
+            <a class="ImgA autoHeight" href="/1PRRAK/comic/6353">
+
                 <img src="/assets/picture/4384df68cb734ec0b10d1ac4ad1b6126.gif" width="100%"/>
             </a>
 
@@ -221,9 +231,9 @@
             <span class="info">作者:REC</span>
 
         </li>
-                <li>
-                        <a class="ImgA autoHeight" href="/1PRRAK/comic/6347">
-                
+        <li>
+            <a class="ImgA autoHeight" href="/1PRRAK/comic/6347">
+
                 <img src="/assets/picture/e1f5b4441d7048229bc897f948fa8486.gif" width="100%"/>
             </a>
 
@@ -231,20 +241,24 @@
             <span class="info">作者:嘮叨雞,洋世</span>
 
         </li>
-            </ul>
-</div><div id="ad_app" style="width:100%;margin-bottom: 14px;background: #fff;">
-<!--    <a onclick="app_ad.openApp('itms-services://?action=download-manifest&url=https://di5li.com/app/dianbo/dianbo.plist')">-->
+    </ul>
+</div>
+<div id="ad_app" style="width:100%;margin-bottom: 14px;background: #fff;">
+    <!--    <a onclick="app_ad.openApp('itms-services://?action=download-manifest&url=https://di5li.com/app/dianbo/dianbo.plist')">-->
     <a href="/task/my">
         <img src="/assets/picture/app_download.jpg" alt="" width="100%">
     </a>
-</div><div id="ad_8" style="width:100%;margin-bottom: 14px;background: #fff;">
-        <a href="/1PRRAK/account/bug">
+</div>
+<div id="ad_8" style="width:100%;margin-bottom: 14px;background: #fff;">
+    <a href="/1PRRAK/account/bug">
         <img src="/assets/picture/b9377c8bf3294813a8a3086ace1ae3af.gif" alt="" width="100%">
     </a>
-</div><style>
+</div>
+<style>
     a, ins {
         text-decoration: none;
     }
+
     .rankList {
         /*
         display: block;
@@ -259,9 +273,11 @@
         max-width: 100%;
         overflow: hidden;
     }
+
     .rankList .titleBar {
         height: 40px;
     }
+
     .rankList .titleBar .top {
         font-size: 15px;
         color: #fff;
@@ -271,18 +287,22 @@
         border-bottom-right-radius: 5px;
         padding: 2px 5px;
     }
+
     .d-fl {
         float: left;
     }
+
     .rankList .titleBar .other {
         font-size: 13px;
         color: #bbb;
         margin-right: 10px;
         margin-top: 10px;
     }
+
     .d-fr {
         float: right;
     }
+
     .rankList .titleBar .other img {
         box-sizing: border-box;
         height: 10px;
@@ -290,33 +310,39 @@
         position: relative;
         top: 4px;
     }
+
     .rankList .list {
         margin: 0;
         padding: 0;
     }
+
     .d-item {
         display: -moz-box;
         display: flex;
         display: -webkit-box;
     }
+
     .rankList .list li {
         padding: 10px;
         border-bottom: 1px solid #ccc;
         position: relative;
         /*width: 100%;*/
     }
+
     .rankList .list li .cover {
         box-sizing: border-box;
         vertical-align: middle;
         width: 78px;
         height: 104px;
     }
+
     .rankList .list li .topLogo {
         position: absolute;
         top: 10px;
         left: 10px;
         width: 20px;
     }
+
     .rankList .list li .topNum {
         position: absolute;
         top: 10px;
@@ -327,28 +353,34 @@
         text-align: center;
         line-height: 15px;
     }
+
     .d-item-content {
         -moz-box-flex: 1;
         flex: 1;
         -webkit-box-flex: 1;
     }
+
     .rankList .list li .info {
         padding-left: 10px;
         position: relative;
         height: 104px;
     }
+
     .d-nowrap {
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
     }
+
     .rankList .list li .info p {
         margin: 0;
     }
+
     .rankList .list li .info .title {
         font-size: 15px;
         color: #444;
     }
+
     .rankList .list li .info .subtitle {
         font-size: 13px;
         color: #767676;
@@ -360,6 +392,7 @@
         -webkit-line-clamp: 2;
         overflow: hidden;
     }
+
     .rankList .list li .info .bottom {
         color: #ec4646;
         font-size: 13px;
@@ -373,6 +406,7 @@
         /*width: 100%;*/
         padding-right: 10px;
     }
+
     .rankList .list li .info .score {
         background-color: #ec4646;
         color: #fff;
@@ -394,158 +428,159 @@
     </div>
     <ul class="list">
 
-                    <a href="/1PRRAK/comic/6304" title="H-Mate">
-                <li class="d-item">
-                    <img class="cover" src="/assets/picture/8f46d40d2e7b434da01b7ad9074b553c.gif" alt="H-Mate">
-                                        <img class="topLogo" src="picture/top_logo_1.png">
-                    <span class="topNum">1</span>
-                    <div class="info d-item-content">
-                        <p class="title d-nowrap">H-Mate</p>
-                        <p class="subtitle">十五年来的好友关系<br/>却在一夜之间变了质<br/>该用什么关系看待她呢.. </p>
-                        <p class="bottom">
-                                                        <span class="d-nowrap">更新至 （外传）拐杖的爱情-04</span>
-                        </p>
-                        <span class="score"><i class="fa fa-eye"></i> 50324</span>
-                    </div>
-                </li>
-            </a>
-                        <a href="/1PRRAK/comic/6353" title="偷窥">
-                <li class="d-item">
-                    <img class="cover" src="/assets/picture/4384df68cb734ec0b10d1ac4ad1b6126.gif" alt="偷窥">
-                                        <img class="topLogo" src="/assets/picture/top_logo_2.png">
-                    <span class="topNum">2</span>
-                    <div class="info d-item-content">
-                        <p class="title d-nowrap">偷窥</p>
-                        <p class="subtitle">不管是在哪里，总有个视线在我身上...</p>
-                        <p class="bottom">
-                                                        <span class="d-nowrap">更新至 第85话</span>
-                        </p>
-                        <span class="score"><i class="fa fa-eye"></i> 49627</span>
-                    </div>
-                </li>
-            </a>
-                        <a href="/1PRRAK/comic/6345" title="恋爱辅助器">
-                <li class="d-item">
-                    <img class="cover" src="/assets/picture/ee2dc862a0f3469cad444f10768f6c2b.gif" alt="恋爱辅助器">
-                                        <img class="topLogo" src="/assets/picture/top_logo_3.png">
-                    <span class="topNum">3</span>
-                    <div class="info d-item-content">
-                        <p class="title d-nowrap">恋爱辅助器</p>
-                        <p class="subtitle">兄弟，外挂了解一下，无论约炮或者把妹，成功率保证100%！！</p>
-                        <p class="bottom">
-                                                        <span class="d-nowrap">更新至 最终话</span>
-                        </p>
-                        <span class="score"><i class="fa fa-eye"></i> 41024</span>
-                    </div>
-                </li>
-            </a>
-                        <a href="/1PRRAK/comic/6352" title="Roommate">
-                <li class="d-item">
-                    <img class="cover" src="/assets/picture/8894b84f7fbd485a89d3062f24bcfbd1.gif" alt="Roommate">
-                                        <img class="topLogo" src="/assets/picture/top_logo_4.png">
-                    <span class="topNum">4</span>
-                    <div class="info d-item-content">
-                        <p class="title d-nowrap">Roommate</p>
-                        <p class="subtitle">没想到你是这样的老师...</p>
-                        <p class="bottom">
-                                                        <span class="d-nowrap">更新至 第57话</span>
-                        </p>
-                        <span class="score"><i class="fa fa-eye"></i> 32026</span>
-                    </div>
-                </li>
-            </a>
-                        <a href="/1PRRAK/comic/6346" title="愉快的旅行">
-                <li class="d-item">
-                    <img class="cover" src="/assets/picture/cdef9038eeea4bdfb7b64dbfaf74d68c.gif" alt="愉快的旅行">
-                                        <img class="topLogo" src="/assets/picture/top_logo_4.png">
-                    <span class="topNum">5</span>
-                    <div class="info d-item-content">
-                        <p class="title d-nowrap">愉快的旅行</p>
-                        <p class="subtitle">炙热的太阳让冰山美人也受不了宽衣解带了! 在私人海滩上展开的秘密小故事...今天进度又到哪了呢?!</p>
-                        <p class="bottom">
-                                                        <span class="d-nowrap">更新至 第39话</span>
-                        </p>
-                        <span class="score"><i class="fa fa-eye"></i> 30153</span>
-                    </div>
-                </li>
-            </a>
-                        <a href="/1PRRAK/comic/6355" title="玩火">
-                <li class="d-item">
-                    <img class="cover" src="/assets/picture/142f89c544a348a49eb2627d5946f3cb.gif" alt="玩火">
-                                        <img class="topLogo" src="/assets/picture/top_logo_4.png">
-                    <span class="topNum">6</span>
-                    <div class="info d-item-content">
-                        <p class="title d-nowrap">玩火</p>
-                        <p class="subtitle">她结婚前夕，却遇到不羁的他，共度一夜后，她的生活彻底改变</p>
-                        <p class="bottom">
-                                                        <span class="d-nowrap">更新至 第56话</span>
-                        </p>
-                        <span class="score"><i class="fa fa-eye"></i> 26986</span>
-                    </div>
-                </li>
-            </a>
-                        <a href="/1PRRAK/comic/6354" title="解禁">
-                <li class="d-item">
-                    <img class="cover" src="/assets/picture/bcf743c1b2384eb8982c521271e09a97.gif" alt="解禁">
-                                        <img class="topLogo" src="/assets/picture/top_logo_4.png">
-                    <span class="topNum">7</span>
-                    <div class="info d-item-content">
-                        <p class="title d-nowrap">解禁</p>
-                        <p class="subtitle">一个突如其来的男人，注入了男主人禁欲的城堡...</p>
-                        <p class="bottom">
-                                                        <span class="d-nowrap">更新至 第33话</span>
-                        </p>
-                        <span class="score"><i class="fa fa-eye"></i> 25306</span>
-                    </div>
-                </li>
-            </a>
-                        <a href="/1PRRAK/comic/6360" title="癖好">
-                <li class="d-item">
-                    <img class="cover" src="/assets/picture/48f67d51c0e24a78bdb5122f6babc20b.gif" alt="癖好">
-                                        <img class="topLogo" src="/assets/picture/top_logo_4.png">
-                    <span class="topNum">8</span>
-                    <div class="info d-item-content">
-                        <p class="title d-nowrap">癖好</p>
-                        <p class="subtitle">她整天幻想着出轨，并且在网络上裸露自己</p>
-                        <p class="bottom">
-                                                        <span class="d-nowrap">更新至 第26话</span>
-                        </p>
-                        <span class="score"><i class="fa fa-eye"></i> 20292</span>
-                    </div>
-                </li>
-            </a>
-                        <a href="/1PRRAK/comic/6348" title="同居">
-                <li class="d-item">
-                    <img class="cover" src="/assets/picture/d0f8cf9deeb145a8b0b572b6430fb982.gif" alt="同居">
-                                        <img class="topLogo" src="/assets/picture/top_logo_4.png">
-                    <span class="topNum">9</span>
-                    <div class="info d-item-content">
-                        <p class="title d-nowrap">同居</p>
-                        <p class="subtitle">和朋友的女朋友同居...</p>
-                        <p class="bottom">
-                                                        <span class="d-nowrap">更新至 后记</span>
-                        </p>
-                        <span class="score"><i class="fa fa-eye"></i> 20232</span>
-                    </div>
-                </li>
-            </a>
-                        <a href="/1PRRAK/comic/6347" title="偶然">
-                <li class="d-item">
-                    <img class="cover" src="/assets/picture/e1f5b4441d7048229bc897f948fa8486.gif" alt="偶然">
-                                        <img class="topLogo" src="/assets/picture/top_logo_4.png">
-                    <span class="topNum">10</span>
-                    <div class="info d-item-content">
-                        <p class="title d-nowrap">偶然</p>
-                        <p class="subtitle">偶然间再次和初恋相遇，她竟然...</p>
-                        <p class="bottom">
-                                                        <span class="d-nowrap">更新至 第52话<最终话></span>
-                        </p>
-                        <span class="score"><i class="fa fa-eye"></i> 16349</span>
-                    </div>
-                </li>
-            </a>
-                </ul>
-</div><div class="imgBox">
+        <a href="/1PRRAK/comic/6304" title="H-Mate">
+            <li class="d-item">
+                <img class="cover" src="/assets/picture/8f46d40d2e7b434da01b7ad9074b553c.gif" alt="H-Mate">
+                <img class="topLogo" src="picture/top_logo_1.png">
+                <span class="topNum">1</span>
+                <div class="info d-item-content">
+                    <p class="title d-nowrap">H-Mate</p>
+                    <p class="subtitle">十五年来的好友关系<br/>却在一夜之间变了质<br/>该用什么关系看待她呢.. </p>
+                    <p class="bottom">
+                        <span class="d-nowrap">更新至 （外传）拐杖的爱情-04</span>
+                    </p>
+                    <span class="score"><i class="fa fa-eye"></i> 50324</span>
+                </div>
+            </li>
+        </a>
+        <a href="/1PRRAK/comic/6353" title="偷窥">
+            <li class="d-item">
+                <img class="cover" src="/assets/picture/4384df68cb734ec0b10d1ac4ad1b6126.gif" alt="偷窥">
+                <img class="topLogo" src="/assets/picture/top_logo_2.png">
+                <span class="topNum">2</span>
+                <div class="info d-item-content">
+                    <p class="title d-nowrap">偷窥</p>
+                    <p class="subtitle">不管是在哪里，总有个视线在我身上...</p>
+                    <p class="bottom">
+                        <span class="d-nowrap">更新至 第85话</span>
+                    </p>
+                    <span class="score"><i class="fa fa-eye"></i> 49627</span>
+                </div>
+            </li>
+        </a>
+        <a href="/1PRRAK/comic/6345" title="恋爱辅助器">
+            <li class="d-item">
+                <img class="cover" src="/assets/picture/ee2dc862a0f3469cad444f10768f6c2b.gif" alt="恋爱辅助器">
+                <img class="topLogo" src="/assets/picture/top_logo_3.png">
+                <span class="topNum">3</span>
+                <div class="info d-item-content">
+                    <p class="title d-nowrap">恋爱辅助器</p>
+                    <p class="subtitle">兄弟，外挂了解一下，无论约炮或者把妹，成功率保证100%！！</p>
+                    <p class="bottom">
+                        <span class="d-nowrap">更新至 最终话</span>
+                    </p>
+                    <span class="score"><i class="fa fa-eye"></i> 41024</span>
+                </div>
+            </li>
+        </a>
+        <a href="/1PRRAK/comic/6352" title="Roommate">
+            <li class="d-item">
+                <img class="cover" src="/assets/picture/8894b84f7fbd485a89d3062f24bcfbd1.gif" alt="Roommate">
+                <img class="topLogo" src="/assets/picture/top_logo_4.png">
+                <span class="topNum">4</span>
+                <div class="info d-item-content">
+                    <p class="title d-nowrap">Roommate</p>
+                    <p class="subtitle">没想到你是这样的老师...</p>
+                    <p class="bottom">
+                        <span class="d-nowrap">更新至 第57话</span>
+                    </p>
+                    <span class="score"><i class="fa fa-eye"></i> 32026</span>
+                </div>
+            </li>
+        </a>
+        <a href="/1PRRAK/comic/6346" title="愉快的旅行">
+            <li class="d-item">
+                <img class="cover" src="/assets/picture/cdef9038eeea4bdfb7b64dbfaf74d68c.gif" alt="愉快的旅行">
+                <img class="topLogo" src="/assets/picture/top_logo_4.png">
+                <span class="topNum">5</span>
+                <div class="info d-item-content">
+                    <p class="title d-nowrap">愉快的旅行</p>
+                    <p class="subtitle">炙热的太阳让冰山美人也受不了宽衣解带了! 在私人海滩上展开的秘密小故事...今天进度又到哪了呢?!</p>
+                    <p class="bottom">
+                        <span class="d-nowrap">更新至 第39话</span>
+                    </p>
+                    <span class="score"><i class="fa fa-eye"></i> 30153</span>
+                </div>
+            </li>
+        </a>
+        <a href="/1PRRAK/comic/6355" title="玩火">
+            <li class="d-item">
+                <img class="cover" src="/assets/picture/142f89c544a348a49eb2627d5946f3cb.gif" alt="玩火">
+                <img class="topLogo" src="/assets/picture/top_logo_4.png">
+                <span class="topNum">6</span>
+                <div class="info d-item-content">
+                    <p class="title d-nowrap">玩火</p>
+                    <p class="subtitle">她结婚前夕，却遇到不羁的他，共度一夜后，她的生活彻底改变</p>
+                    <p class="bottom">
+                        <span class="d-nowrap">更新至 第56话</span>
+                    </p>
+                    <span class="score"><i class="fa fa-eye"></i> 26986</span>
+                </div>
+            </li>
+        </a>
+        <a href="/1PRRAK/comic/6354" title="解禁">
+            <li class="d-item">
+                <img class="cover" src="/assets/picture/bcf743c1b2384eb8982c521271e09a97.gif" alt="解禁">
+                <img class="topLogo" src="/assets/picture/top_logo_4.png">
+                <span class="topNum">7</span>
+                <div class="info d-item-content">
+                    <p class="title d-nowrap">解禁</p>
+                    <p class="subtitle">一个突如其来的男人，注入了男主人禁欲的城堡...</p>
+                    <p class="bottom">
+                        <span class="d-nowrap">更新至 第33话</span>
+                    </p>
+                    <span class="score"><i class="fa fa-eye"></i> 25306</span>
+                </div>
+            </li>
+        </a>
+        <a href="/1PRRAK/comic/6360" title="癖好">
+            <li class="d-item">
+                <img class="cover" src="/assets/picture/48f67d51c0e24a78bdb5122f6babc20b.gif" alt="癖好">
+                <img class="topLogo" src="/assets/picture/top_logo_4.png">
+                <span class="topNum">8</span>
+                <div class="info d-item-content">
+                    <p class="title d-nowrap">癖好</p>
+                    <p class="subtitle">她整天幻想着出轨，并且在网络上裸露自己</p>
+                    <p class="bottom">
+                        <span class="d-nowrap">更新至 第26话</span>
+                    </p>
+                    <span class="score"><i class="fa fa-eye"></i> 20292</span>
+                </div>
+            </li>
+        </a>
+        <a href="/1PRRAK/comic/6348" title="同居">
+            <li class="d-item">
+                <img class="cover" src="/assets/picture/d0f8cf9deeb145a8b0b572b6430fb982.gif" alt="同居">
+                <img class="topLogo" src="/assets/picture/top_logo_4.png">
+                <span class="topNum">9</span>
+                <div class="info d-item-content">
+                    <p class="title d-nowrap">同居</p>
+                    <p class="subtitle">和朋友的女朋友同居...</p>
+                    <p class="bottom">
+                        <span class="d-nowrap">更新至 后记</span>
+                    </p>
+                    <span class="score"><i class="fa fa-eye"></i> 20232</span>
+                </div>
+            </li>
+        </a>
+        <a href="/1PRRAK/comic/6347" title="偶然">
+            <li class="d-item">
+                <img class="cover" src="/assets/picture/e1f5b4441d7048229bc897f948fa8486.gif" alt="偶然">
+                <img class="topLogo" src="/assets/picture/top_logo_4.png">
+                <span class="topNum">10</span>
+                <div class="info d-item-content">
+                    <p class="title d-nowrap">偶然</p>
+                    <p class="subtitle">偶然间再次和初恋相遇，她竟然...</p>
+                    <p class="bottom">
+                        <span class="d-nowrap">更新至 第52话<最终话></span>
+                    </p>
+                    <span class="score"><i class="fa fa-eye"></i> 16349</span>
+                </div>
+            </li>
+        </a>
+    </ul>
+</div>
+<div class="imgBox">
 
     <div class="Sub_H2">
         <span class="icon"><img src="/assets/picture/94a489b64c07d5cf9cdce40127cc9f.png"/></span>
@@ -554,9 +589,9 @@
     </div>
 
     <ul class="col_3_1" id="8">
-                <li>
-                            <a class="ImgA autoHeight" href="/1PRRAK/comic/6311">
-                
+        <li>
+            <a class="ImgA autoHeight" href="/1PRRAK/comic/6311">
+
                 <img src="/assets/picture/f61eb846ab914df6bb87ffc8815dcdbd.gif" width="100%"/>
             </a>
 
@@ -564,9 +599,9 @@
             <span class="info">作者:盧米恩</span>
 
         </li>
-                <li>
-                            <a class="ImgA autoHeight" href="/1PRRAK/comic/6358">
-                
+        <li>
+            <a class="ImgA autoHeight" href="/1PRRAK/comic/6358">
+
                 <img src="/assets/picture/82eb2c2406274696a3fc2acddd0e4aa9.gif" width="100%"/>
             </a>
 
@@ -574,9 +609,9 @@
             <span class="info">作者:HONG</span>
 
         </li>
-                <li>
-                            <a class="ImgA autoHeight" href="/1PRRAK/comic/6316">
-                
+        <li>
+            <a class="ImgA autoHeight" href="/1PRRAK/comic/6316">
+
                 <img src="/assets/picture/fd16eb3cfe294106822e6135ae0fb149.gif" width="100%"/>
             </a>
 
@@ -584,8 +619,9 @@
             <span class="info">作者:pugum</span>
 
         </li>
-            </ul>
-</div><div class="imgBox">
+    </ul>
+</div>
+<div class="imgBox">
 
     <div class="Sub_H2">
         <span class="icon"><img src="/assets/picture/1326478519c1cb998325626fe5efc5.png"/></span>
@@ -594,9 +630,9 @@
     </div>
 
     <ul class="col_3_1" id="6">
-                <li>
-                            <a class="ImgA autoHeight" href="/1PRRAK/comic/6359">
-                
+        <li>
+            <a class="ImgA autoHeight" href="/1PRRAK/comic/6359">
+
                 <img src="/assets/picture/f5e3776d64b74f2e9c7532ec32ed1f95.gif" width="100%"/>
             </a>
 
@@ -604,9 +640,9 @@
             <span class="info">作者:MAD</span>
 
         </li>
-                <li>
-                            <a class="ImgA autoHeight" href="/1PRRAK/comic/6349">
-                
+        <li>
+            <a class="ImgA autoHeight" href="/1PRRAK/comic/6349">
+
                 <img src="/assets/picture/7dffcf489a39400a80d3c199dcc8b287.gif" width="100%"/>
             </a>
 
@@ -614,9 +650,9 @@
             <span class="info">作者:SUN</span>
 
         </li>
-                <li>
-                            <a class="ImgA autoHeight" href="/1PRRAK/comic/6342">
-                
+        <li>
+            <a class="ImgA autoHeight" href="/1PRRAK/comic/6342">
+
                 <img src="/assets/picture/12c3500dd71f48dcacbbe34ec2365d98.gif" width="100%"/>
             </a>
 
@@ -624,12 +660,14 @@
             <span class="info">作者:Kum Sagong,活火山</span>
 
         </li>
-            </ul>
-</div><div id="ad_5" style="width:100%;margin-bottom: 14px;background: #fff;">
-        <a href="/1PRRAK/comic/6308">
+    </ul>
+</div>
+<div id="ad_5" style="width:100%;margin-bottom: 14px;background: #fff;">
+    <a href="/1PRRAK/comic/6308">
         <img src="/assets/picture/a_5_2fa62d.jpg" alt="" width="100%">
     </a>
-</div><div class="imgBox">
+</div>
+<div class="imgBox">
 
     <div class="Sub_H2">
         <span class="icon"><img src="/assets/picture/c874362b0bb7e8521ad16ea2f66d31.png"/></span>
@@ -638,9 +676,9 @@
     </div>
 
     <ul class="col_3_2" id="9">
-                <li>
-                        <a class="ImgA autoHeight" href="/1PRRAK/comic/6314">
-                
+        <li>
+            <a class="ImgA autoHeight" href="/1PRRAK/comic/6314">
+
                 <img src="/assets/picture/5e519263014a4428bd2e1d4ceab0bd33.gif" width="100%"/>
             </a>
 
@@ -648,9 +686,9 @@
             <span class="info">作者:天音琥珀</span>
 
         </li>
-                <li>
-                        <a class="ImgA autoHeight" href="/1PRRAK/comic/6306">
-                
+        <li>
+            <a class="ImgA autoHeight" href="/1PRRAK/comic/6306">
+
                 <img src="/assets/picture/b5a1414a1d2d43129910ac0b9ecb85ab.gif" width="100%"/>
             </a>
 
@@ -658,9 +696,9 @@
             <span class="info">作者:白皓安</span>
 
         </li>
-                <li>
-                        <a class="ImgA autoHeight" href="/1PRRAK/comic/6319">
-                
+        <li>
+            <a class="ImgA autoHeight" href="/1PRRAK/comic/6319">
+
                 <img src="/assets/picture/263146994c324292a7c93b587db0c637.gif" width="100%"/>
             </a>
 
@@ -668,9 +706,9 @@
             <span class="info">作者:黃踹</span>
 
         </li>
-                <li>
-                        <a class="ImgA autoHeight" href="/1PRRAK/comic/6313">
-                
+        <li>
+            <a class="ImgA autoHeight" href="/1PRRAK/comic/6313">
+
                 <img src="/assets/picture/42246f54b929409c974c581b7d6ea59f.gif" width="100%"/>
             </a>
 
@@ -678,9 +716,9 @@
             <span class="info">作者:金明豪</span>
 
         </li>
-                <li>
-                        <a class="ImgA autoHeight" href="/1PRRAK/comic/6323">
-                
+        <li>
+            <a class="ImgA autoHeight" href="/1PRRAK/comic/6323">
+
                 <img src="/assets/picture/7aef3f485ead42dfafd54e4abb7aeb30.gif" width="100%"/>
             </a>
 
@@ -688,9 +726,9 @@
             <span class="info">作者:Penpoint</span>
 
         </li>
-                <li>
-                        <a class="ImgA autoHeight" href="/1PRRAK/comic/6312">
-                
+        <li>
+            <a class="ImgA autoHeight" href="/1PRRAK/comic/6312">
+
                 <img src="/assets/picture/accfac6c76d94583bc2dc07a37557479.gif" width="100%"/>
             </a>
 
@@ -698,38 +736,40 @@
             <span class="info">作者:朴燦龍</span>
 
         </li>
-            </ul>
+    </ul>
 </div>
 
 
-    <div class="footer">
-        <a href="/" class="">
-            <span id="index-div" class=""></span>
-        </a>
-        <a href="/classify" class="">
-            <span id="cartoon-div" class="on"></span>
-        </a>
-        <a href="/subscribe" class="">
-            <span id="bookshelf-div" class=""></span>
-        </a>
-        <a href="/my" class="">
-            <span id="user-div" class=""></span>
-        </a>
-    </div>
+<div class="footer">
+    <a href="/" class="">
+        <span id="index-div" class=""></span>
+    </a>
+    <a href="/classify" class="">
+        <span id="cartoon-div" class="on"></span>
+    </a>
+    <a href="/subscribe" class="">
+        <span id="bookshelf-div" class=""></span>
+    </a>
+    <a href="/my" class="">
+        <span id="user-div" class=""></span>
+    </a>
+</div>
 
-    <div class="bottom">
+<div class="bottom">
     <p class="record">©电波漫画<!--<a href="/aboutus/aboutus.html">关于我们</a>--></p>
-</div>            <div class="bottomDown" id="signWnd" style="display: block;">
-                <div class="btm_in">
-                    <a href="/1PRRAK/product" class="btm_img"><img src="/assets/picture/bottom_bar.png" height="73" title="日卡销售中"></a>
-                    <a class="close" onClick='$("#signWnd").hide();'></a>
-                    <a href="/1PRRAK/product" class="app_download"></a>
-                </div>
-            </div>
+</div>
+<div class="bottomDown" id="signWnd" style="display: block;">
+    <div class="btm_in">
+        <a href="/1PRRAK/product" class="btm_img"><img src="/assets/picture/bottom_bar.png" height="73"
+                                                       title="日卡销售中"></a>
+        <a class="close" onClick='$("#signWnd").hide();'></a>
+        <a href="/1PRRAK/product" class="app_download"></a>
+    </div>
+</div>
 
-    <script type="text/javascript">
-        _hmt.push(['_trackEvent', 'index', 'open']);
-    </script>
+<script type="text/javascript">
+    _hmt.push(['_trackEvent', 'index', 'open']);
+</script>
 
 </body>
 
