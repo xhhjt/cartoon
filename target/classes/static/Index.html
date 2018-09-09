@@ -1,5 +1,5 @@
 ﻿<!doctype html>
-<html>
+<html xmlns:th="http://www.thymeleaf.org">
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -61,7 +61,6 @@
 
 </head>
 
-<!--<link type="text/css" href="css/animate.min.css" rel="stylesheet"/>-->
 
 <body>
 <script>
@@ -77,6 +76,10 @@
     })
 </script>
 
+
+<div>
+    <p>Hello!<span th:text="${zl}"></span>!<br />welcom to Thymeleaf's world</p>
+</div>
 
 <!--head-->
 <div class="header">
@@ -742,10 +745,10 @@
 
 <div class="footer">
     <a href="/" class="">
-        <span id="index-div" class=""></span>
+        <span id="index-div" class="on"></span>
     </a>
     <a href="/classify" class="">
-        <span id="cartoon-div" class="on"></span>
+        <span id="cartoon-div" class=""></span>
     </a>
     <a href="/subscribe" class="">
         <span id="bookshelf-div" class=""></span>
