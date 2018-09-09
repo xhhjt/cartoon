@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: com.qs:PlatUtils:1.0-SNAPSHOT">
     <CLASSES>
-      <root url="jar://D:/soft/maven/repository/com/qs/PlatUtils/1.0-SNAPSHOT/PlatUtils-1.0-20180906.052503-96.jar!/" />
+      <root url="jar://D:/soft/maven/repository/com/qs/PlatUtils/1.0-SNAPSHOT/PlatUtils-1.0-20180907.072152-97.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://D:/soft/maven/repository/com/qs/PlatUtils/1.0-SNAPSHOT/PlatUtils-1.0-20180906.052503-96-javadoc.jar!/" />
+      <root url="jar://D:/soft/maven/repository/com/qs/PlatUtils/1.0-SNAPSHOT/PlatUtils-1.0-20180907.072152-97-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://D:/soft/maven/repository/com/qs/PlatUtils/1.0-SNAPSHOT/PlatUtils-1.0-20180906.052503-96-sources.jar!/" />
+      <root url="jar://D:/soft/maven/repository/com/qs/PlatUtils/1.0-SNAPSHOT/PlatUtils-1.0-20180907.072152-97-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

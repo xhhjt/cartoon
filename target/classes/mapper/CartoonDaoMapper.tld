@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zl.cartoon.dao.CartoonDao">
+
+    <select id="getAll" resultType="Cartoon">
+        SELECT * FROM Cartoon
+    </select>
+    <select id="welcome" resultType="Cartoon">
+        SELECT * FROM Cartoon
+    </select>
+
+    <select id="top10" resultType="Cartoon">
+        SELECT * FROM Cartoon
+    </select>
+
+    <select id="yuZhaiFuLi" resultType="Cartoon">
+        SELECT * FROM Cartoon
+    </select>
+
+
+    <select id="lastUpdate" resultType="Cartoon">
+        SELECT * FROM Cartoon
+    </select>
+
+
+
+
+
+</mapper>

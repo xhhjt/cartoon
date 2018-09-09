@@ -25,7 +25,7 @@ public class GlobalExceptionHandler implements HandlerExceptionResolver {
         FastJsonJsonView view = new FastJsonJsonView();
         Map<String, Object> attributes = new HashMap<>(ValueConsts.TWO_INT);
         attributes.put("code", "502");
-        attributes.put("message", ex.getMessage());
+        attributes.put("msg", ex.getMessage());
         String queryString = request.getQueryString();
         attributes.put("url", request.getRequestURI() + (Checker.isEmpty(queryString) ? "" : "?" + queryString));
         view.setAttributesMap(attributes);
