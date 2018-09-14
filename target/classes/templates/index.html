@@ -76,10 +76,6 @@
     })
 </script>
 
-<div>1213</div>
-
-
-
 <!--head-->
 <div class="header">
     <!--搜索-->
@@ -182,65 +178,15 @@
         <span class="icon_Upda" id="blockbtn_4" onclick="updateRecommends(4,1)"></span>
     </div>
 
-    <ul class="col_3_2" id="4">
+    <ul class="col_3_2" id="4" th:each="item :${data.wel}">
         <li>
-            <a class="ImgA autoHeight" href="/1PRRAK/comic/6304">
+            <a class="ImgA autoHeight" th:href="${item.DetailUrl}">
 
-                <img src="/assets/picture/8f46d40d2e7b434da01b7ad9074b553c.gif" width="100%"/>
+                <img  src="/assets/picture/8f46d40d2e7b434da01b7ad9074b553c.gif" width="100%"/>
             </a>
 
-            <a class="txtA">H-Mate</a>
-            <span class="info">作者:龟足</span>
-
-        </li>
-        <li>
-            <a class="ImgA autoHeight" href="/1PRRAK/comic/6345">
-
-                <img src="/assets/picture/ee2dc862a0f3469cad444f10768f6c2b.gif" width="100%"/>
-            </a>
-
-            <a class="txtA">恋爱辅助器</a>
-            <span class="info">作者:KKUN,INSANE</span>
-
-        </li>
-        <li>
-            <a class="ImgA autoHeight" href="/1PRRAK/comic/6352">
-
-                <img src="/assets/picture/8894b84f7fbd485a89d3062f24bcfbd1.gif" width="100%"/>
-            </a>
-
-            <a class="txtA">Roommate</a>
-            <span class="info">作者:R</span>
-
-        </li>
-        <li>
-            <a class="ImgA autoHeight" href="/1PRRAK/comic/6346">
-
-                <img src="/assets/picture/cdef9038eeea4bdfb7b64dbfaf74d68c.gif" width="100%"/>
-            </a>
-
-            <a class="txtA">愉快的旅行</a>
-            <span class="info">作者:倂秀氏</span>
-
-        </li>
-        <li>
-            <a class="ImgA autoHeight" href="/1PRRAK/comic/6353">
-
-                <img src="/assets/picture/4384df68cb734ec0b10d1ac4ad1b6126.gif" width="100%"/>
-            </a>
-
-            <a class="txtA">偷窥</a>
-            <span class="info">作者:REC</span>
-
-        </li>
-        <li>
-            <a class="ImgA autoHeight" href="/1PRRAK/comic/6347">
-
-                <img src="/assets/picture/e1f5b4441d7048229bc897f948fa8486.gif" width="100%"/>
-            </a>
-
-            <a class="txtA">偶然</a>
-            <span class="info">作者:嘮叨雞,洋世</span>
+            <a class="txtA" th:text="${item.Title}"></a>
+            <span class="info" th:text="${item.Author}"></span>
 
         </li>
     </ul>
@@ -428,155 +374,19 @@
             <span>更多</span>
             <img src="/assets/picture/arrow_right.png"></a>
     </div>
-    <ul class="list">
-
-        <a href="/1PRRAK/comic/6304" title="H-Mate">
+    <ul class="list" th:each="item : ${data.top}">
+        <a th:href="${item.DetailUrl}" th:text="${item.Title}">
             <li class="d-item">
-                <img class="cover" src="/assets/picture/8f46d40d2e7b434da01b7ad9074b553c.gif" alt="H-Mate">
-                <img class="topLogo" src="picture/top_logo_1.png">
+                <img class="cover" th:src="${item.Pic}" th:alt="${item.Author}">
+                <img class="topLogo" th:src="${item.Pic}">
                 <span class="topNum">1</span>
                 <div class="info d-item-content">
-                    <p class="title d-nowrap">H-Mate</p>
-                    <p class="subtitle">十五年来的好友关系<br/>却在一夜之间变了质<br/>该用什么关系看待她呢.. </p>
+                    <p class="title d-nowrap" th:text="${item.Title}"></p>
+                    <p class="subtitle" th:text="${item.Title}"> </p>
                     <p class="bottom">
-                        <span class="d-nowrap">更新至 （外传）拐杖的爱情-04</span>
+                        <span class="d-nowrap" th:text="${item.Title}"></span>
                     </p>
-                    <span class="score"><i class="fa fa-eye"></i> 50324</span>
-                </div>
-            </li>
-        </a>
-        <a href="/1PRRAK/comic/6353" title="偷窥">
-            <li class="d-item">
-                <img class="cover" src="/assets/picture/4384df68cb734ec0b10d1ac4ad1b6126.gif" alt="偷窥">
-                <img class="topLogo" src="/assets/picture/top_logo_2.png">
-                <span class="topNum">2</span>
-                <div class="info d-item-content">
-                    <p class="title d-nowrap">偷窥</p>
-                    <p class="subtitle">不管是在哪里，总有个视线在我身上...</p>
-                    <p class="bottom">
-                        <span class="d-nowrap">更新至 第85话</span>
-                    </p>
-                    <span class="score"><i class="fa fa-eye"></i> 49627</span>
-                </div>
-            </li>
-        </a>
-        <a href="/1PRRAK/comic/6345" title="恋爱辅助器">
-            <li class="d-item">
-                <img class="cover" src="/assets/picture/ee2dc862a0f3469cad444f10768f6c2b.gif" alt="恋爱辅助器">
-                <img class="topLogo" src="/assets/picture/top_logo_3.png">
-                <span class="topNum">3</span>
-                <div class="info d-item-content">
-                    <p class="title d-nowrap">恋爱辅助器</p>
-                    <p class="subtitle">兄弟，外挂了解一下，无论约炮或者把妹，成功率保证100%！！</p>
-                    <p class="bottom">
-                        <span class="d-nowrap">更新至 最终话</span>
-                    </p>
-                    <span class="score"><i class="fa fa-eye"></i> 41024</span>
-                </div>
-            </li>
-        </a>
-        <a href="/1PRRAK/comic/6352" title="Roommate">
-            <li class="d-item">
-                <img class="cover" src="/assets/picture/8894b84f7fbd485a89d3062f24bcfbd1.gif" alt="Roommate">
-                <img class="topLogo" src="/assets/picture/top_logo_4.png">
-                <span class="topNum">4</span>
-                <div class="info d-item-content">
-                    <p class="title d-nowrap">Roommate</p>
-                    <p class="subtitle">没想到你是这样的老师...</p>
-                    <p class="bottom">
-                        <span class="d-nowrap">更新至 第57话</span>
-                    </p>
-                    <span class="score"><i class="fa fa-eye"></i> 32026</span>
-                </div>
-            </li>
-        </a>
-        <a href="/1PRRAK/comic/6346" title="愉快的旅行">
-            <li class="d-item">
-                <img class="cover" src="/assets/picture/cdef9038eeea4bdfb7b64dbfaf74d68c.gif" alt="愉快的旅行">
-                <img class="topLogo" src="/assets/picture/top_logo_4.png">
-                <span class="topNum">5</span>
-                <div class="info d-item-content">
-                    <p class="title d-nowrap">愉快的旅行</p>
-                    <p class="subtitle">炙热的太阳让冰山美人也受不了宽衣解带了! 在私人海滩上展开的秘密小故事...今天进度又到哪了呢?!</p>
-                    <p class="bottom">
-                        <span class="d-nowrap">更新至 第39话</span>
-                    </p>
-                    <span class="score"><i class="fa fa-eye"></i> 30153</span>
-                </div>
-            </li>
-        </a>
-        <a href="/1PRRAK/comic/6355" title="玩火">
-            <li class="d-item">
-                <img class="cover" src="/assets/picture/142f89c544a348a49eb2627d5946f3cb.gif" alt="玩火">
-                <img class="topLogo" src="/assets/picture/top_logo_4.png">
-                <span class="topNum">6</span>
-                <div class="info d-item-content">
-                    <p class="title d-nowrap">玩火</p>
-                    <p class="subtitle">她结婚前夕，却遇到不羁的他，共度一夜后，她的生活彻底改变</p>
-                    <p class="bottom">
-                        <span class="d-nowrap">更新至 第56话</span>
-                    </p>
-                    <span class="score"><i class="fa fa-eye"></i> 26986</span>
-                </div>
-            </li>
-        </a>
-        <a href="/1PRRAK/comic/6354" title="解禁">
-            <li class="d-item">
-                <img class="cover" src="/assets/picture/bcf743c1b2384eb8982c521271e09a97.gif" alt="解禁">
-                <img class="topLogo" src="/assets/picture/top_logo_4.png">
-                <span class="topNum">7</span>
-                <div class="info d-item-content">
-                    <p class="title d-nowrap">解禁</p>
-                    <p class="subtitle">一个突如其来的男人，注入了男主人禁欲的城堡...</p>
-                    <p class="bottom">
-                        <span class="d-nowrap">更新至 第33话</span>
-                    </p>
-                    <span class="score"><i class="fa fa-eye"></i> 25306</span>
-                </div>
-            </li>
-        </a>
-        <a href="/1PRRAK/comic/6360" title="癖好">
-            <li class="d-item">
-                <img class="cover" src="/assets/picture/48f67d51c0e24a78bdb5122f6babc20b.gif" alt="癖好">
-                <img class="topLogo" src="/assets/picture/top_logo_4.png">
-                <span class="topNum">8</span>
-                <div class="info d-item-content">
-                    <p class="title d-nowrap">癖好</p>
-                    <p class="subtitle">她整天幻想着出轨，并且在网络上裸露自己</p>
-                    <p class="bottom">
-                        <span class="d-nowrap">更新至 第26话</span>
-                    </p>
-                    <span class="score"><i class="fa fa-eye"></i> 20292</span>
-                </div>
-            </li>
-        </a>
-        <a href="/1PRRAK/comic/6348" title="同居">
-            <li class="d-item">
-                <img class="cover" src="/assets/picture/d0f8cf9deeb145a8b0b572b6430fb982.gif" alt="同居">
-                <img class="topLogo" src="/assets/picture/top_logo_4.png">
-                <span class="topNum">9</span>
-                <div class="info d-item-content">
-                    <p class="title d-nowrap">同居</p>
-                    <p class="subtitle">和朋友的女朋友同居...</p>
-                    <p class="bottom">
-                        <span class="d-nowrap">更新至 后记</span>
-                    </p>
-                    <span class="score"><i class="fa fa-eye"></i> 20232</span>
-                </div>
-            </li>
-        </a>
-        <a href="/1PRRAK/comic/6347" title="偶然">
-            <li class="d-item">
-                <img class="cover" src="/assets/picture/e1f5b4441d7048229bc897f948fa8486.gif" alt="偶然">
-                <img class="topLogo" src="/assets/picture/top_logo_4.png">
-                <span class="topNum">10</span>
-                <div class="info d-item-content">
-                    <p class="title d-nowrap">偶然</p>
-                    <p class="subtitle">偶然间再次和初恋相遇，她竟然...</p>
-                    <p class="bottom">
-                        <span class="d-nowrap">更新至 第52话<最终话></span>
-                    </p>
-                    <span class="score"><i class="fa fa-eye"></i> 16349</span>
+                    <span class="score" th:text="${item.VisitCount}"><i class="fa fa-eye"></i> </span>
                 </div>
             </li>
         </a>
@@ -590,37 +400,18 @@
         <span></span>
     </div>
 
-    <ul class="col_3_1" id="8">
+    <ul class="col_3_1" id="8" th:each="item : ${data.wyuZhaiFuLiel}">
         <li>
-            <a class="ImgA autoHeight" href="/1PRRAK/comic/6311">
+            <a class="ImgA autoHeight" th:href="${item.DetailUrl}">
 
-                <img src="/assets/picture/f61eb846ab914df6bb87ffc8815dcdbd.gif" width="100%"/>
+                <img th:src="${item.Pic}" width="100%"/>
             </a>
 
-            <a class="txtA">魔咒之吻</a>
-            <span class="info">作者:盧米恩</span>
+            <a class="txtA" th:text="${item.Title}"></a>
+            <span class="info" th:text="${item.Author}"></span>
 
         </li>
-        <li>
-            <a class="ImgA autoHeight" href="/1PRRAK/comic/6358">
 
-                <img src="/assets/picture/82eb2c2406274696a3fc2acddd0e4aa9.gif" width="100%"/>
-            </a>
-
-            <a class="txtA">亞哈路</a>
-            <span class="info">作者:HONG</span>
-
-        </li>
-        <li>
-            <a class="ImgA autoHeight" href="/1PRRAK/comic/6316">
-
-                <img src="/assets/picture/fd16eb3cfe294106822e6135ae0fb149.gif" width="100%"/>
-            </a>
-
-            <a class="txtA">春之雪</a>
-            <span class="info">作者:pugum</span>
-
-        </li>
     </ul>
 </div>
 <div class="imgBox">
@@ -631,37 +422,19 @@
         <span></span>
     </div>
 
-    <ul class="col_3_1" id="6">
+    <ul class="col_3_1" id="6" th:each="item : ${data.lastUpdate}">
         <li>
-            <a class="ImgA autoHeight" href="/1PRRAK/comic/6359">
+            <a class="ImgA autoHeight" th:href="${item.Pic}">
 
-                <img src="/assets/picture/f5e3776d64b74f2e9c7532ec32ed1f95.gif" width="100%"/>
+                <img th:src="${item.Pic}" width="100%"/>
             </a>
-
-            <a class="txtA">猎物</a>
-            <span class="info">作者:MAD</span>
+            <a class="txtA" th:text="${item.Title}"></a>
+            <span class="info" th:text="${item.Author}"></span>
+            <!--<a class="txtA">猎物</a>-->
+            <!--<span class="info">作者:MAD</span>-->
 
         </li>
-        <li>
-            <a class="ImgA autoHeight" href="/1PRRAK/comic/6349">
 
-                <img src="/assets/picture/7dffcf489a39400a80d3c199dcc8b287.gif" width="100%"/>
-            </a>
-
-            <a class="txtA">邻家少女</a>
-            <span class="info">作者:SUN</span>
-
-        </li>
-        <li>
-            <a class="ImgA autoHeight" href="/1PRRAK/comic/6342">
-
-                <img src="/assets/picture/12c3500dd71f48dcacbbe34ec2365d98.gif" width="100%"/>
-            </a>
-
-            <a class="txtA">深夜便利店</a>
-            <span class="info">作者:Kum Sagong,活火山</span>
-
-        </li>
     </ul>
 </div>
 <div id="ad_5" style="width:100%;margin-bottom: 14px;background: #fff;">
@@ -677,65 +450,15 @@
         <span class="icon_Upda" id="blockbtn_9" onclick="updateRecommends(9,1)"></span>
     </div>
 
-    <ul class="col_3_2" id="9">
+    <ul class="col_3_2" id="9" th:each="item : ${data.shendukongju}">
         <li>
-            <a class="ImgA autoHeight" href="/1PRRAK/comic/6314">
+            <a class="ImgA autoHeight" th:href="${item.Pic}">
 
-                <img src="/assets/picture/5e519263014a4428bd2e1d4ceab0bd33.gif" width="100%"/>
+                <img th:src="${item.Pic}" width="100%"/>
             </a>
 
-            <a class="txtA">绝命学园</a>
-            <span class="info">作者:天音琥珀</span>
-
-        </li>
-        <li>
-            <a class="ImgA autoHeight" href="/1PRRAK/comic/6306">
-
-                <img src="/assets/picture/b5a1414a1d2d43129910ac0b9ecb85ab.gif" width="100%"/>
-            </a>
-
-            <a class="txtA">猩红之璧</a>
-            <span class="info">作者:白皓安</span>
-
-        </li>
-        <li>
-            <a class="ImgA autoHeight" href="/1PRRAK/comic/6319">
-
-                <img src="/assets/picture/263146994c324292a7c93b587db0c637.gif" width="100%"/>
-            </a>
-
-            <a class="txtA">刺角</a>
-            <span class="info">作者:黃踹</span>
-
-        </li>
-        <li>
-            <a class="ImgA autoHeight" href="/1PRRAK/comic/6313">
-
-                <img src="/assets/picture/42246f54b929409c974c581b7d6ea59f.gif" width="100%"/>
-            </a>
-
-            <a class="txtA">JADE无惧女特警</a>
-            <span class="info">作者:金明豪</span>
-
-        </li>
-        <li>
-            <a class="ImgA autoHeight" href="/1PRRAK/comic/6323">
-
-                <img src="/assets/picture/7aef3f485ead42dfafd54e4abb7aeb30.gif" width="100%"/>
-            </a>
-
-            <a class="txtA">失衡線</a>
-            <span class="info">作者:Penpoint</span>
-
-        </li>
-        <li>
-            <a class="ImgA autoHeight" href="/1PRRAK/comic/6312">
-
-                <img src="/assets/picture/accfac6c76d94583bc2dc07a37557479.gif" width="100%"/>
-            </a>
-
-            <a class="txtA">弥赛亚情结</a>
-            <span class="info">作者:朴燦龍</span>
+            <a class="txtA" th:text="${item.Title}"></a>
+            <span class="info" th:text="${item.Author}"></span>
 
         </li>
     </ul>
