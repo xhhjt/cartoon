@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+.signbox{ font-size:0.9em; line-height:20px;}
+.userheader{ width:40px; height:40px; border-radius:20px; margin:10px;}
+.sign,.sign01,.signed,.sign02{display:block;margin:10px auto;line-height:40px;font-size:0.9em;text-align:center;color:#fff;border-radius:20px;width:90%;border: none;}
+.sign{background:#d1acd8}
+.sign01{background:#F66}
+.sign02{background:#60ba48}
+
+.signed{background:#999}
+.signbox p{ margin:10px}
+.gray{ color:#888; font-size:0.9em}
+.bookdesc{ font-size:0.7em}
+
+.signbox li{ overflow:hidden; zoom:1; border-bottom:1px solid #eee;}
+
+#taskCont{ position:fixed; width:100%; height:100%; background:rgba(0,0,0,.8); top:0; left:0; text-align:center; font-size:0.8em}
+.taskBg{ width:90%; margin:20% auto 10px auto; padding:2%; background:#fff;}
+.sharTitle{ text-align:center; line-height:25px; border-bottom:1px solid #eee; padding-bottom:10px;}
+.sharMsg{ margin:10px; line-height:22px;}

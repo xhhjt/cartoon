@@ -1,501 +1,382 @@
 ﻿<!doctype html>
-<html xmlns:th="http://www.thymeleaf.org">
-
+<html >
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta name="viewport"
-          content="width=device-width,initial-scale=1.0, minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="format-detection" content="telephone=no"/>
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="white">
-    <meta name="wap-font-scale" content="no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta charset="utf-8">
+    <meta content="width=device-width,height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
 
-    <meta name="apple-mobile-web-app-title" content="电波漫画">
+    <meta name="keywords" content="动漫,喵喵漫画动漫,漫画,动画,原创,正版,火影忍者,海贼王,捕王,充气女神,喵喵漫画官方网站" />
+    <meta name="description" content="正版动漫网站，连载众多原创国漫，原创动画，正版日漫等海内外最热正版动漫内容，为上千万动漫爱好者提供漫画、动画、资讯、论坛一站式全方位动漫服务，为原创动漫作者提供最优质的创作成长环境，为中国动漫产业打造梦想舞台。" />
+    <link href="/assets/css/base.css?v=21" rel="stylesheet" type="text/css">
+    <link href="/assets/css/loading.css" rel="stylesheet" />
 
-    <link rel="apple-touch-icon-precomposed" sizes="57x57"
-          href="http://hbztjg.com/dianbo/static/dist/ppm/images/apple-touch-icon-57.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72"
-          href="http://hbztjg.com/dianbo/static/dist/ppm/images/apple-touch-icon-72.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114"
-          href="http://hbztjg.com/dianbo/static/dist/ppm/images/apple-touch-icon-114.png">
-    <link rel="apple-touch-icon-precomposed" sizes="120x120"
-          href="http://hbztjg.com/dianbo/static/dist/ppm/images/apple-touch-icon-120.png">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144"
-          href="http://hbztjg.com/dianbo/static/dist/ppm/images/apple-touch-icon-144.png">
-    <link rel="apple-touch-icon-precomposed" sizes="152x152"
-          href="http://hbztjg.com/dianbo/static/dist/ppm/images/apple-touch-icon-152.png">
-    <link rel="apple-touch-icon-precomposed" sizes="512x512"
-          href="http://hbztjg.com/dianbo/static/dist/ppm/images/apple-touch-icon-512.png">
+    <title>喵喵漫画基地</title>
 
 
-    <meta name="Keywords" content="漫画,在线漫画,手机漫画,韩漫,韩国漫画,福利,178漫画"/>
-    <meta name="Description"
-          content="电波提供海量漫画,更新最快的在线漫画福利欣赏"/>
-    <title>电波</title>
+    <link href="/assets/css/css1.css?t=21" rel="stylesheet" type="text/css">
+    <link href="/assets/css/task.css?t=21" rel="stylesheet" type="text/css">
+    <style>
+        .titleBar .time {
+            color: #F63;
+            margin: 0 15px;
+            font-weight: normal;
+            float: right;
+        }
 
-    <link href="/assets/css/global.css" rel="stylesheet" type="text/css"/>
-    <link type="text/css" href="/assets/css/style.css" rel="stylesheet"/>
-    <link type="text/css" href="/assets/css/font-awesome.min.css" rel="stylesheet"/>
+        .titleBar .time em {
+            font-style: normal;
+        }
 
-    <script type="text/javascript" src="/assets/js/jquery.min.js"></script>
-    <script type="text/javascript" src="/assets/js/jquery.cookie.js" charset="utf-8"></script>
-    <script type="text/javascript" src="/assets/js/common.js"></script>
-    <script type="text/javascript" src="/assets/js/domain.js"></script>
-    <script type="text/javascript" src="/assets/js/m_reader.js"></script>
-    <script type="text/javascript" src="/assets/js/tsb.js"></script>
-    <script type="text/javascript" src="/assets/js/main.js"></script>
 
-    <script>
-        var _hmt = _hmt || [];
-        (function () {
-            var hm = document.createElement("script");
-            hm.src = 'https://hm.baidu.com/hm.js?3a4907169cc43a2333a5b186b346d94e';
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(hm, s);
-        })();
-    </script>
-    <script type="text/javascript">
-        window.cdnStaticRoot = "http://hbztjg.com/dianbo/static";
-    </script>
+
+    </style>
+
+
 
 </head>
-
-
 <body>
+
+
+
+
+
+
+
+<header class="tophead clf">
+    <div id="headerbox">
+        <div id="headerbox">
+            <a href="javascript:void(0);" class="logo" style="background: url(/assets/images/qr/1.png) no-repeat 0 0;background-size: 120px 35px;"></a>
+            <span class=""></span>
+            <a class="searchBtn01" id="searchBtn"></a>
+        </div>
+    </div>
+    <div id="searchbox" class="clf" style="display:none">
+        <input type="text" class="fl w80 searchInput" id="keywords" placeholder="输入 名称\作者\关键字 搜索" />
+        <a class="cancleBtn fl w20" id="cancleBtn">取消</a>
+    </div>
+</header>
+
+<section id="taskCont" style="z-index:100000;display:none">
+    <div class="taskBg">
+        <div class="sharMsg" id="sharMsg01">
+            <div class="sharTitle">
+                <h3>输入任务码，领取阅币</h3>
+            </div>
+            <div style="padding:10px 0;">
+                <p><input type="text" id="inputusername" placeholder="请输入任务码" style="width:90%; border:1px solid #eee; height:40px; line-height:40px; text-align:center;" /></p>
+                <p>任务码请到任务中心领取</p>
+            </div>
+            <span onclick="addcoin()" class="sign01">领取阅币</span>
+        </div>
+    </div>
+    <a href="javascript:close();" style="display:block; color:#fff; text-align:center; line-height:50px;">关闭</a>
+
+
+
+</section>
+<section id="slider">
+    <ul id="sliderItem">
+
+        <li>
+            <div><a href="/Cartoon/Read?cno=&amp;cartoonId=54&amp;chapterId=4302#chaptername"><img src="http://img2.xmh222.com//uploadfiles/20180824/26aac95607be48198a2604937fdc8bf3904.jpg" /></a></div>
+        </li>
+        <li>
+            <div><a href="/Cartoon/Read?cno=&amp;cartoonId=132&amp;chapterId=6914#chaptername"><img src="http://img2.xmh222.com//uploadfiles/20180824/c81a9c16a6044b17bb575c88ed6c713e527.jpg" /></a></div>
+        </li>
+        <li>
+            <div><a href="/Cartoon/Read?cno=&amp;cartoonId=104&amp;chapterId=5626#chaptername"><img src="http://img2.xmh222.com//uploadfiles/20180824/0cc6476942b44989b57094fba5559180958.jpg" /></a></div>
+        </li>
+    </ul>
+    <div id="slideNav"></div>
+</section>
+
+
+<section class="block" style="margin:0; padding:10px 0; text-align:center">
+
+    <ul class="btnList clf">
+        <li><a href="/user/task" class="circleBtn01 bg01"></a>每日任务</li>
+        <li><a href="/user/recharge" class="circleBtn01 bg02"></a>VIP充值</li>
+        <li><a href="/home/rank" class="circleBtn01 bg03"></a> 热门排行</li>
+        <li>
+            <a href="mqqwpa://im/chat?chat_type=wpa&amp;uin=3257494368&amp;version=1&amp;src_type=web&amp;web_src=oicqzone.com"
+               class="circleBtn01 bg04"></a> 客服QQ
+        </li>
+    </ul>
+
+</section>
+
+<span id="splitcontent"></span>
+
+<script type="text/html" id="litemp1">
+    <li>
+        <a href="{nlink}">
+            <img src="{img}" width="90" onerror="this.src = '/assets/images/cover.jpg'">
+        </a>
+        <span class="booktitle">{name}</span>
+    </li>
+</script>
+
+<script type="text/html" id="litemp2">
+    <li>
+        <a href="{nlink}">
+            <img src="{img}" alt="{img}" onerror="this.src = '/assets/images/cover.jpg'">
+        </a>
+        <span class="booktitle">{name}</span>
+        <span class="commandDes">{con}</span>
+    </li>
+</script>
+
+
+<!--模板-->
+<script type="text/template" id="sectiontemp">
+    <section class="block">
+        <div class="titleBar clf"><i class="fl">{name}</i></div>
+        <div style="overflow:scroll">
+            <ul class="book_list{vv} clf">{content}</ul>
+        </div>
+        <a href="/home/Cate" class="morebtn">查看更多</a>
+    </section>
+</script>
+
+<script type="text/template" id="freesectiontemp">
+    <section class="block">
+        <div class="titleBar clf">
+            <i class="fl">限时免费</i>
+            <span class="fl time" style="display:inline-block "><em id="d62">0</em>天<em id="h62">00</em>小时<em id="m62">00</em>分<em id="s62">00</em>秒</span>
+        </div>
+        <ul class="book_list">{content}</ul>
+        <a href="/home/Cate" class="morebtn">查看更多</a>
+    </section>
+
+</script>
+
+<script type="text/template" id="litemp">
+    <li class="clf">
+        <a href="{nlink}" class="fl w25">
+            <img src="{img}" height="90" onerror="this.src = '/assets/images/cover.jpg'">
+        </a>
+        <div class="fl w73">
+            <b class="booktitle"><a href="{nlink}">&#65279;{name}</a></b>
+            <div class="bookdesc">
+                <a href="{nlink}">{summary}</a>
+            </div>
+            <div class="bookcat clf">
+                <p class="fl"><a href="/Home/Search?keyValue={author}" class="wirteIcon">{author}</a></p>
+                <a><p class="fr blueTag tag">{upstate}</p></a><a><p class="fr blueTag tag">{cname}</p></a>
+            </div>
+        </div>
+    </li>
+</script>
+
+<div class="spinner">
+    <div class="double-bounce1"></div>
+    <div class="double-bounce2"></div>
+</div>
+
+<div class="h50"></div>
+
+<nav class="footnav clf">
+    <a href="/Home/Index" class="selected"><span class="m01">推荐</span></a>
+    <a href="/Cartoon/UserCartoon"><span class="m05">书架</span></a>
+
+
+    <a href="/Home/Cate"><span class="m03">分类</span></a>
+    <a href="/user/Index"><span class="m04">我的</span></a>
+    <!--class="selected"-->
+</nav>
+
+
+
+
+<script src="/assets/js/jquery.min.js?t=1"></script>
+
+<script src="/assets/js/slide.js?t=1"></script>
+<script src="/assets/js/loadImg.js"></script>
+
+
+
 <script>
-    window.ccm = [];
+
+    function close() {
+        var taskCont = document.getElementById("taskCont");
+        taskCont.style.display = "none"
+    }
+    var checkapp = "0";
+
     $(function () {
-        UserCookie();
-        if (m_global.isLogin == true) {
-            m_global.userPhoto = "";
-            m_global.crcck = "1PRRAK";
-            $(".head img").show().attr("src", m_global.userPhoto);
-        } else {
+
+        if (checkapp == "1") {
+            $("#taskCont").show();
         }
     })
+
+    function addcoin() {
+        var ind = $("#inputusername").val();
+        if (ind.length < 5) {
+            alert("任务码错误");
+            return false;
+
+        }
+        if (checkapp == "1") {
+            $.ajax({ //异步数据加载
+                type: "POST",
+                data: { name: ind },
+                url: "/api/addcoin",
+                success: function (msg) {
+                    if (msg == "T") {
+                        alert("领取成功");
+
+                        $("#taskCont").hide();
+
+                    } else if (msg == "Z") {
+                        alert("任务码有误");
+                    } else {
+                        alert("已领取，无法重复领取");
+
+                        $("#taskCont").hide();
+                    }
+                }
+            });
+        }
+
+        console.log(1);
+    }
+
 </script>
 
-<!--head-->
-<div class="header">
-    <!--搜索-->
-    <div class="serCh" id="serCh" style="z-index: 999999 !important;">
-        <form id="searchForm" action="">
-            <a href="javascript:void(0);" onClick="m_global.closed('serCh')" class="searClose"></a>
-            <a href="javascript:void(0);" onClick="serchAction()" class="searBtn"></a>
-
-            <div class="serChinputBox"><input type="search" class="searInput" placeholder="漫画名或作者" autosave=""
-                                              id="searInput"></div>
-        </form>
-    </div>
-    <div class="messagSjr" style="z-index: 999999 !important;">
-        <ul class="keyTit" id="messagelist"></ul>
-        <p id="hotTit">大家都在搜:</p>
-        <ul class="tag" id="HotTag"></ul>
-    </div>
-    <!--搜索 end-->
-
-    <!--    <div class="logo"><a href="/"><img src="picture/head_logo.gif" width="105" height="44"></a></div> -->
-
-    <a href="javascript:;" title="" class="icon serch" onClick="m_global.serchAction('serCh')"></a>
-
-    <a title="" class="icon head" href="/1PRRAK/my"><img style="display:none" src="picture/photo.png" width="36"
-                                                         height="36"><span class="tip" id="subscribe"></span></a>
-
-</div>
-<!--head end-->
-
-<!--焦点图-->
-
-<div class="main_visual" style="height:400px; background:#000">
-
-    <div class="flicking_con">
-        <a href="#">0</a>
-        <a href="#">1</a>
-        <a href="#">2</a>
-        <a href="#">3</a>
-        <a href="#">4</a>
-    </div>
-
-    <div class="flicking_conTit">
-        <span>他进入了她们的城堡...</span>
-        <span>那一夜无比疯狂</span>
-        <span>爷爷总在深夜来看姐姐</span>
-        <span>基友的女朋友，居然和我...</span>
-        <span>初恋的三个女儿...</span>
-    </div>
-
-    <div class="main_image">
-        <ul>
-            <li>
-                <a href="/1PRRAK/comic/6354">
-                    <img src="/assets/picture/fd1368c25b89405497976f27fe5f9b02.gif" width="100%" height="100%"/>
-                </a>
-            </li>
-            <li>
-                <a href="/1PRRAK/comic/6355">
-                    <img src="/assets/picture/8de45ab8036943359a5b2a54c0790767.gif" width="100%" height="100%"/>
-                </a>
-            </li>
-            <li>
-                <a href="/1PRRAK/comic/6356">
-                    <img src="/assets/picture/781f7eba00f246279083c31e85f5abb4.gif" width="100%" height="100%"/>
-                </a>
-            </li>
-            <li>
-                <a href="/1PRRAK/comic/6346">
-                    <img src="/assets/picture/7479b481f6de44ab9fd835a0f9bc6887.gif" width="100%" height="100%"/>
-                </a>
-            </li>
-            <li>
-                <a href="/1PRRAK/comic/6351">
-                    <img src="/assets/picture/afd8f14885ac4129b15d105f5a004828.gif" width="100%" height="100%"/>
-                </a>
-            </li>
-        </ul>
-        <div class="circle_cover"></div>
-    </div>
-
-</div>
-<script type="text/javascript" src="/assets/js/indextouchslider.js"></script>
 <script>
     $(function () {
-        m_global.navStyle(0);
-    })
-</script>
-<div class="cm-box">
-    <a class="items" href="/1PRRAK/hcmr/0">女生榜</a>
-    <a class="items" href="/1PRRAK/hcmr/1">男生榜</a>
-    <a class="items" href="/1PRRAK/hcmr/2">人气榜</a>
-    <a class="items" href="/1PRRAK/hcmr/3">新作榜</a>
-    <a class="items" href="/1PRRAK/hcmr/4">追更榜</a>
-</div>
-<div class="imgBox">
 
-    <div class="Sub_H2">
-        <span class="icon"><img src="/assets/picture/79b16497550f2ffbd8cfaa16aa7651.png"/></span>
-        <span class="Title">人气最旺</span>
-        <span class="icon_Upda" id="blockbtn_4" onclick="updateRecommends(4,1)"></span>
-    </div>
+        var searchBtn = $("#searchBtn");
+        var headerbox = $("#headerbox");
+        var searchbox = $("#searchbox");
+        var cancleBtn = $("#cancleBtn");
 
-    <ul class="col_3_2" id="4" th:each="item :${data.wel}">
-        <li>
-            <a class="ImgA autoHeight" th:href="${item.DetailUrl}">
+        $("#cancleBtn").click(function () {
+            searchbox.hide();
+            headerbox.show();
 
-                <img  src="/assets/picture/8f46d40d2e7b434da01b7ad9074b553c.gif" width="100%"/>
-            </a>
+        });
 
-            <a class="txtA" th:text="${item.Title}"></a>
-            <span class="info" th:text="${item.Author}"></span>
+        $("#searchBtn").click(function () {
+            searchbox.show();
+            headerbox.hide();
 
-        </li>
-    </ul>
-</div>
-<div id="ad_app" style="width:100%;margin-bottom: 14px;background: #fff;">
-    <!--    <a onclick="app_ad.openApp('itms-services://?action=download-manifest&url=https://di5li.com/app/dianbo/dianbo.plist')">-->
-    <a href="/task/my">
-        <img src="/assets/picture/app_download.jpg" alt="" width="100%">
-    </a>
-</div>
-<div id="ad_8" style="width:100%;margin-bottom: 14px;background: #fff;">
-    <a href="/1PRRAK/account/bug">
-        <img src="/assets/picture/b9377c8bf3294813a8a3086ace1ae3af.gif" alt="" width="100%">
-    </a>
-</div>
-<style>
-    a, ins {
-        text-decoration: none;
+        });
+        document.onkeydown = function (event) {
+            var keywords = document.getElementById("keywords");
+            var e = event || window.event || arguments.callee.caller.arguments[0];
+            if (e && e.keyCode == 13 && keywords.value != '') {
+                GetNovelBySearch();
+            }
+        };
+        recommend();
+    });
+
+
+    function recommend() {
+
+        $.ajax({ //异步数据加载
+            type: "POST",
+            url: "/index/recommend",
+            beforeSend: function () {
+                $(".spinner").show();
+            },
+            complete: function () {
+                $(".spinner").hide();
+            },
+            success: function (msg) {
+
+                var ft = '2018-12-12 23:59:00:000';
+
+                var html = "";
+                $.each(msg.data, function (i, o) {
+                    var r = o.list;
+                    //   console.log(o);
+                    var li = "";
+                    var lit = $("#litemp2").html();
+                    var vv = "03";
+                    if (o.rtype == 1) {
+                        lit = $("#litemp1").html();
+                        vv = "01";
+                    } else if (o.rtype == 2) {
+                        lit = $("#litemp").html();
+                        vv = "";
+                    }
+
+                    $.each(r, function (j, v) {
+
+
+                        if (j == 6) {
+                            return false;
+                        }
+
+                        var cname = "";
+                        if (v.cname != "null" && v.cname != null) {
+                            cname = v.cname;
+                        }
+
+                        li += lit.replace(/{nlink}/g, v.linkUrl).replace(/{cname}/g, cname).replace(/{img}/g, v.imgUrl).replace(/{upstate}/g, v.upstr)
+                            .replace(/{author}/g, v.author).replace(/{name}/g, v.title).replace(/{summary}/g, v.summary).replace(/{con}/g, v.content);
+
+                    });
+
+                    if (o.isfree == 0) {
+                        html += $("#sectiontemp").html().replace(/{content}/g, li).replace(/{name}/g, o.name).replace(/{link}/g, o.linkurl).replace(/{vv}/g, vv);
+                    } else {
+                        html += $("#freesectiontemp").html().replace(/{content}/g, li);
+                    }
+
+                });
+                $("#splitcontent").after(html);
+
+                loadPicNow();
+
+                //时间倒计时
+
+                var sj = ft.split('-');
+                var sj1 = sj[2].substring(0, 2);
+                var sj2 = sj[2].substring(3, sj[2].length);
+                var t = sj2.split(':');
+                window.setInterval(function () { ShowCountDown(sj[0], sj[1], sj1, t[0], t[1], t[2], t[3]); }, 1000);
+
+            }
+        });
     }
 
-    .rankList {
-        /*
-        display: block;
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;*/
-        margin-bottom: 10px;
-        background-color: #fff;
-        /*border-top: 1px solid #ddd;
-        border-bottom: 1px solid #ddd;
-        */
-        max-width: 100%;
-        overflow: hidden;
+    function ShowCountDown(year, month, day, h, m, s, ms) {
+        var now = new Date();
+        var endDate = new Date(year, month - 1, day, h, m, s, ms);
+        var leftTime = endDate.getTime() - now.getTime();
+        var leftsecond = parseInt(leftTime / 1000);
+
+        var day1 = Math.floor(leftTime / 1000 / (60 * 60 * 24));
+        var hour = Math.floor((leftTime / 1000 - day1 * 24 * 60 * 60) / 3600);
+        var minute = Math.floor((leftTime / 1000 - day1 * 24 * 60 * 60 - hour * 3600) / 60);
+        var second = Math.floor(leftTime / 1000 - day1 * 24 * 60 * 60 - hour * 3600 - minute * 60);
+
+        day1 = day1 < 10 ? "0" + day1 : day1;
+        hour = hour < 10 ? "0" + hour : hour;
+        minute = minute < 10 ? "0" + minute : minute;
+        second = second < 10 ? "0" + second : second;
+
+        try {
+            $("#d62").html(day1);
+            $("#h62").html(hour);
+            $("#m62").html(minute);
+            $("#s62").html(second);
+        }
+        catch (e) { }
     }
 
-    .rankList .titleBar {
-        height: 40px;
+
+    //带参跳转
+    function GetNovelBySearch() {
+        location.href = "/Home/Search?keyValue=" + $("#keywords").val();
     }
 
-    .rankList .titleBar .top {
-        font-size: 15px;
-        color: #fff;
-        background-color: #ec4646;
-        border-right: 1px solid #ff5883;
-        border-bottom: 1px solid #ff5883;
-        border-bottom-right-radius: 5px;
-        padding: 2px 5px;
-    }
 
-    .d-fl {
-        float: left;
-    }
-
-    .rankList .titleBar .other {
-        font-size: 13px;
-        color: #bbb;
-        margin-right: 10px;
-        margin-top: 10px;
-    }
-
-    .d-fr {
-        float: right;
-    }
-
-    .rankList .titleBar .other img {
-        box-sizing: border-box;
-        height: 10px;
-        vertical-align: top;
-        position: relative;
-        top: 4px;
-    }
-
-    .rankList .list {
-        margin: 0;
-        padding: 0;
-    }
-
-    .d-item {
-        display: -moz-box;
-        display: flex;
-        display: -webkit-box;
-    }
-
-    .rankList .list li {
-        padding: 10px;
-        border-bottom: 1px solid #ccc;
-        position: relative;
-        /*width: 100%;*/
-    }
-
-    .rankList .list li .cover {
-        box-sizing: border-box;
-        vertical-align: middle;
-        width: 78px;
-        height: 104px;
-    }
-
-    .rankList .list li .topLogo {
-        position: absolute;
-        top: 10px;
-        left: 10px;
-        width: 20px;
-    }
-
-    .rankList .list li .topNum {
-        position: absolute;
-        top: 10px;
-        left: 10px;
-        width: 20px;
-        color: #fff;
-        font-size: 11px;
-        text-align: center;
-        line-height: 15px;
-    }
-
-    .d-item-content {
-        -moz-box-flex: 1;
-        flex: 1;
-        -webkit-box-flex: 1;
-    }
-
-    .rankList .list li .info {
-        padding-left: 10px;
-        position: relative;
-        height: 104px;
-    }
-
-    .d-nowrap {
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-
-    .rankList .list li .info p {
-        margin: 0;
-    }
-
-    .rankList .list li .info .title {
-        font-size: 15px;
-        color: #444;
-    }
-
-    .rankList .list li .info .subtitle {
-        font-size: 13px;
-        color: #767676;
-        margin-top: 3px;
-        padding-right: 40px;
-        width: 190px;
-        display: -webkit-box;
-        -webkit-box-orient: vertical;
-        -webkit-line-clamp: 2;
-        overflow: hidden;
-    }
-
-    .rankList .list li .info .bottom {
-        color: #ec4646;
-        font-size: 13px;
-        margin-top: 3px;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        position: absolute;
-        left: 10px;
-        bottom: 0;
-        /*width: 100%;*/
-        padding-right: 10px;
-    }
-
-    .rankList .list li .info .score {
-        background-color: #ec4646;
-        color: #fff;
-        padding: 2px 6px;
-        font-size: 11px;
-        border-radius: 15px;
-        position: absolute;
-        right: 0;
-        top: 40px;
-    }
-
-</style>
-<div class="rankList">
-    <div class="titleBar">
-        <span class="top d-fl">本周TOP10</span>
-        <a href="/1PRRAK/rank" class="other d-fr" title="本周TOP10">
-            <span>更多</span>
-            <img src="/assets/picture/arrow_right.png"></a>
-    </div>
-    <ul class="list" th:each="item : ${data.top}">
-        <a th:href="${item.DetailUrl}" th:text="${item.Title}">
-            <li class="d-item">
-                <img class="cover" th:src="${item.Pic}" th:alt="${item.Author}">
-                <img class="topLogo" th:src="${item.Pic}">
-                <span class="topNum">1</span>
-                <div class="info d-item-content">
-                    <p class="title d-nowrap" th:text="${item.Title}"></p>
-                    <p class="subtitle" th:text="${item.Title}"> </p>
-                    <p class="bottom">
-                        <span class="d-nowrap" th:text="${item.Title}"></span>
-                    </p>
-                    <span class="score" th:text="${item.VisitCount}"><i class="fa fa-eye"></i> </span>
-                </div>
-            </li>
-        </a>
-    </ul>
-</div>
-<div class="imgBox">
-
-    <div class="Sub_H2">
-        <span class="icon"><img src="/assets/picture/94a489b64c07d5cf9cdce40127cc9f.png"/></span>
-        <span class="Title">御宅福利</span>
-        <span></span>
-    </div>
-
-    <ul class="col_3_1" id="8" th:each="item : ${data.wyuZhaiFuLiel}">
-        <li>
-            <a class="ImgA autoHeight" th:href="${item.DetailUrl}">
-
-                <img th:src="${item.Pic}" width="100%"/>
-            </a>
-
-            <a class="txtA" th:text="${item.Title}"></a>
-            <span class="info" th:text="${item.Author}"></span>
-
-        </li>
-
-    </ul>
-</div>
-<div class="imgBox">
-
-    <div class="Sub_H2">
-        <span class="icon"><img src="/assets/picture/1326478519c1cb998325626fe5efc5.png"/></span>
-        <span class="Title">刚刚更新</span>
-        <span></span>
-    </div>
-
-    <ul class="col_3_1" id="6" th:each="item : ${data.lastUpdate}">
-        <li>
-            <a class="ImgA autoHeight" th:href="${item.Pic}">
-
-                <img th:src="${item.Pic}" width="100%"/>
-            </a>
-            <a class="txtA" th:text="${item.Title}"></a>
-            <span class="info" th:text="${item.Author}"></span>
-            <!--<a class="txtA">猎物</a>-->
-            <!--<span class="info">作者:MAD</span>-->
-
-        </li>
-
-    </ul>
-</div>
-<div id="ad_5" style="width:100%;margin-bottom: 14px;background: #fff;">
-    <a href="/1PRRAK/comic/6308">
-        <img src="/assets/picture/a_5_2fa62d.jpg" alt="" width="100%">
-    </a>
-</div>
-<div class="imgBox">
-
-    <div class="Sub_H2">
-        <span class="icon"><img src="/assets/picture/c874362b0bb7e8521ad16ea2f66d31.png"/></span>
-        <span class="Title">深度恐惧</span>
-        <span class="icon_Upda" id="blockbtn_9" onclick="updateRecommends(9,1)"></span>
-    </div>
-
-    <ul class="col_3_2" id="9" th:each="item : ${data.shendukongju}">
-        <li>
-            <a class="ImgA autoHeight" th:href="${item.Pic}">
-
-                <img th:src="${item.Pic}" width="100%"/>
-            </a>
-
-            <a class="txtA" th:text="${item.Title}"></a>
-            <span class="info" th:text="${item.Author}"></span>
-
-        </li>
-    </ul>
-</div>
-
-
-<div class="footer">
-    <a href="/" class="">
-        <span id="index-div" class="on"></span>
-    </a>
-    <a href="/classify" class="">
-        <span id="cartoon-div" class=""></span>
-    </a>
-    <a href="/subscribe" class="">
-        <span id="bookshelf-div" class=""></span>
-    </a>
-    <a href="/my" class="">
-        <span id="user-div" class=""></span>
-    </a>
-</div>
-
-<div class="bottom">
-    <p class="record">©电波漫画<!--<a href="/aboutus/aboutus.html">关于我们</a>--></p>
-</div>
-<div class="bottomDown" id="signWnd" style="display: block;">
-    <div class="btm_in">
-        <a href="/1PRRAK/product" class="btm_img"><img src="/assets/picture/bottom_bar.png" height="73"
-                                                       title="日卡销售中"></a>
-        <a class="close" onClick='$("#signWnd").hide();'></a>
-        <a href="/1PRRAK/product" class="app_download"></a>
-    </div>
-</div>
-
-<script type="text/javascript">
-    _hmt.push(['_trackEvent', 'index', 'open']);
 </script>
 
 </body>
-
 </html>

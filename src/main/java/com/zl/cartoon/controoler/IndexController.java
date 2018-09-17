@@ -29,5 +29,14 @@ public class IndexController {
         return result;
     }
 
+    @RequestMapping(value = "index/recommend",method = RequestMethod.POST)
+    @ResponseBody
+    public Result getRecommend() {
+        Result result = new Result();
+        Object o = indexServer.getRecommend();
+        result.setData(o);
+        return result;
+    }
+
 
 }

@@ -8,7 +8,12 @@ public class MyController {
 
 
     @RequestMapping(value = "/my")
-    public String index(){
+    public String index() {
         return "my";
+    }
+
+    @RequestMapping(value = "/my/bindphone")
+    public String bindPhone() {
+        return "bindphone";
     }
 }

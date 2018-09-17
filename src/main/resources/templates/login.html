@@ -1,0 +1,212 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta charset="utf-8">
+    <meta content="width=device-width,height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+
+    <meta name="keywords" content="动漫,喵喵漫画动漫,漫画,动画,原创,正版,火影忍者,海贼王,捕王,充气女神,喵喵漫画官方网站" />
+    <meta name="description" content="正版动漫网站，连载众多原创国漫，原创动画，正版日漫等海内外最热正版动漫内容，为上千万动漫爱好者提供漫画、动画、资讯、论坛一站式全方位动漫服务，为原创动漫作者提供最优质的创作成长环境，为中国动漫产业打造梦想舞台。" />
+    <link href="/assets/css/base.css?v=21" rel="stylesheet" type="text/css">
+    <link href="/assets/css/loading.css" rel="stylesheet" />
+    <title>喵喵漫画 - 切换帐号</title>
+
+</head>
+<body>
+
+
+
+
+<style>
+    .loginIput{ background:#eee; border-radius:4px; border:none}
+    .loginBTN{ border-radius:8px;}
+</style>
+
+<header class="tophead">
+    <a href="javascript:history.go(-1);" class="back"></a>
+    登陆
+    <a href="/" class="home01"></a>
+</header>
+
+<div class="loginbox" id="loginbox">
+    <div class="loginCont" style="padding-top:80px;">
+
+        <p><input type="text" name="tel" id="tel" class="loginIput" placeholder="请输入手机号码/用户名" /></p>
+        <p><input type="password" name="password" id="password" class="loginIput" placeholder="请输入不少于6位数的密码"></p>
+        <a href="javascript:checkForm();" class="loginBTN style02">登录</a>
+
+        <a class="loginBTN style01 tengxunlogin" href="javascript:;" onclick="dianji()" data-pc-href="https://xui.ptlogin2.qq.com/cgi-bin/xlogin?appid=716027609&amp;pt_3rd_aid=101372180&amp;daid=383&amp;pt_skey_valid=0&amp;style=35&amp;s_url=http://connect.qq.com&amp;refer_cgi=authorize&amp;which=&amp;client_id=101372180&amp;response_type=token&amp;scope=all&amp;redirect_uri=http%3a%2f%2fread.ibananas.cn%2fback%2fcheck%3fcno%3d%26au%3dctn.xmh555.com%26red%3d%252fuser%26sc%3d">QQ账号登入/注册</a>
+
+
+
+
+        <a href="Mobile?tp=0&back=%2fuser" class="loginBTN style03">手机号码注册</a>
+        <p align="center">忘记账户和密码？</p>
+        <a href="Mobile?tp=0&back=%2fuser" class="loginBTN style04" style="">手机验证找回账户</a>
+
+        <a href="order?back=%2fuser" class="loginBTN style04" style="">订单号找回账户</a>
+        客服QQ：<a href="#" class="red">3257494368</a>
+
+
+    </div>
+</div>
+<p id="qqLoginBtn" style="display: none"></p>
+
+<input type="hidden" id="hiddBackUrl" value="/user" />
+
+<input type="hidden" id="hiddloginUrl" value="http://read.ibananas.cn/back/check?cno=&amp;au=ctn.xmh555.com&amp;red=%2fuser&sc=" />
+
+<style type="text/css">
+    #addFavBox{ position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8);}
+    #addFavBox div{ width:80%; padding:20px; margin:40% auto; background:#fff;}
+    #addFavBox div p{ text-indent:0; margin:0; text-align:center; line-height:25px;}
+
+    .yellowBtn {
+        text-decoration: none;
+        color: #fff;
+        width: 100%;
+        font-weight: bold;
+        display: block;
+        height: 35px;
+        line-height: 35px;
+        text-align: center;
+        border-radius: 4px;
+        margin: 10px 0;
+
+        background: #FC0;
+    }
+
+</style>
+<div id="addFavBox" style="display: none;">
+    <div>
+
+        <p>
+            请用用户名登陆或复制<span class="red">下面网址</span>在浏览器使用QQ登陆。
+        </p>
+
+        <p style="margin-top:5px">登陆后请在个人中心查看用户名或者绑定手机号，在APP上可凭用户名或手机号登陆。</p>
+
+        <p style="margin-top:25px">
+            <span class="red" id="theusername">http://tinyurl.com/ybx33wqx</span>
+        </p>
+
+        <button class="yellowBtn sign01"   style="background:#429d7a;border:0"
+                data-param="test" id="copyBtn" data-clipboard-action="copy" data-ctype="0"
+                data-clipboard-target="#copyTarget">
+            复制网址
+        </button>
+
+        <a href="javascript:$('#addFavBox').hide();" id="close" class="yellowBtn">我知道了</a>
+
+    </div>
+</div>
+<div id="copyTarget" style="opacity: 0;"></div>
+
+
+
+
+<script src="/assets/js/jquery.min.js?t=1"></script>
+
+
+<script src="/assets/js/clipboard.js"></script>
+
+<script>
+    var check = false;
+    var back = $("#hiddBackUrl").val();
+
+    function checkForm() {
+        if (check) {
+            return false;
+        }
+
+        var tel = document.getElementById("tel").value, password = document.getElementById("password").value,
+            loginForm = document.getElementById("loginForm");
+
+        if (tel.length < 6) {
+            alert("用户名不合法！");
+            return false;
+        }
+        //if (!(/^1[34578]\d{9}$/.test(tel))) {
+        //    alert("手机号码有误，请重填");
+        //    return false;
+        //}
+        if (password.length < 6) {
+            alert("密码不得少于6位数！");
+            return false;
+        }
+
+        check = true;
+        $.ajax({
+            url: "CheckLogin",
+            data: { name: tel, pass: password },
+            type: "POST",
+            dataType: "json",
+            success: function (msg) {
+
+                if (msg.code == 0) {
+                    location.href = back;
+                } else {
+                    alert(msg.message);
+                }
+
+                check = false;
+
+            }, error: function () {
+                check = false;
+            }
+        });
+    }
+
+</script>
+
+
+<script type="text/javascript">
+
+    var ispc = "";
+
+    function dianji() {
+        if (ispc == "1") {
+            location.href = $(".tengxunlogin").data("pc-href");
+        } else {
+            location.href = $("#hiddloginUrl").val();
+        }
+    }
+
+</script>
+
+<script>
+
+    new ClipboardJS('.sign01', {
+        text: function (trigger) {
+            var param = $(trigger).data("param"); /*获取目标对象上挂载的参数test*/
+            var ct = $(trigger).data("ctype");
+
+            getCopyData(param, ct);
+
+            return trigger.getAttribute('aria-label');
+        }
+    });
+
+
+    function getCopyData(param, tp) {
+        var infodata = "";
+        if (param == "test") {
+
+            infodata = document.getElementById("theusername").innerText;
+
+            $("#copyTarget").text(infodata);  /*放入目标对象*/
+
+            alert("复制成功");
+        }
+    }
+
+
+    function dianji1() {
+
+        $('#addFavBox').show();
+    }
+</script>
+
+
+</body>
+</html>
