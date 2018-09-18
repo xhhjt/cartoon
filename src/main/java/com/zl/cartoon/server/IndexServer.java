@@ -88,13 +88,13 @@ public class IndexServer {
         list.add(youmoqingsong);
         list.add(sanbenmianfei);
 
-        setRecommendModel(jingping,false,"","最新上架",0,setRecommendDetailModelList(6,0));
-        setRecommendModel(zuixinshangjia,false,"","最新上架",1,setRecommendDetailModelList(6,1));
-        setRecommendModel(yuzhaifuli,false,"","最新上架",1,setRecommendDetailModelList(6,1));
-        setRecommendModel(zuixingengxin,false,"","最新上架",1,setRecommendDetailModelList(6,1));
-        setRecommendModel(kongbulingyi,false,"","最新上架",1,setRecommendDetailModelList(6,1));
-        setRecommendModel(youmoqingsong,false,"","最新上架",1,setRecommendDetailModelList(6,1));
-        setRecommendModel(sanbenmianfei,false,"","最新上架",1,setRecommendDetailModelList(3,1));
+        setRecommendModel(jingping, false, "", "最新上架", 0, setRecommendDetailModelList(6, 0));
+        setRecommendModel(zuixinshangjia, false, "", "最新上架", 1, setRecommendDetailModelList(6, 1));
+        setRecommendModel(yuzhaifuli, false, "", "最新上架", 1, setRecommendDetailModelList(6, 1));
+        setRecommendModel(zuixingengxin, false, "", "最新上架", 1, setRecommendDetailModelList(6, 1));
+        setRecommendModel(kongbulingyi, false, "", "最新上架", 1, setRecommendDetailModelList(6, 1));
+        setRecommendModel(youmoqingsong, false, "", "最新上架", 1, setRecommendDetailModelList(6, 1));
+        setRecommendModel(sanbenmianfei, false, "", "最新上架", 1, setRecommendDetailModelList(3, 1));
 
         return list;
     }
@@ -107,16 +107,22 @@ public class IndexServer {
         model.setRtype(rtype);
     }
 
-    private List<RecommendDetailModel> setRecommendDetailModelList(int Length,int type) {
+    public RecommendModel jingping() {
+        RecommendModel jingping = new RecommendModel();
+        setRecommendModel(jingping, false, "", "最新上架", 1, setRecommendDetailModelList(6, 0));
+        return jingping;
+    }
+
+    private List<RecommendDetailModel> setRecommendDetailModelList(int Length, int type) {
         List<RecommendDetailModel> modelList = new ArrayList<>();
         for (int i = 0; i < Length; i++) {
             RecommendDetailModel model = new RecommendDetailModel();
             model.setAuthor("DURUFIX");
             model.setCname("");
             model.setContent("xxxoo");
-            if (type==0){
+            if (type == 0) {
                 model.setImgUrl("http://img2.xmh222.com//uploadfiles/20180824/small/403231fa24e24a1da4464a52ca3c9839877.jpg");
-            }else {
+            } else {
                 model.setImgUrl("http://img3.xmh222.com//uploadfiles/20180910/small/27494a1ddd9848148932124ab7ca39ae932.jpg");
             }
             model.setLinkUrl("/cartoondetail/137");

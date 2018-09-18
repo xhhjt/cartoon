@@ -2,55 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cd92281-9f4d-4fb9-b5a9-ba683a489004" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/LoginController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/requestmodel/GetIndexOrderModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/GetIndexOrderResultModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/RecommendDetailModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/RecommendModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/CartoonDetailServer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/css/base.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/css/css1.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/css/detail.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/css/loading.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/css/newIcons01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/css/task.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/image/btnIconhome.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/image/memu.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/image/sprite-header.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/images/btnIconhome.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/images/cover.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/images/default.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/images/delete.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/images/memu.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/images/newIcons01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/images/qr/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/images/sprite-header.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/images/wode_kouzhan.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/clipboard.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/loadImg.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/m_ps.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/mobile_new_comment2_17.3.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/slide.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/sort.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/bindphone.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/config/CartoonConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/CartoonDetailModel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/CartoonType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/ChapterDetailModel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/css/read02.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/images/cartoon.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/cookies.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/jquery.lazyload.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/read.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/cartoonconfig.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/chapterlist.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/read.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/CartoonDetailController.java" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/CartoonDetailController.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/IndexController.java" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/IndexController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/MyController.java" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/MyController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/CartoonDetailServer.java" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/CartoonDetailServer.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/IndexServer.java" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/IndexServer.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/js/jquery.min.js" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/jquery.min.js" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/cartoondetail.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/cartoondetail.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/my.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/my.html" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/js/jquery.min.js" afterPath="$PROJECT_DIR$/target/classes/assets/js/jquery.min.js" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/controoler/CartoonDetailController.class" afterPath="$PROJECT_DIR$/target/classes/com/zl/cartoon/controoler/CartoonDetailController.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/controoler/IndexController.class" afterPath="$PROJECT_DIR$/target/classes/com/zl/cartoon/controoler/IndexController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/controoler/MyController.class" afterPath="$PROJECT_DIR$/target/classes/com/zl/cartoon/controoler/MyController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/server/CartoonDetailServer.class" afterPath="$PROJECT_DIR$/target/classes/com/zl/cartoon/server/CartoonDetailServer.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/server/IndexServer.class" afterPath="$PROJECT_DIR$/target/classes/com/zl/cartoon/server/IndexServer.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/cartoondetail.html" afterPath="$PROJECT_DIR$/target/classes/templates/cartoondetail.html" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/my.html" afterPath="$PROJECT_DIR$/target/classes/templates/my.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -83,10 +57,90 @@
       <file leaf-file-name="CartoonDetailController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/CartoonDetailController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+            <state relative-caret-position="162">
+              <caret line="40" column="42" lean-forward="false" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndexServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/IndexServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1863">
+              <caret line="111" column="56" lean-forward="false" selection-start-line="111" selection-start-column="56" selection-end-line="111" selection-end-column="56" />
+              <folding>
+                <element signature="method#getCartoonsTop#0;class#IndexServer#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cookies.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/js/cookies.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="598">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.lazyload.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/js/jquery.lazyload.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" column="3309" lean-forward="false" selection-start-line="1" selection-start-column="3309" selection-end-line="1" selection-end-column="3309" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="read.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/read.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="118" column="10" lean-forward="true" selection-start-line="118" selection-start-column="10" selection-end-line="118" selection-end-column="10" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="read.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/js/read.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="181" column="0" lean-forward="true" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
+              <folding>
+                <marker date="1537198320117" expanded="true" signature="4845:4883" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chapterlist.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/chapterlist.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="223" column="74" lean-forward="true" selection-start-line="223" selection-start-column="74" selection-end-line="223" selection-end-column="74" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,8 +149,8 @@
       <file leaf-file-name="cartoondetail.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cartoondetail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-710">
-              <caret line="98" column="24" lean-forward="false" selection-start-line="98" selection-start-column="13" selection-end-line="98" selection-end-column="24" />
+            <state relative-caret-position="236">
+              <caret line="269" column="25" lean-forward="true" selection-start-line="269" selection-start-column="25" selection-end-line="269" selection-end-column="25" />
               <folding>
                 <element signature="n#style#0;n#a#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -104,70 +158,25 @@
                 <element signature="n#style#0;n#a#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#2;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#div#2;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#ul#0;n#div#2;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#script#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <marker date="1537153205386" expanded="true" signature="5946:5983" ph="..." />
+                <marker date="1537248671878" expanded="true" signature="6254:6291" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+      <file leaf-file-name="CartoonDetailServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/CartoonDetailServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="44" column="28" lean-forward="true" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
-              <folding>
-                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#854#977#0" expanded="false" />
-                <element signature="e#1006#1049#0" expanded="false" />
-                <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#ul#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#0;n#ul#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#1;n#ul#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#2;n#ul#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#ul#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#3;n#ul#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a#0;n#li#3;n#ul#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#script#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#script#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#script#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#script#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#script#8;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#6455#6562#0" expanded="false" />
-                <element signature="e#6606#6690#0" expanded="false" />
-                <element signature="e#6638#6684#0" expanded="false" />
-                <element signature="e#6716#7494#0" expanded="false" />
-                <element signature="e#6791#6857#0" expanded="false" />
-                <element signature="e#6887#7463#0" expanded="false" />
-                <element signature="e#6908#7451#0" expanded="false" />
-                <element signature="e#7063#7437#0" expanded="false" />
-                <element signature="e#7101#7212#0" expanded="false" />
-                <element signature="e#7234#7297#0" expanded="false" />
-                <element signature="e#7303#7419#0" expanded="false" />
-                <element signature="e#7744#7816#0" expanded="false" />
-                <element signature="e#7862#7934#0" expanded="false" />
-                <element signature="e#7983#8255#0" expanded="false" />
-                <element signature="e#8194#8245#0" expanded="false" />
-                <element signature="e#10768#11708#0" expanded="false" />
-                <element signature="e#11529#11680#0" expanded="false" />
-                <element signature="e#11754#11834#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="637">
+              <caret line="79" column="21" lean-forward="false" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -179,26 +188,15 @@
       <list>
         <option value="Interface" />
         <option value="Tag Library Descriptor" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>data</find>
-      <find>txtItme</find>
-      <find>icon</find>
-      <find>desc</find>
-      <find>asc</find>
-      <find>sort</find>
-      <find>sub_r</find>
-      <find>khdDown</find>
-      <find>api/subscribe/add</find>
-      <find>home/recommend</find>
-      <find>images/qr/1</find>
-      <find>undefined</find>
       <find>images/cover</find>
       <find>images/default.png</find>
       <find>default.png</find>
@@ -207,23 +205,36 @@
       <find>commandDes</find>
       <find>Content</find>
       <find>con</find>
-      <find>137</find>
       <find>Cartoon/IsRank</find>
       <find>Cartoon/GetIndexOrderBy</find>
-      <find>GetIndexOrderBy</find>
       <find>pageStart</find>
-      <find>images/cover.jpg</find>
       <find>add</find>
       <find>IsRank</find>
       <find>snovelId</find>
+      <find>headerbox</find>
       <find>novelId</find>
+      <find>137</find>
+      <find>cartoonId</find>
+      <find>images/cover.jpg</find>
+      <find>GetIndexOrderBy</find>
+      <find>Cartoon/LoadRecom</find>
+      <find>56</find>
+      <find>Cartoon/Read</find>
+      <find>CartoonId</find>
+      <find>Read?CartoonId</find>
+      <find>Cartoon/GetContent</find>
+      <find>Read</find>
+      <find>read</find>
+      <find>Cartoon/ChapterList</find>
+      <find>目录</find>
     </findStrings>
     <dirStrings>
       <dir>E:\zl\cartoonWeb\src\main\resources</dir>
       <dir>E:\zl\cartoonWeb\src\main\resources\assets\picture</dir>
-      <dir>E:\zl\cartoonWeb\cartoon\src\main\resources\assets\js</dir>
       <dir>E:\zl\cartoonWeb\cartoon\src\main\resources\templates</dir>
       <dir>E:\zl\cartoonWeb\cartoon\src\main\resources</dir>
+      <dir>E:\zl\cartoonWeb\cartoon</dir>
+      <dir>E:\zl\cartoonWeb\cartoon\src\main\resources\assets\js</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -237,17 +248,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/util/ArrayUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/util/NetUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/util/FileExecutor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/util/IChecker.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/util/Checker.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/HotController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/SubscribeController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/ClassifyController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/js/a.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/Index.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/exception/GlobalExceptionHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/CartoonApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/Result.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/CartoonDaoMapper.tld" />
@@ -274,20 +274,31 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/css/task.css" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/js/slide.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/IndexController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/js/loadImg.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/RecommendDetailModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/RecommendModel.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/css/detail.css" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/css/base.css" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/css/css1.css" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/IndexServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/GetIndexOrderResultModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/CartoonDetailServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/requestmodel/GetIndexOrderModel.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/CartoonType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/CartoonDetailModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/config/CartoonConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/cartoonconfig.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/IndexServer.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/css/read02.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/js/cookies.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/js/jquery.lazyload.min.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/js/read.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/ChapterDetailModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/CartoonDetailServer.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/chapterlist.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/CartoonDetailController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/cartoondetail.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/read.html" />
       </list>
     </option>
   </component>
@@ -343,9 +354,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -405,16 +414,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cartoon" type="462c0819:PsiDirectoryNode" />
               <item name="entity" type="462c0819:PsiDirectoryNode" />
-              <item name="requestmodel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cartoon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cartoon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cartoon" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
               <item name="returnmodel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -422,15 +421,6 @@
               <item name="cartoon" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cartoon" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cartoon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cartoon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -447,8 +437,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cartoon" type="b2602c69:ProjectViewProjectNode" />
@@ -462,7 +451,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -476,9 +467,10 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/qiansheng/beisitiqi/springmvc/NewWeb" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/zl/cartoonWeb/cartoon/src/main/java/com/zl/cartoon/controoler/CartoonDetailController.java" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -625,15 +617,20 @@
       <workItem from="1536936317875" duration="2783000" />
       <workItem from="1536977323114" duration="26000" />
       <workItem from="1536988335937" duration="4744000" />
-      <workItem from="1537071642584" duration="11776000" />
+      <workItem from="1537071642584" duration="14775000" />
+      <workItem from="1537176445760" duration="4616000" />
+      <workItem from="1537195509973" duration="2929000" />
+      <workItem from="1537234610314" duration="61000" />
+      <workItem from="1537247277714" duration="1824000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55843000" />
+    <option name="totallyTimeSpent" value="68272000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -645,18 +642,18 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4458381" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31584948" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18723176" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19259657" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -714,23 +711,45 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/CartoonDetailController.java</url>
-          <line>20</line>
+          <line>21</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/CartoonDetailController.java</url>
-          <line>26</line>
+          <line>27</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/CartoonDetailController.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/CartoonDetailController.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>cartoonConfig</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>server.getCartoonDetailModel(rowid)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>dao.getAll()</expression-string>
         <language-id>JAVA</language-id>
@@ -739,53 +758,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/CartoonApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/soft/maven/repository/com/alibaba/fastjson/1.2.47/fastjson-1.2.47-sources.jar!/com/alibaba/fastjson/serializer/SerializerFeature.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="74" column="4" lean-forward="false" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/config/WebConfig.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/dao/CartoonDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/config/WebMvcConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="54" column="9" lean-forward="false" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/config/ConfigApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/hot.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/classify.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/subscribe.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/my.html" />
-    <entry file="file://D:/soft/maven/repository/org/springframework/boot/spring-boot-dependencies/2.0.4.RELEASE/spring-boot-dependencies-2.0.4.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="486" column="12" lean-forward="false" selection-start-line="486" selection-start-column="12" selection-end-line="486" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/soft/maven/repository/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE-sources.jar!/org/springframework/ui/Model.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -798,14 +770,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="94" column="53" lean-forward="false" selection-start-line="94" selection-start-column="44" selection-end-line="94" selection-end-column="53" />
           <folding />
         </state>
       </provider>
@@ -828,7 +792,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="644">
           <caret line="28" column="9" lean-forward="false" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -870,7 +833,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="421" lean-forward="false" selection-start-line="0" selection-start-column="421" selection-end-line="0" selection-end-column="421" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -885,7 +847,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="105" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -893,9 +854,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="571">
           <caret line="938" column="3" lean-forward="false" selection-start-line="938" selection-start-column="3" selection-end-line="938" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -913,41 +871,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="175" column="0" lean-forward="true" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#2728#3015#0" expanded="false" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#p#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#p#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#button#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#script#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#4004#5068#0" expanded="false" />
-            <element signature="e#4025#4062#0" expanded="false" />
-            <element signature="e#4265#4332#0" expanded="false" />
-            <element signature="e#4341#4380#0" expanded="false" />
-            <element signature="e#4489#4559#0" expanded="false" />
-            <element signature="e#4598#5060#0" expanded="false" />
-            <element signature="e#4772#4983#0" expanded="false" />
-            <element signature="e#4810#4871#0" expanded="false" />
-            <element signature="e#4877#4936#0" expanded="false" />
-            <element signature="e#5004#5050#0" expanded="false" />
-            <element signature="n#script#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#5157#5336#0" expanded="false" />
-            <element signature="e#5184#5259#0" expanded="false" />
-            <element signature="e#5265#5330#0" expanded="false" />
-            <element signature="n#script#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#5390#5653#0" expanded="false" />
-            <element signature="e#5425#5647#0" expanded="false" />
-            <element signature="e#5477#5497#0" expanded="false" />
-            <element signature="e#5694#5929#0" expanded="false" />
-            <element signature="e#5752#5923#0" expanded="false" />
-            <element signature="e#5875#5885#0" expanded="false" />
-            <element signature="e#5955#5995#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -955,7 +878,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="20" column="41" lean-forward="false" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -963,10 +885,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="e#538#539#0" expanded="false" />
-            <element signature="e#570#571#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -974,15 +892,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="33" column="38" lean-forward="true" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/js/loadImg.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="54" column="22" lean-forward="true" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -990,7 +899,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -998,27 +906,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="27" column="27" lean-forward="false" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-          <folding>
-            <element signature="e#278#279#0" expanded="false" />
-            <element signature="e#307#308#0" expanded="false" />
-            <element signature="e#352#353#0" expanded="false" />
-            <element signature="e#388#389#0" expanded="false" />
-            <element signature="e#422#423#0" expanded="false" />
-            <element signature="e#452#453#0" expanded="false" />
-            <element signature="e#498#499#0" expanded="false" />
-            <element signature="e#536#537#0" expanded="false" />
-            <element signature="e#593#594#0" expanded="false" />
-            <element signature="e#632#633#0" expanded="false" />
-            <element signature="e#666#667#0" expanded="false" />
-            <element signature="e#697#698#0" expanded="false" />
-            <element signature="e#724#725#0" expanded="false" />
-            <element signature="e#764#765#0" expanded="false" />
-            <element signature="e#796#797#0" expanded="false" />
-            <element signature="e#847#848#0" expanded="false" />
-            <element signature="e#874#875#0" expanded="false" />
-            <element signature="e#934#935#0" expanded="false" />
-            <element signature="e#966#967#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1026,44 +913,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
           <caret line="29" column="28" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="28" />
-          <folding>
-            <element signature="e#357#358#0" expanded="false" />
-            <element signature="e#386#387#0" expanded="false" />
-            <element signature="e#430#431#0" expanded="false" />
-            <element signature="e#466#467#0" expanded="false" />
-            <element signature="e#498#499#0" expanded="false" />
-            <element signature="e#526#527#0" expanded="false" />
-            <element signature="e#568#569#0" expanded="false" />
-            <element signature="e#602#603#0" expanded="false" />
-            <element signature="e#636#637#0" expanded="false" />
-            <element signature="e#666#667#0" expanded="false" />
-            <element signature="e#712#713#0" expanded="false" />
-            <element signature="e#750#751#0" expanded="false" />
-            <element signature="e#783#784#0" expanded="false" />
-            <element signature="e#812#813#0" expanded="false" />
-            <element signature="e#856#857#0" expanded="false" />
-            <element signature="e#892#893#0" expanded="false" />
-            <element signature="e#926#927#0" expanded="false" />
-            <element signature="e#956#957#0" expanded="false" />
-            <element signature="e#1002#1003#0" expanded="false" />
-            <element signature="e#1040#1041#0" expanded="false" />
-            <element signature="e#1074#1075#0" expanded="false" />
-            <element signature="e#1104#1105#0" expanded="false" />
-            <element signature="e#1150#1151#0" expanded="false" />
-            <element signature="e#1188#1189#0" expanded="false" />
-            <element signature="e#1220#1221#0" expanded="false" />
-            <element signature="e#1248#1249#0" expanded="false" />
-            <element signature="e#1290#1291#0" expanded="false" />
-            <element signature="e#1324#1325#0" expanded="false" />
-            <element signature="e#1360#1361#0" expanded="false" />
-            <element signature="e#1395#1396#0" expanded="false" />
-            <element signature="e#1448#1449#0" expanded="false" />
-            <element signature="e#1496#1497#0" expanded="false" />
-            <element signature="e#1528#1529#0" expanded="false" />
-            <element signature="e#1556#1557#0" expanded="false" />
-            <element signature="e#1598#1599#0" expanded="false" />
-            <element signature="e#1632#1633#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1071,7 +920,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9">
           <caret line="2" column="78" lean-forward="false" selection-start-line="2" selection-start-column="68" selection-end-line="2" selection-end-column="78" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1079,7 +927,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="1403" lean-forward="false" selection-start-line="7" selection-start-column="1403" selection-end-line="7" selection-end-column="1403" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1087,75 +934,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="2216" lean-forward="false" selection-start-line="0" selection-start-column="2208" selection-end-line="0" selection-end-column="2216" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/IndexServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="121" column="48" lean-forward="false" selection-start-line="121" selection-start-column="48" selection-end-line="121" selection-end-column="48" />
-          <folding>
-            <element signature="method#getCartoons#0;class#IndexServer#0" expanded="false" />
-            <element signature="method#getCartoonsTop#0;class#IndexServer#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/GetIndexOrderResultModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-          <folding>
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-            <element signature="e#673#674#0" expanded="true" />
-            <element signature="e#707#708#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
-            <element signature="e#797#798#0" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
-            <element signature="e#906#907#0" expanded="true" />
-            <element signature="e#934#935#0" expanded="true" />
-            <element signature="e#973#974#0" expanded="true" />
-            <element signature="e#1007#1008#0" expanded="true" />
-            <element signature="e#1038#1039#0" expanded="true" />
-            <element signature="e#1065#1066#0" expanded="true" />
-            <element signature="e#1105#1106#0" expanded="true" />
-            <element signature="e#1137#1138#0" expanded="true" />
-            <element signature="e#1169#1170#0" expanded="true" />
-            <element signature="e#1199#1200#0" expanded="true" />
-            <element signature="e#1243#1244#0" expanded="true" />
-            <element signature="e#1281#1282#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/CartoonDetailServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="27" column="20" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="35" column="41" lean-forward="false" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1164,33 +942,9 @@
         <state relative-caret-position="138">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/requestmodel/GetIndexOrderModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding>
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#650#651#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#256#257#0" expanded="false" />
+            <element signature="e#287#288#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1199,7 +953,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1207,7 +960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1215,7 +967,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4002">
           <caret line="174" column="30" lean-forward="false" selection-start-line="174" selection-start-column="21" selection-end-line="174" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1223,24 +974,159 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/CartoonType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/CartoonDetailModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="73" column="23" lean-forward="false" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/config/CartoonConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/cartoonconfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="94" column="53" lean-forward="false" selection-start-line="94" selection-start-column="44" selection-end-line="94" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/CartoonDetailController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/js/loadImg.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        <state relative-caret-position="575">
+          <caret line="25" column="9" lean-forward="false" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2921">
+          <caret line="314" column="49" lean-forward="false" selection-start-line="314" selection-start-column="49" selection-end-line="314" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/requestmodel/GetIndexOrderModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="49" column="32" lean-forward="false" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/css/read02.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="870" lean-forward="false" selection-start-line="0" selection-start-column="870" selection-end-line="0" selection-end-column="870" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/IndexServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1863">
+          <caret line="111" column="56" lean-forward="false" selection-start-line="111" selection-start-column="56" selection-end-line="111" selection-end-column="56" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#getCartoonsTop#0;class#IndexServer#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/js/cookies.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/ChapterDetailModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding>
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/GetIndexOrderResultModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/CartoonDetailServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="79" column="21" lean-forward="false" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/js/jquery.lazyload.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="3309" lean-forward="false" selection-start-line="1" selection-start-column="3309" selection-end-line="1" selection-end-column="3309" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/chapterlist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="223" column="74" lean-forward="true" selection-start-line="223" selection-start-column="74" selection-end-line="223" selection-end-column="74" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cartoondetail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-710">
-          <caret line="98" column="24" lean-forward="false" selection-start-line="98" selection-start-column="13" selection-end-line="98" selection-end-column="24" />
+        <state relative-caret-position="236">
+          <caret line="269" column="25" lean-forward="true" selection-start-line="269" selection-start-column="25" selection-end-line="269" selection-end-column="25" />
           <folding>
             <element signature="n#style#0;n#a#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1248,67 +1134,54 @@
             <element signature="n#style#0;n#a#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#2;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#2;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#2;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#script#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1537153205386" expanded="true" signature="5946:5983" ph="..." />
+            <marker date="1537248671878" expanded="true" signature="6254:6291" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/CartoonDetailController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="44" column="28" lean-forward="true" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+        <state relative-caret-position="162">
+          <caret line="40" column="42" lean-forward="false" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="42" />
           <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#854#977#0" expanded="false" />
-            <element signature="e#1006#1049#0" expanded="false" />
-            <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#1;n#ul#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#2;n#ul#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#3;n#ul#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a#0;n#li#3;n#ul#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#script#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#script#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#script#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#script#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#script#8;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#6455#6562#0" expanded="false" />
-            <element signature="e#6606#6690#0" expanded="false" />
-            <element signature="e#6638#6684#0" expanded="false" />
-            <element signature="e#6716#7494#0" expanded="false" />
-            <element signature="e#6791#6857#0" expanded="false" />
-            <element signature="e#6887#7463#0" expanded="false" />
-            <element signature="e#6908#7451#0" expanded="false" />
-            <element signature="e#7063#7437#0" expanded="false" />
-            <element signature="e#7101#7212#0" expanded="false" />
-            <element signature="e#7234#7297#0" expanded="false" />
-            <element signature="e#7303#7419#0" expanded="false" />
-            <element signature="e#7744#7816#0" expanded="false" />
-            <element signature="e#7862#7934#0" expanded="false" />
-            <element signature="e#7983#8255#0" expanded="false" />
-            <element signature="e#8194#8245#0" expanded="false" />
-            <element signature="e#10768#11708#0" expanded="false" />
-            <element signature="e#11529#11680#0" expanded="false" />
-            <element signature="e#11754#11834#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/js/read.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="181" column="0" lean-forward="true" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
+          <folding>
+            <marker date="1537198320117" expanded="true" signature="4845:4883" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/read.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="118" column="10" lean-forward="true" selection-start-line="118" selection-start-column="10" selection-end-line="118" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

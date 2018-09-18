@@ -1,5 +1,5 @@
 ﻿<!doctype html>
-<html>
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
     <meta charset="utf-8">
@@ -24,9 +24,9 @@
 
 <input type="hidden" value="http://img2.xmh222.com//uploadfiles/20180906/small/71105dfc500140ffbabf1af66b635a4a313.jpg"
        id="novelImg"/>
-<input type="hidden" value="137" id="novelId"/>
-<input type="hidden" value="137" id="snovelId"/>
-<input type="hidden" value="50" id="hidprice"/>
+<input type="hidden" th:value="${cartoon.rowId}" id="novelId"/>
+<input type="hidden" th:value="${cartoon.rowId}" id="snovelId"/>
+<input type="hidden" th:value="${cartoon.hidprice}" id="hidprice"/>
 <section class="detailBox">
     <div class="detailtop">
         <a href="javascript:history.go(-1);" class="back01"></a><a href="UserCartoon" class="mybooks01"
@@ -35,17 +35,17 @@
     </div>
     <div class="detailCover clf">
         <a href="#" class="fl w30"><img
-                src="http://img2.xmh222.com//uploadfiles/20180906/small/71105dfc500140ffbabf1af66b635a4a313.jpg"
+                th:src="${cartoon.image}"
                 height="100"></a>
         <div class="fr w65">
-            <b class="booktitle">出轨的女人</b>
+            <b class="booktitle" th:text="${cartoon.title}">出轨的女人</b>
             <div style="line-height:25px; font-size:0.7em">
-                <p>作者：<a href="/home/Search?keyValue=TA">TA</a></p>
+                <p>作者：<a th:href="'/home/Search?keyValue='+${cartoon.author}" th:text="${cartoon.author}"></a></p>
                 <p>
                     状态：<a>宅系 | </a>
                     <a>连载中</a>
                 </p>
-                <p>阅读：1407103 次</p>
+                <p th:text="'阅读：'+${cartoon.visitCount}+' 次'"></p>
             </div>
         </div>
     </div>
@@ -63,16 +63,19 @@
                                                                                 class="readBtn off" id="del">已加入书架</a>
     </div>
 
-    <div class="detailBoxdesc" onclick="showMore(this)">
-        发现我老婆和朋友关系的那瞬间，与愤怒伴随而来的，是快感！！
-    </div>
-    <div class="detailBoxdesc" style="display:block;">
-        标签：
-        <a href="/home/Search?keyValue=少女" class="tag blueTag">少女</a>
-        <a href="/home/Search?keyValue=青年" class="tag blueTag">青年</a>
-        <a href="/home/Search?keyValue=韩国" class="tag blueTag">韩国</a>
+    <div class="detailBoxdesc" onclick="showMore(this)" th:text="${cartoon.des}">
 
     </div>
+    <div class="detailBoxdesc" style="display:block;">
+        <span style="float: left">标签：</span>
+        <ul style="list-style:none;padding:0;margin:0;float: left;text-decoration: none; ">
+            <li style="display:inline;" th:each="item : ${cartoon.getTypeList()}"><a
+                    th:href="'/home/Search?keyValue='+${item.getRowid()}" class="tag blueTag"
+                    th:text="${item.getTitle()}"></a></li>
+        </ul>
+
+    </div>
+
 </section>
 
 
@@ -96,7 +99,7 @@
     </ul>
     <ul class="mh_list clf" id="chapter"></ul>
 
-    <a href="ChapterList?CartoonId=137" class="clickmore">查看全部目录</a>
+    <a  th:href="'/cartoondetail/ChapterList/'+${cartoon.getRowId()}" class="clickmore">查看全部目录</a>
 </section>
 
 
@@ -261,7 +264,7 @@
 
                         var statusName = "";//0：免费    1：VIP   2：已读
 
-                        var href = "/Cartoon/Read?CartoonId=" + CartoonId + "&chapterId=" + obj.id;
+                        var href = "/Cartoon/Read/" + CartoonId + "/" + obj.id;
                         if (obj.ChapterStatus == 0) {
                             statusName = "免费";
                         }
@@ -345,12 +348,12 @@
 
                         show = 1;
                         var cname = "";
-                        if (v.CName != "null" && v.CName != null) {
-                            cname = v.CName;
+                        if (v.cname != "null" && v.cname != null) {
+                            cname = v.cname;
                         }
 
-                        li += lit.replace(/{id}/g, j).replace(/{nlink}/g, v.LinkUrl).replace(/{cname}/g, cname).replace(/{img}/g, v.ImgUrl).replace(/{upstate}/g, v.upstr)
-                            .replace(/{author}/g, v.Author).replace(/{name}/g, v.Title).replace(/{summary}/g, v.Summary).replace(/{imgurl}/g, v.ImgUrl);
+                        li += lit.replace(/{id}/g, j).replace(/{nlink}/g, v.linkUrl).replace(/{cname}/g, cname).replace(/{img}/g, v.imgUrl).replace(/{upstate}/g, v.upstr)
+                            .replace(/{author}/g, v.author).replace(/{name}/g, v.title).replace(/{summary}/g, v.summary).replace(/{imgurl}/g, v.imgUrl);
 
                     });
 

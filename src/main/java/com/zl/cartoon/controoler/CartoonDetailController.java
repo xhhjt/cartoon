@@ -1,5 +1,6 @@
 package com.zl.cartoon.controoler;
 
+import com.zl.cartoon.config.CartoonConfig;
 import com.zl.cartoon.entity.Result;
 import com.zl.cartoon.entity.requestmodel.GetIndexOrderModel;
 import com.zl.cartoon.server.CartoonDetailServer;
@@ -12,12 +13,12 @@ import org.springframework.web.bind.annotation.*;
 public class CartoonDetailController {
     @Autowired
     CartoonDetailServer server;
+    @Autowired
+    CartoonConfig cartoonConfig;
 
     @RequestMapping(value = "cartoondetail/{rowid}")
     public String cartoonDetail(@PathVariable("rowid") long rowid, Model model) {
-        model.addAttribute("rowid", rowid);
-        model.addAttribute("Pic", "/assets/picture/8f46d40d2e7b434da01b7ad9074b553c.gif");
-
+        model.addAttribute("cartoon", server.getCartoonDetailModel(rowid));
         return "cartoondetail";
     }
 
@@ -29,11 +30,33 @@ public class CartoonDetailController {
         return result;
     }
 
-    @RequestMapping(value = "cartoondetail/IsRank",method = RequestMethod.POST)
+    @RequestMapping(value = "cartoondetail/IsRank", method = RequestMethod.POST)
     @ResponseBody
-    public Result IsRank(){
+    public Result IsRank() {
         Result result = new Result();
         result.setData("yes");
         return result;
     }
+
+    @RequestMapping(value = "cartoondetail/ChapterList/{cartoonId}")
+    public String ChapterList(@PathVariable("cartoonId") long CartoonId, Model model) {
+        model.addAttribute("cartoon", server.getCartoonDetailModel(12L));
+        return "chapterlist";
+    }
+
+    @RequestMapping(value = "Cartoon/Read/{cartoonId}/{chapterId}")
+    public String Read(@PathVariable(value = "cartoonId") long cartoonId,
+                       @PathVariable(value = "chapterId") long chapterId, Model model) {
+        model.addAttribute("chapter", server.getChapterDetailModel(cartoonId));
+        return "read";
+    }
+
+    @RequestMapping(value = "Cartoon/GetContent")
+    @ResponseBody
+    public Result GetContent() {
+        Result result = new Result();
+        return result;
+    }
+
+
 }

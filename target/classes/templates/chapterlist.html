@@ -1,0 +1,268 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta charset="utf-8">
+    <meta content="width=device-width,height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+          name="viewport"/>
+
+    <meta name="keywords" content="动漫,喵喵漫画动漫,漫画,动画,原创,正版,火影忍者,海贼王,捕王,充气女神,喵喵漫画官方网站"/>
+    <meta name="description"
+          content="正版动漫网站，连载众多原创国漫，原创动画，正版日漫等海内外最热正版动漫内容，为上千万动漫爱好者提供漫画、动画、资讯、论坛一站式全方位动漫服务，为原创动漫作者提供最优质的创作成长环境，为中国动漫产业打造梦想舞台。"/>
+    <link href="/assets/css/base.css?v=21" rel="stylesheet" type="text/css">
+    <link href="/assets/css/loading.css" rel="stylesheet"/>
+
+    <title>喵喵漫画 - 出轨的女人</title>
+
+
+    <link href="/assets/css/detail.css?t=21" rel="stylesheet"/>
+
+
+</head>
+<body>
+
+
+<style type="text/css">
+    .book_list li.font9 a {
+        display: block;
+        width: 85%;
+        float: left;
+        line-height: 18px;
+    }
+
+    .book_list li.font9 a span {
+        font-size: 0.8em;
+        display: block;
+        color: #999;
+    }
+</style>
+
+<header class="tophead">
+    <a href="javascript:history.go(-1);" class="back"></a>
+    <span th:text="${cartoon.getTitle()}"></span>
+    <a href="/" class="home01"></a>
+</header>
+<!--<div class="h50"></div>-->
+<section class="block">
+    <input type="hidden" th:value="${cartoon.getRowId()}" id="hidId"/>
+    <input type="hidden" th:value="${cartoon.getRowId()}" id="snovelId"/>
+    <input type="hidden" th:value="${cartoon.getHidprice()}" id="hidCount"/>
+    <div class="orderBar clf"><a href="javascript:void(0);" class="fl w50 orderon" id="asc" onclick="IndexOrderBy(0)">按正序</a><a
+            href="javascript:void(0);" class="fl w50 orderoff" id="desc" onclick="IndexOrderBy(1)">按倒序</a></div>
+    <ul class="mh_list clf">
+
+        <li>
+            <a href="/Cartoon/Read?cartoonId=137&amp;chapterId=7449" class="imgs fl" style="padding:0">
+                <img src="http://img1.xmh222.com//cartoonchaps/137/7449.jpg"
+                     onerror="this.src = '/assets/images/cover.jpg'" alt="http://img1.xmh222.com//cartoonchaps/137/7449.jpg">
+            </a>
+            <a href="/Cartoon/Read?cartoonId=137&amp;chapterId=7449" class="red w50">新 第37话 </a>
+            <i class="vip">
+                50阅币
+            </i>
+        </li>
+    </ul>
+    <ul class="mh_list clf" id="chapter"></ul>
+
+    <script type="text/template" id="chaptermb">
+
+        <li>
+
+            <a href="{href}" class="imgs fl" style="padding:0">
+                <img src="{img}"
+                     onerror="this.src = '/assets/images/cover.jpg'" alt="{img}">
+            </a>
+
+            <a href="{href}" class="w50">{name}</a><i class="{freeclass}">{isfree}</i>
+
+        </li>
+
+    </script>
+    <div class="spinner">
+        <div class="double-bounce1"></div>
+        <div class="double-bounce2"></div>
+    </div>
+
+    <div class="pageBox clf">
+        <a href="javascript:void(0);" class="fl" onclick="Page(0)">首页</a> <a href="javascript:void(0);" class="fl"
+                                                                             onclick="Page(1)">上一页</a>
+        <span class="fl">
+            <select name="pageindex" onchange="show_sub(this.options[this.options.selectedIndex].value)" id="pageId">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+            </select>
+        </span>
+        <a href="javascript:void(0);" class="fl" onclick="Page(2)">下一页</a>
+        <a href="javascript:void(0);" class="fl" onclick="Page(3)">尾页</a>
+    </div>
+</section>
+
+
+<script src="/assets/js/jquery.min.js?t=1"></script>
+
+
+<script src="/assets/js/loadImg.js"></script>
+
+<script type="text/javascript">
+    var CartoonId = $("#snovelId").val();
+    //var snovelId = $("#hidId").val();
+    var orderPageIndex = 0;
+    var orderPageSize = 10;
+    var orderBy = "asc";
+
+    window.onload = function () {
+        IndexOrderBy(0);
+    }
+
+    //章节倒序显示
+    function IndexOrderBy(type) {
+        if (type == 0) {
+            $("#asc").removeClass("orderoff");
+            $("#asc").addClass("orderon");
+            $("#desc").removeClass("orderon");
+            $("#desc").addClass("orderoff");
+
+            orderBy = "asc";
+        } else {
+            $("#desc").removeClass("orderoff");
+            $("#desc").addClass("orderon");
+            $("#asc").removeClass("orderon");
+            $("#asc").addClass("orderoff");
+            orderBy = "desc";
+        }
+        Page(0, 1);
+        var data = {"cartoonId": CartoonId, "pageStart": orderPageIndex, "pageSize": orderPageSize, "orderBy": orderBy};
+        FenYe(data);
+    }
+
+    var pageIndex = 0;
+    var pageSize = 10;
+    var count = 0;
+    var totalCount = $("#hidCount").val();
+    var totalPage = parseInt((parseInt(totalCount) - 1) / pageSize) + 1;
+
+    //上下分页
+    function Page(type, tp) {
+        var tpage = parseInt(totalPage) - 1;
+        var sel = document.getElementById("pageId");
+
+        // console.log(sel.value)
+
+        if (type == 0) {
+            count = 0;
+            pageIndex = 0;
+        }
+        else if (type == 1) {
+            if (pageIndex == 0) {
+                return;
+            }
+            else {
+                count--;
+                pageIndex = pageSize * parseInt(count);
+            }
+        }
+        else if (type == 2) {
+            if (count == tpage) {
+                return;
+            } else {
+                count++;
+                pageIndex = pageSize * parseInt(count);
+            }
+        }
+        else if (type == 3) {
+
+            if (count == tpage) {
+                return;
+            } else {
+                count = tpage;
+                pageIndex = parseInt(totalCount / pageSize) * pageSize;
+
+            }
+        }
+        if (tp == 1) {
+
+            sel.value = 1;
+            return false;
+        }
+        var data = {"cartoonId": CartoonId, "pageStart": pageIndex, "pageSize": pageSize, "orderBy": orderBy};
+        if (totalCount > pageIndex) {
+            sel.value = count + 1;
+            FenYe(data);
+        }
+    }
+
+    function FenYe(data) {
+
+
+        $.ajax({
+            url: "/cartoondetail/GetIndexOrderBy",
+            data: JSON.stringify(data),
+            type: "POST",
+            dataType: "json",
+            contentType: "application/json",
+            beforeSend: function () {
+                $(".spinner").show();
+            },
+            complete: function () {
+                $(".spinner").hide();
+            },
+            success: function (msg) {
+                Html(msg.data);
+            }
+        });
+    }
+
+    //数据渲染
+    function Html(msg) {
+        if (msg != null) {
+            var html = "";
+            var lit = $("#chaptermb").html();
+            $.each(msg, function (idx, obj) {
+
+                var statusClass = obj.chapterStatus == 1 ? "vip" : "free";
+                var statusName = "";//0：免费    1：VIP   2：已读
+
+                var href = "/Cartoon/Read/" + $("#hidId").val() + "/" + obj.cartoonId;
+
+                if (obj.chapterStatus == 0) {
+                    statusName = "免费";
+                }
+                else if (obj.chapterStatus == 1) {
+                    statusName = "50" + "阅币";
+                }
+                else if (obj.chapterStatus == 2) {
+                    statusName = "已读";
+                }
+
+                html += lit.replace(/{href}/g, href).replace(/{name}/g, obj.name).replace(/{isfree}/g, statusName).replace(/{freeclass}/g, statusClass)
+                    .replace(/{img}/g, obj.imgUrl);
+                if (idx > 0) {
+
+
+                } else {
+
+                    $("#snew").hide();
+
+                }
+
+            });
+
+            $("#chapter").html(html);
+            loadPicNow();
+
+        }
+    }
+
+    function show_sub(v) {
+        count = v - 1;
+        pageIndex = (v - 1) * 10;
+        var data = {"cartoonId": CartoonId, "pageStart": (v - 1) * pageSize, "pageSize": pageSize, "orderBy": orderBy};
+        FenYe(data);
+    }
+</script>
+
+
+</body>
+</html>

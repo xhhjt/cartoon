@@ -1,6 +1,9 @@
 package com.zl.cartoon.server;
 
 import com.zl.cartoon.entity.requestmodel.GetIndexOrderModel;
+import com.zl.cartoon.entity.returnmodel.CartoonDetailModel;
+import com.zl.cartoon.entity.returnmodel.CartoonType;
+import com.zl.cartoon.entity.returnmodel.ChapterDetailModel;
 import com.zl.cartoon.entity.returnmodel.GetIndexOrderResultModel;
 import org.springframework.stereotype.Service;
 
@@ -11,11 +14,35 @@ import java.util.List;
 @Service
 public class CartoonDetailServer {
 
-    public List<GetIndexOrderResultModel> getGetIndexOrderBy(GetIndexOrderModel model){
-        List<GetIndexOrderResultModel> list=new ArrayList<>();
+    public CartoonDetailModel getCartoonDetailModel(long rowid) {
+        CartoonDetailModel model = new CartoonDetailModel();
+        model.setRowId(12L);
+        model.setHidprice(50);
+        model.setTitle("不错哦");
+        model.setAuthor("zl");
+        model.setVisitCount(1314);
+        model.setDes("发现我老婆和朋友关系的那瞬间，与愤怒伴随而来的，是快感！！发现我老婆和朋友关系的那瞬间，与愤怒伴随而来的，是快感！！发现我老婆和朋友关系的那瞬间，与愤怒伴随而来的，是快感！！");
+        model.setImage("http://img3.xmh222.com//uploadfiles/20180910/small/27494a1ddd9848148932124ab7ca39ae932.jpg");
 
-        for (int i=0;i<model.getPageSize();i++){
-            GetIndexOrderResultModel model1=new GetIndexOrderResultModel();
+        List<CartoonType> typeList = new ArrayList<>();
+        CartoonType type1 = new CartoonType();
+        type1.setRowid(123L);
+        type1.setTitle("zl");
+        CartoonType type2 = new CartoonType();
+        type2.setRowid(123L);
+        type2.setTitle("jxh");
+        typeList.add(type1);
+        typeList.add(type2);
+
+        model.setTypeList(typeList);
+        return model;
+    }
+
+    public List<GetIndexOrderResultModel> getGetIndexOrderBy(GetIndexOrderModel model) {
+        List<GetIndexOrderResultModel> list = new ArrayList<>();
+
+        for (int i = 0; i < model.getPageSize(); i++) {
+            GetIndexOrderResultModel model1 = new GetIndexOrderResultModel();
             model1.setCartoonId(123L);
             model1.setChapterStatus(1);
             model1.setId(123L);
@@ -26,5 +53,30 @@ public class CartoonDetailServer {
             list.add(model1);
         }
         return list;
+    }
+
+    public List<GetIndexOrderResultModel> getAll(long CartoonRowId) {
+        List<GetIndexOrderResultModel> list = new ArrayList<>();
+
+        for (int i = 0; i < 10; i++) {
+            GetIndexOrderResultModel model1 = new GetIndexOrderResultModel();
+            model1.setCartoonId(123L);
+            model1.setChapterStatus(1);
+            model1.setId(123L);
+            model1.setImgUrl("http://img1.xmh222.com//cartoonchaps/137/7245.jpg");
+            model1.setIndex(i);
+            model1.setName("好骚啊");
+            model1.setAddTime(new Date());
+            list.add(model1);
+        }
+        return list;
+    }
+
+    public ChapterDetailModel getChapterDetailModel(long rowid) {
+        ChapterDetailModel model = new ChapterDetailModel();
+        model.setTitle("zl");
+        model.setCatoonRowid(13L);
+        model.setChapterRowid(14L);
+        return model;
     }
 }
