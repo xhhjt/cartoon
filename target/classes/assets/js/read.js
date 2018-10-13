@@ -122,8 +122,9 @@ function GetContent(tp, isBuy, islook) {
                 alertBox.innerHTML = "加载中..";
                 alertBox.style.display = "block";
             },
-            success: function (msg) {
+            success: function (o) {
 
+                var msg=o.data;
                 alertBox.style.display = "none";
 
                 //  console.log(msg);
@@ -173,7 +174,7 @@ function GetContent(tp, isBuy, islook) {
                     $.each(im, function (i, o) {
                         var ih = tw / (parseFloat(o.w) / parseFloat(o.h));
 
-                        var e = "/images/cartoon.jpg?t=1";
+                        var e = "/assets/images/cartoon.jpg?t=1";
                         if (hidNovelId == 52 && (cIndex == 24 || cIndex == 23 || cIndex == 25)) {
                             o.u = o.u + "?t=2";
                         }

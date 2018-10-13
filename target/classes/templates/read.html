@@ -187,12 +187,12 @@
                     $.each(r, function (j, v) {
                         show = 1;
                         var cname = "";
-                        if (v.CName != "null" && v.CName != null) {
-                            cname = v.CName;
+                        if (v.cname != "null" && v.cname != null) {
+                            cname = v.cname;
                         }
 
-                        li += lit.replace(/{nlink}/g, v.LinkUrl).replace(/{cname}/g, cname).replace(/{img}/g, v.ImgUrl).replace(/{upstate}/g, v.upstr)
-                            .replace(/{author}/g, v.Author).replace(/{name}/g, v.Title).replace(/{summary}/g, v.Summary);
+                        li += lit.replace(/{nlink}/g, v.linkUrl).replace(/{cname}/g, cname).replace(/{img}/g, v.imgUrl).replace(/{upstate}/g, v.upstr)
+                            .replace(/{author}/g, v.author).replace(/{name}/g, v.title).replace(/{summary}/g, v.summary);
 
                     });
 

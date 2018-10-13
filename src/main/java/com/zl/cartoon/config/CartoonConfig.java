@@ -10,6 +10,26 @@ import org.springframework.stereotype.Component;
 public class CartoonConfig {
     private String domain;
 
+    private String commonIP;
+
+    private String picPath;
+
+    public String getCommonIP() {
+        return commonIP;
+    }
+
+    public void setCommonIP(String commonIP) {
+        this.commonIP = commonIP;
+    }
+
+    public String getPicPath() {
+        return picPath;
+    }
+
+    public void setPicPath(String picPath) {
+        this.picPath = picPath;
+    }
+
     public String getDomain() {
         return domain;
     }

@@ -2,6 +2,7 @@ package com.zl.cartoon.server;
 
 import cfca.org.bouncycastle.jce.provider.N;
 import com.ty.erp.entitys.entity.Cartoon;
+import com.zl.cartoon.config.CartoonConfig;
 import com.zl.cartoon.dao.CartoonDao;
 import com.zl.cartoon.entity.returnmodel.CartoonModel;
 import com.zl.cartoon.entity.returnmodel.RecommendDetailModel;
@@ -9,6 +10,7 @@ import com.zl.cartoon.entity.returnmodel.RecommendModel;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.util.ArrayList;
@@ -20,6 +22,8 @@ import java.util.Map;
 public class IndexServer {
     @Autowired
     CartoonDao dao;
+    @Autowired
+    CartoonConfig cartoonConfig;
 
     public Object getIndexDate() {
 
@@ -39,12 +43,13 @@ public class IndexServer {
 
     public List<CartoonModel> getCartoons(List<Cartoon> cartoons, int length) {
         List<CartoonModel> cartoonList = new ArrayList<>();
+        cartoons=dao.getAll();
         for (int i = 0; i < length; i++) {
             CartoonModel model = new CartoonModel();
             BeanUtils.copyProperties(cartoons.get(0), model);
             model.setDetailUrl("cartoondetail/" + model.getRowId());
             model.setAuthor("作者:" + model.getAuthor());
-            model.setPic("/assets/picture/8f46d40d2e7b434da01b7ad9074b553c.gif");
+            model.setPic(cartoonConfig.getPicPath()+model.getPic());
             cartoonList.add(model);
         }
 
@@ -53,14 +58,15 @@ public class IndexServer {
 
     public List<CartoonModel> getCartoonsTop(List<Cartoon> cartoons, int length) {
         List<CartoonModel> cartoonList = new ArrayList<>();
+        cartoons= dao.getAll();
         for (int i = 0; i < length; i++) {
             CartoonModel model = new CartoonModel();
             BeanUtils.copyProperties(cartoons.get(0), model);
             model.setDetailUrl("cartoondetail/" + model.getRowId());
             model.setAuthor("作者:" + model.getAuthor());
-            model.setPic("/assets/picture/8f46d40d2e7b434da01b7ad9074b553c.gif");
+            model.setPic(cartoonConfig.getPicPath()+model.getPic());
             model.setSortNum(1);
-            model.setVisitCount(13);
+            model.setVisitCount(model.getVisitCount());
             model.setSortPic("/assets/picture/top_logo_2.png");
             model.setLastTitle("nidaye");
             cartoonList.add(model);
@@ -113,21 +119,22 @@ public class IndexServer {
         return jingping;
     }
 
-    private List<RecommendDetailModel> setRecommendDetailModelList(int Length, int type) {
+    public List<RecommendDetailModel> setRecommendDetailModelList(int Length, int type) {
         List<RecommendDetailModel> modelList = new ArrayList<>();
+        Cartoon cartoon=dao.getAll().get(0);
         for (int i = 0; i < Length; i++) {
             RecommendDetailModel model = new RecommendDetailModel();
-            model.setAuthor("DURUFIX");
+            model.setAuthor(cartoon.getAuthor());
             model.setCname("");
-            model.setContent("xxxoo");
+            model.setContent(cartoon.getDes());
             if (type == 0) {
-                model.setImgUrl("http://img2.xmh222.com//uploadfiles/20180824/small/403231fa24e24a1da4464a52ca3c9839877.jpg");
+                model.setImgUrl(cartoonConfig.getPicPath()+cartoon.getPic());
             } else {
-                model.setImgUrl("http://img3.xmh222.com//uploadfiles/20180910/small/27494a1ddd9848148932124ab7ca39ae932.jpg");
+                model.setImgUrl(cartoonConfig.getPicPath()+cartoon.getPic());
             }
-            model.setLinkUrl("/cartoondetail/137");
-            model.setSummary("真好看");
-            model.setTitle("址夫美女");
+            model.setLinkUrl("/cartoondetail/"+cartoon.getRowId());
+            model.setSummary(cartoon.getDes());
+            model.setTitle(cartoon.getTitle());
             model.setUpdateStatus(0);
             model.setUpstr("连在中国");
 
@@ -136,4 +143,7 @@ public class IndexServer {
 
         return modelList;
     }
+
+
+
 }

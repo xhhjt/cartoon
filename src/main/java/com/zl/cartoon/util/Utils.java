@@ -10,6 +10,7 @@ import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.nio.file.Paths;
+import java.util.Random;
 import java.util.regex.Pattern;
 
 /**
@@ -294,5 +295,9 @@ public class Utils {
             max = Integer.max(max, Integer.max(nums[i], nums[i + 1]));
         }
         return Integer.max(max, nums[last]);
+    }
+
+    public static int getRandomNumber(){
+        return (int)((Math.random()*9)+1)*100000;
     }
 }

@@ -1,0 +1,296 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta charset="utf-8">
+    <meta content="width=device-width,height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+
+    <meta name="keywords" content="动漫,喵喵漫画动漫,漫画,动画,原创,正版,火影忍者,海贼王,捕王,充气女神,喵喵漫画官方网站" />
+    <meta name="description" content="正版动漫网站，连载众多原创国漫，原创动画，正版日漫等海内外最热正版动漫内容，为上千万动漫爱好者提供漫画、动画、资讯、论坛一站式全方位动漫服务，为原创动漫作者提供最优质的创作成长环境，为中国动漫产业打造梦想舞台。" />
+    <link href="/assets/css/base.css?v=22" rel="stylesheet" type="text/css">
+    <link href="/assets/css/loading.css" rel="stylesheet" />
+
+    <title>喵喵漫画 - 排行</title>
+
+
+
+
+</head>
+<body>
+
+
+
+
+
+<header class="tophead clf">
+    <div id="headerbox"><a href="javascript:history.go(-1);" class="back"></a>排行<a class="searchBtn01" id="searchBtn"></a></div>
+    <div id="searchbox" class="clf" style="display:none">
+        <input type="text" class="fl w80 searchInput" id="keywords" onblur="GetNovelBySearch()" placeholder="输入 名称\作者\关键字 搜索" />
+        <a class="cancleBtn fl w20" id="cancleBtn">取消</a>
+    </div>
+</header>
+<section class="block" style="margin-top:0;">
+    <div class="tabBar clf" id="tabBar">
+        <a class="fl tabon" onclick="showbd(this,0)">新番榜</a>
+        <a class="fl taboff" onclick="showbd(this,1)">畅销榜</a><a class="fl taboff" onclick="showbd(this,2)">完结榜</a>
+    </div>
+
+
+    <!--点击榜-->
+
+    <div class="bd">
+        <ul class="book_list02" id="list01"></ul>
+    </div>
+
+    <!--畅销榜-->
+    <div class="bd" style="display:none">
+        <ul class="book_list02" id="list02"></ul>
+    </div>
+
+
+    <!--收藏榜-->
+    <div class="bd" style="display:none">
+        <ul class="book_list02" id="list03"></ul>
+    </div>
+
+
+</section>
+<script type="text/html" id="litemp">
+    <li class="clf">
+        <i class="{showclass}">{ind}</i>
+        <a href="{nlink}" class="fl w25"><img src="{img}" height="90" onerror="this.src = '/images/cover.jpg'"></a>
+        <div class="fl w73">
+            <a href="{nlink}">
+                <b class="booktitle">{name}</b>
+            </a>
+            <div class="bookdesc"><a href="{nlink}">{summary}</a></div>
+
+            <div class="bookcat clf">
+                <p class="fl"><a href="search?keyValue={author}" class="wirteIcon">{author}</a></p><p class="fr blueTag tag">{upstate}</p><p class="fr blueTag tag">{cname}</p>
+            </div>
+        </div>
+    </li>
+</script>
+
+<div class="spinner">
+    <div class="double-bounce1"></div>
+    <div class="double-bounce2"></div>
+</div>
+
+<div class="h50"></div>
+
+
+<nav class="footnav clf">
+    <a href="/Home/Index"><span class="m01">推荐</span></a>
+    <a href="/Cartoon/UserCartoon"><span class="m05">书架</span></a>
+
+
+    <a href="/Home/Cate"><span class="m03">分类</span></a>
+    <a href="/user/Index"><span class="m04">我的</span></a>
+    <!--class="selected"-->
+</nav>
+
+
+
+
+
+
+<script src="/assets/js/jquery.min.js?t=1"></script>
+
+<script src="/assets/js/loadImg.js"></script>
+
+<script type="text/javascript">
+    bdItems = document.getElementsByClassName("bd");
+    tabs = document.getElementById("tabBar").getElementsByTagName("a");
+    function showbd(obj, ids) {
+        for (i = 0; i < bdItems.length; i++) {
+            if (tabs[i].classList.contains("tabon")) {
+                tabs[i].classList.remove("tabon");
+                tabs[i].classList.add("taboff");
+            }
+            bdItems[i].style.display = "none";
+        }
+        tabs[ids].classList.remove("taboff");
+        tabs[ids].classList.add("tabon");
+        bdItems[ids].style.display = "block";
+    }
+
+    //回车键
+    document.onkeydown = function (event) {
+        var keywords = document.getElementById("keywords");
+        var e = event || window.event || arguments.callee.caller.arguments[0];
+        if (e && e.keyCode == 13 && keywords.value != '') {
+            GetNovelBySearch();
+        }
+    };
+
+    var searchBtn = $("#searchBtn");
+    var headerbox = $("#headerbox");
+    var searchbox = $("#searchbox");
+    var cancleBtn = $("#cancleBtn");
+
+    $("#cancleBtn").click(function () {
+        searchbox.hide();
+        headerbox.show();
+
+    });
+
+    $("#searchBtn").click(function () {
+        searchbox.show();
+        headerbox.hide();
+
+    });
+
+    //输入框失去焦点搜索
+    function Serach() {
+        GetNovelBySearch();
+    }
+    //带参跳转
+    function GetNovelBySearch() {
+        var keywords = document.getElementById("keywords");
+        location.href = "Search?keyValue=" + keywords.value;
+    }
+
+    //页面加载
+    window.onload = function () {
+        ReadCount();
+    }
+
+    //点击榜
+    function ReadCount() {
+        $.ajax({ //异步数据加载
+            type: "POST",
+            url: "/rank/ReadCount",
+            data: "",
+            dataType: "json",
+            contentType: "application/json",
+            beforeSend: function () {
+                $(".spinner").show();
+            },
+            complete: function () {
+                $(".spinner").hide();
+            },
+            success: function (msg) {
+                console.log(msg);
+
+                var li = "";
+                var lit = $("#litemp").html();
+                var d = 0;
+
+                $.each(msg.data.data, function (j, v) {
+
+
+                    if (v.id == 100) {
+
+                    } else if (v.id == 126) {
+
+                    } else {
+
+
+                        var show = "first";
+                        if (d == 0) {
+                            show = "second";
+                        } else if (d == 1) {
+
+                            show = "third";
+                        } else {
+                            show = "";
+                        }
+                        d++;
+                        var up = "完结";
+                        if (v.updateStatus == 0) {
+                            up = "更新至:第" + v.lchapter + "章";
+                        }
+
+
+
+                        li += lit.replace(/{nlink}/g, v.linkUrl).replace(/{cname}/g, v.cname).replace(/{img}/g, v.imgUrl).replace(/{upstate}/g, up)
+                            .replace(/{author}/g, v.author).replace(/{name}/g, v.title).replace(/{summary}/g, v.summary).replace(/{ind}/g, d)
+                            .replace(/{showclass}/g, show);
+                    }
+
+
+                });
+
+                $("#list02").html(li);
+                li = "";
+                var d1 = 0;
+                $.each(msg.data.data1, function (j, v) {
+
+
+                    if (v.id == 100) {
+
+                    } else if (v.id == 126) {
+
+                    } else {
+
+                        var show = "first";
+                        if (d1 == 0) {
+                            show = "second";
+                        } else if (d1 == 1) {
+
+                            show = "third";
+                        } else {
+                            show = "";
+                        }
+
+                        d1++;
+                        var up = "完结";
+                        if (v.updateStatus == 0) {
+                            up = "更新至:第" + v.lchapter + "章";
+                        }
+
+
+                        li += lit.replace(/{nlink}/g, v.linkUrl).replace(/{cname}/g, v.cname).replace(/{img}/g, v.imgUrl).replace(/{upstate}/g, up)
+                            .replace(/{author}/g, v.author).replace(/{name}/g, v.title).replace(/{summary}/g, v.summary).replace(/{ind}/g, d1)
+                            .replace(/{showclass}/g, show);
+
+                    }
+                });
+                $("#list03").html(li);
+                li = "";
+                var d2 = 0;
+                $.each(msg.data.data2, function (j, v) {
+
+                    if (v.id == 100) {
+
+                    } else if (v.id == 126) {
+
+                    } else {
+
+                        var show = "first";
+                        if (d2== 0) {
+                            show = "second";
+                        } else if (d2== 1) {
+
+                            show = "third";
+                        } else {
+                            show = "";
+                        }
+
+
+                        d2++;
+
+                        var up = "完结";
+                        if (v.updateStatus == 0) {
+                            up = "更新至:第" + v.lchapter + "章";
+                        }
+
+
+                        li += lit.replace(/{nlink}/g, v.linkUrl).replace(/{cname}/g, v.cname).replace(/{img}/g, v.imgUrl).replace(/{upstate}/g, up)
+                            .replace(/{author}/g, v.author).replace(/{name}/g, v.title).replace(/{summary}/g, v.summary).replace(/{ind}/g, d2)
+                            .replace(/{showclass}/g, show);
+
+                    }
+
+                });
+                $("#list01").html(li);
+                loadPicNow();
+            }
+        });
+    }
+
+</script>
+
+</body>
+</html>

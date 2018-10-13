@@ -1,107 +1,392 @@
 ﻿<!doctype html>
 <html>
-
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta name="viewport"
-          content="width=device-width,initial-scale=1.0, minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="format-detection" content="telephone=no"/>
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="white">
-    <meta name="wap-font-scale" content="no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta charset="utf-8">
+    <meta content="width=device-width,height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+          name="viewport"/>
 
-    <meta name="apple-mobile-web-app-title" content="电波漫画">
+    <meta name="keywords" content="动漫,喵喵漫画动漫,漫画,动画,原创,正版,火影忍者,海贼王,捕王,充气女神,喵喵漫画官方网站"/>
+    <meta name="description"
+          content="正版动漫网站，连载众多原创国漫，原创动画，正版日漫等海内外最热正版动漫内容，为上千万动漫爱好者提供漫画、动画、资讯、论坛一站式全方位动漫服务，为原创动漫作者提供最优质的创作成长环境，为中国动漫产业打造梦想舞台。"/>
+    <link href="/assets/css/base.css?v=22" rel="stylesheet" type="text/css">
+    <link href="/assets/css/loading.css" rel="stylesheet"/>
 
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="http://hbztjg.com/dianbo/static/dist/ppm/images/apple-touch-icon-57.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://hbztjg.com/dianbo/static/dist/ppm/images/apple-touch-icon-72.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://hbztjg.com/dianbo/static/dist/ppm/images/apple-touch-icon-114.png">
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="http://hbztjg.com/dianbo/static/dist/ppm/images/apple-touch-icon-120.png">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://hbztjg.com/dianbo/static/dist/ppm/images/apple-touch-icon-144.png">
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="http://hbztjg.com/dianbo/static/dist/ppm/images/apple-touch-icon-152.png">
-    <link rel="apple-touch-icon-precomposed" sizes="512x512" href="http://hbztjg.com/dianbo/static/dist/ppm/images/apple-touch-icon-512.png">
+    <title>喵喵漫画 - 手机绑定</title>
 
-
-    <meta name="Keywords" content="漫画,在线漫画,手机漫画,韩漫,韩国漫画,福利,178漫画"/>
-    <meta name="Description"
-          content="电波提供海量漫画,更新最快的在线漫画福利欣赏"/>
-    <title>绑定手机号</title>
-
-    <link href="/assets/css/global.css" rel="stylesheet" type="text/css"/>
-    <link type="text/css" href="/assets/css/style.css" rel="stylesheet"/>
-    <link type="text/css" href="/assets/css/font-awesome.min.css" rel="stylesheet"/>
-
-    <script type="text/javascript" src="/assets/js/jquery.min.js"></script>
-    <script type="text/javascript" src="/assets/js/jquery.cookie.js" charset="utf-8"></script>
-    <script type="text/javascript" src="/assets/js/common.js"></script>
-    <script type="text/javascript" src="/assets/js/domain.js"></script>
-    <script type="text/javascript" src="/assets/js/m_reader.js"></script>
-    <script type="text/javascript" src="/assets/js/tsb.js"></script>
-    <script type="text/javascript" src="/assets/js/main.js"></script>
-
-    <script>
-    var _hmt = _hmt || [];
-    (function() {
-        var hm = document.createElement("script");
-        hm.src = 'https://hm.baidu.com/hm.js?3a4907169cc43a2333a5b186b346d94e';
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(hm, s);
-    })();
-</script>
-    <script type="text/javascript">
-        window.cdnStaticRoot = "http://hbztjg.com/dianbo/static";
-    </script>
 
 </head>
-
 <body>
 
+
+<link href="/assets/css/recharge.css" rel="stylesheet" type="text/css">
+<link href="/assets/js/layer/mobile/need/layer.css" rel="stylesheet"/>
+
 <style type="text/css">
-
-    .pvBox {
-        width: 94%;
-        margin: auto;
-        margin-top: 15px;
+    .grayTag {
+        background: #999;
     }
 
-    .pvInput {
-        border: 1px solid #cbcbcb;
-        border-radius: 2px;
-        margin: 5px 0;
-        height: 40px;
-        font-size: 14px;
-        color: #000;
-        outline: none;
-        padding: 1px 7px;
-        background: #fff;
-        -webkit-appearance: none;
+    #payAlert {
+        background: rgba(0, 0, 0, .9);
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        color: #fff;
     }
 
-    .vcodeBtn {
-        outline: none;
-        float: right;
-        background: #0090ff;
-        font-size: 14px;
-        color: #FFF;
-        height: 44px;
-        border: none;
-        border-radius: 2px;
-        margin: 5px 0;
-        -webkit-appearance: none;
+    .loginIput {
+        background: #eee;
+        border-radius: 4px;
+        border: none
     }
 
+    .loginBTN {
+        border-radius: 8px;
+    }
 </style>
 
-<script type="text/javascript" src="/assets/js/m_ps.js"></script>
+<script src="/assets/js/layer/mobile/layer.js"></script>
 
-<!--head-->
-<div class="subHeader">
-    <div class="BarTit">绑定手机号</div>
-    <a href="javascript:" class="iconRet" onclick="goBack()"></a>
+
+<header class="tophead">
+    <a href="javascript:history.go(-1);" class="back"></a>
+    手机绑定
+
+
+</header>
+
+<section id="payAlert" style="z-index:10000;display:none">
+    <div style="text-align:center; margin:50% 0 0">
+        <p>该手机已经绑定到其他账号</p>
+
+        <div class="paybtnBOX clf">
+            <a href="javascript:;" class="redTag" onclick="reg()">继续绑定到该账号</a>
+            <a href="javascript:;" class="grayTag" onclick="login()">不，用手机号直接登入</a>
+        </div>
+
+    </div>
+</section>
+
+<div class="loginbox" id="loginbox">
+    <div class="loginCont" style="padding-top:65px;">
+
+
+        <br/>
+        <br/>
+        <form action="/user/mobile?tp=1&amp;back=/user/" data-ajax="true" data-ajax-begin="onFormBegin"
+              data-ajax-success="onFormSuccess" id="form0" method="post"><input data-val="true"
+                                                                                data-val-number="字段 Tpe 必须是一个数字。"
+                                                                                data-val-required="Tpe 字段是必需的。" id="Tpe"
+                                                                                name="Tpe" type="hidden"
+                                                                                value="1"/><input id="Back" name="Back"
+                                                                                                  type="hidden"
+                                                                                                  value="/user/"/>
+            <p>
+
+
+                <input autocomplete="off" class="loginIput" data-val="true" data-val-regex="请输入正确手机号"
+                       data-val-regex-pattern="^1[23456789]\d{9}$" data-val-required="手机不能为空" id="Mobile" name="Mobile"
+                       placeholder="请输入手机号码" type="tel">
+
+            </p>
+            <p>
+                <input autocomplete="off" class="loginIput" data-val="true" data-val-length="请输入6到20位的密码"
+                       data-val-length-max="20" data-val-length-min="6" id="Password" name="Password"
+                       placeholder="请输入不少于6位数的密码" type="password"/>
+
+
+            </p>
+            <p>
+                <input autocomplete="off" class="loginIput" id="ConfirmPassword" name="ConfirmPassword"
+                       placeholder="确认密码" type="password"/>
+
+
+            </p>
+            <p class="clf">
+                <input class="loginIput fl" id="CheckCode" name="CheckCode" placeholder="请输入验证码" style="width:45%;"
+                       type="text" value=""/>
+
+                <a href="javascript:getCode();" class="loginBTN style03 w50 fr" id="CodeBtn">获取短信验证码</a>
+            </p>
+            <a href="javascript:checkForm();" class="loginBTN style02" id="regbtn" data-loading-text="提交中...">绑 定</a>
+        </form>
+    </div>
 </div>
-<!--head end-->
+
+
+<script src="/assets/js/jquery.min.js?t=1"></script>
+
+
+<script src="/assets/js/jquery.unobtrusive-ajax.min.js"></script>
+
+<script>
+
+    var reg1 = /^1[3456789]\d{9}$/;
+
+    var userid = 0;
+    var isSend = false;
+    var t = null;
+    var checkfrom = false;
+
+    function onFormBegin() {
+        var $btn = $('#regbtn');
+        $btn.data('ori-text', $btn.val()).val($btn.data('loading-text'))
+    }
+
+    var checksuccess = false;
+
+    function onFormSuccess(data) {
+        console.log(data);
+        if (data.code === 0) {
+            //  window.location = data.url
+            window.location = $("#Back").val();
+        } else {
+
+            if (parseInt(data.code) == 1101) {
+                checksuccess = true;
+                $("#payAlert").show();
+                userid = parseInt(data.user);
+
+            } else {
+
+                var $btn = $('#regbtn');
+                layer.open({
+                    content: data.message
+                    , skin: 'msg'
+                    , time: 2
+                });
+
+                $btn.val($btn.data('ori-text'))
+            }
+
+            checkfrom = false;
+        }
+    }
+
+    function checkForm() {
+        var code = $("#CheckCode").val();
+        var mobile = $.trim($("#Mobile").val());
+
+        var p1 = $("#Password").val();
+        var p2 = $.trim($("#ConfirmPassword").val());
+
+        if (p1.length < 6) {
+
+            layer.open({
+                content: '请输入6以上的密码'
+                , skin: 'msg'
+                , time: 2
+            });
+            return false;
+        }
+
+        if (p1 != p2) {
+
+            layer.open({
+                content: '两次密码不一致'
+                , skin: 'msg'
+                , time: 2
+            });
+            return false;
+        }
+
+
+        if (mobile.length < 1 || (!reg1.test(mobile))) {
+
+            layer.open({
+                content: '请输入正确手机号'
+                , skin: 'msg'
+                , time: 2
+            });
+            return false;
+        }
+
+        if (isSend == false) {
+
+            layer.open({
+                content: '请发送短信验证码'
+                , skin: 'msg'
+                , time: 2
+            });
+            return false;
+        }
+        if (code.length < 1) {
+
+            layer.open({
+                content: '请输入验证码'
+                , skin: 'msg'
+                , time: 2
+            });
+            return false;
+        }
+        if (checkfrom == false) {
+
+            checkfrom = true;
+            $("form").submit();
+        }
+    }
+
+    var ischeck = 0;
+
+    function getCode() {
+
+        if (ischeck == 1) {
+            return false;
+        }
+
+        var mobile = $.trim($("#Mobile").val());
+
+
+        if (mobile.length < 1 || (!reg1.test(mobile))) {
+
+            layer.open({
+                content: '请输入正确手机号'
+                , skin: 'msg'
+                , time: 2
+            });
+            return false;
+        } else if (mobile == "") {
+            layer.open({
+                content: '您已绑定该手机号'
+                , skin: 'msg'
+                , time: 2
+            });
+            return false;
+        }
+        else {
+            ischeck = 1;
+            $.ajax({
+                url: '/phone/getcode',
+                type: 'post',
+                data: {mobile: mobile},
+                success: function (data) {
+
+                    if (data.code == "0") {
+                        isSend = true;
+                        //倒计时
+                        $("#CodeBtn").html("60秒后重新发送").removeClass("style02").addClass("style04");
+                        index = 60;
+                        t = setInterval("CountSecond()", 1000);
+                        //倒计时结束 ischeck=0
+                    } else {
+
+
+                        layer.open({
+                            content: data.message
+                            , skin: 'msg'
+                            , time: 2
+                        });
+                        ischeck = 0;
+
+                    }
+                }
+            });
+        }
+
+    }
+
+    var index = 60;
+
+    function CountSecond() {
+
+        index--;
+        if (index == 0) {
+            ischeck = 0;
+            clearInterval(t);
+            $("#CodeBtn").html("获取短信验证码").removeClass("style04").addClass("style02");
+
+        } else {
+            $("#CodeBtn").html(index + " 秒后重新发送");
+        }
+    }
+</script>
+
+<script>
+    var regcheck = false;
+
+    function reg() {  //绑定当前账户
+        if (checksuccess == false) {
+            return false;
+        }
+        if (regcheck) {
+            return false;
+        }
+
+        var mobile = $.trim($("#Mobile").val());
+
+
+        if (mobile.length < 1 || (!reg1.test(mobile))) {
+
+            layer.open({
+                content: '请输入正确手机号'
+                , skin: 'msg'
+                , time: 2
+            });
+            return false;
+        }
+        var pass = $("#Password").val();
+
+        regcheck = true;
+
+        $.ajax({
+            url: '/user/mobilereg',
+            type: 'post',
+            data: {mobile: mobile, pass: pass},
+            success: function (data) {
+                window.location = $("#Back").val();
+
+            }
+        });
+    }
+
+    function login() { //登陆
+        if (checksuccess == false) {
+            return false;
+        }
+        if (regcheck) {
+            return false;
+        }
+        var mobile = $.trim($("#Mobile").val());
+
+
+        if (mobile.length < 1 || (!reg1.test(mobile))) {
+
+            layer.open({
+                content: '请输入正确手机号'
+                , skin: 'msg'
+                , time: 2
+            });
+            return false;
+        }
+
+
+        if (userid > 0) {
+
+            regcheck = true;
+
+            $.ajax({
+                url: '/user/mobilelogin',
+                type: 'post',
+                data: {mobile: mobile, user: userid},
+                success: function (data) {
+                    window.location = $("#Back").val();
+
+                }
+            });
+        } else {
+            layer.open({
+                content: '用户信息错误'
+                , skin: 'msg'
+                , time: 2
+            });
+        }
+    }
+
+</script>
 
 
 </body>
-
 </html>

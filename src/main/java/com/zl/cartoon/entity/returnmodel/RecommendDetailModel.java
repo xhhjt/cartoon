@@ -1,6 +1,7 @@
 package com.zl.cartoon.entity.returnmodel;
 
 public class RecommendDetailModel {
+    private long id;
     private String author;
     private String cname;
     private String content;
@@ -10,6 +11,7 @@ public class RecommendDetailModel {
     private String title;
     private int updateStatus;
     private String upstr;
+    private int lchapter;
 
     public String getAuthor() {
         return author;
@@ -81,5 +83,21 @@ public class RecommendDetailModel {
 
     public void setUpstr(String upstr) {
         this.upstr = upstr;
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public int getLchapter() {
+        return lchapter;
+    }
+
+    public void setLchapter(int lchapter) {
+        this.lchapter = lchapter;
     }
 }

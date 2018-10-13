@@ -2,29 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cd92281-9f4d-4fb9-b5a9-ba683a489004" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/config/CartoonConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/CartoonDetailModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/CartoonType.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/ChapterDetailModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/css/read02.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/images/cartoon.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/cookies.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/jquery.lazyload.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/read.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/cartoonconfig.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/chapterlist.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/read.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/CateController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/SearchController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/requestmodel/LocaInfoModel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/requestmodel/SearchModel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/ChapterImageListModel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/ImageListModel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/ReadCountModel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/TypeModel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/CatServer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/util/ConvertHelp.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/util/JsonHelper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/util/WebUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/css/cate.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/css/recharge.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/css/user.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/images/p.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/images/user-icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/jquery.unobtrusive-ajax.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/layer/mobile/layer.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/layer/mobile/need/layer.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/cate.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/rank.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/recharge.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/search.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/task.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/usercartoon.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/config/CartoonConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/config/CartoonConfig.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/CartoonDetailController.java" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/CartoonDetailController.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/IndexController.java" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/IndexController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/MyController.java" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/MyController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/RecommendDetailModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/RecommendDetailModel.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/CartoonDetailServer.java" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/CartoonDetailServer.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/IndexServer.java" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/IndexServer.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/cartoondetail.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/cartoondetail.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/util/Utils.java" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/util/Utils.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/js/read.js" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/read.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/cartoonconfig.properties" afterPath="$PROJECT_DIR$/src/main/resources/cartoonconfig.properties" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/bindphone.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/bindphone.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/my.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/my.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/read.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/read.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/subscribe.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/subscribe.html" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assets/js/read.js" afterPath="$PROJECT_DIR$/target/classes/assets/js/read.js" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cartoonconfig.properties" afterPath="$PROJECT_DIR$/target/classes/cartoonconfig.properties" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/config/CartoonConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/zl/cartoon/config/CartoonConfig.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/controoler/CartoonDetailController.class" afterPath="$PROJECT_DIR$/target/classes/com/zl/cartoon/controoler/CartoonDetailController.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/controoler/IndexController.class" afterPath="$PROJECT_DIR$/target/classes/com/zl/cartoon/controoler/IndexController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/controoler/MyController.class" afterPath="$PROJECT_DIR$/target/classes/com/zl/cartoon/controoler/MyController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/entity/returnmodel/RecommendDetailModel.class" afterPath="$PROJECT_DIR$/target/classes/com/zl/cartoon/entity/returnmodel/RecommendDetailModel.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/server/CartoonDetailServer.class" afterPath="$PROJECT_DIR$/target/classes/com/zl/cartoon/server/CartoonDetailServer.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/server/IndexServer.class" afterPath="$PROJECT_DIR$/target/classes/com/zl/cartoon/server/IndexServer.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/cartoondetail.html" afterPath="$PROJECT_DIR$/target/classes/templates/cartoondetail.html" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/util/Utils.class" afterPath="$PROJECT_DIR$/target/classes/com/zl/cartoon/util/Utils.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/bindphone.html" afterPath="$PROJECT_DIR$/target/classes/templates/bindphone.html" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" afterPath="$PROJECT_DIR$/target/classes/templates/login.html" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/my.html" afterPath="$PROJECT_DIR$/target/classes/templates/my.html" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/read.html" afterPath="$PROJECT_DIR$/target/classes/templates/read.html" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/subscribe.html" afterPath="$PROJECT_DIR$/target/classes/templates/subscribe.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,128 +90,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="CartoonDetailController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/CartoonDetailController.java">
+      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/IndexController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="40" column="42" lean-forward="false" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexServer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/IndexServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1863">
-              <caret line="111" column="56" lean-forward="false" selection-start-line="111" selection-start-column="56" selection-end-line="111" selection-end-column="56" />
-              <folding>
-                <element signature="method#getCartoonsTop#0;class#IndexServer#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cookies.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/js/cookies.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="644">
+              <caret line="40" column="34" lean-forward="false" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.lazyload.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/js/jquery.lazyload.min.js">
+      <file leaf-file-name="CartoonDetailController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/CartoonDetailController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="3309" lean-forward="false" selection-start-line="1" selection-start-column="3309" selection-end-line="1" selection-end-column="3309" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="299">
+              <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="read.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/read.html">
+      <file leaf-file-name="rank.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/rank.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="118" column="10" lean-forward="true" selection-start-line="118" selection-start-column="10" selection-end-line="118" selection-end-column="10" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="644">
+              <caret line="28" column="57" lean-forward="false" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="read.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/js/read.js">
+      <file leaf-file-name="CartoonApplication.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/CartoonApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="181" column="0" lean-forward="true" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
-              <folding>
-                <marker date="1537198320117" expanded="true" signature="4845:4883" ph="..." />
-              </folding>
+            <state relative-caret-position="230">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chapterlist.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/chapterlist.html">
+      <file leaf-file-name="SpringBootApplication.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/soft/maven/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.4.RELEASE/spring-boot-autoconfigure-2.0.4.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="223" column="74" lean-forward="true" selection-start-line="223" selection-start-column="74" selection-end-line="223" selection-end-column="74" />
-              <folding>
-                <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="575">
+              <caret line="53" column="59" lean-forward="false" selection-start-line="53" selection-start-column="59" selection-end-line="53" selection-end-column="59" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cartoondetail.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cartoondetail.html">
+      <file leaf-file-name="AutoConfigurationExcludeFilter.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/soft/maven/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.4.RELEASE/spring-boot-autoconfigure-2.0.4.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/AutoConfigurationExcludeFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="269" column="25" lean-forward="true" selection-start-line="269" selection-start-column="25" selection-end-line="269" selection-end-column="25" />
-              <folding>
-                <element signature="n#style#0;n#a#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#2;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ul#0;n#div#2;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#0;n#ul#0;n#div#2;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#script#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <marker date="1537248671878" expanded="true" signature="6254:6291" ph="..." />
-              </folding>
+            <state relative-caret-position="276">
+              <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CartoonDetailServer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/CartoonDetailServer.java">
+      <file leaf-file-name="TypeExcludeFilter.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/soft/maven/repository/org/springframework/boot/spring-boot/2.0.4.RELEASE/spring-boot-2.0.4.RELEASE-sources.jar!/org/springframework/boot/context/TypeExcludeFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="637">
-              <caret line="79" column="21" lean-forward="false" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
+            <state relative-caret-position="598">
+              <caret line="49" column="13" lean-forward="false" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AutoConfigurationPackages.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/soft/maven/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.4.RELEASE/spring-boot-autoconfigure-2.0.4.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/AutoConfigurationPackages.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2047">
+              <caret line="123" column="17" lean-forward="false" selection-start-line="123" selection-start-column="17" selection-end-line="123" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpringBootConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/soft/maven/repository/org/springframework/boot/spring-boot/2.0.4.RELEASE/spring-boot-2.0.4.RELEASE-sources.jar!/org/springframework/boot/SpringBootConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="529">
+              <caret line="43" column="18" lean-forward="false" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -189,35 +188,14 @@
         <option value="Interface" />
         <option value="Tag Library Descriptor" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="Class" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>images/cover</find>
-      <find>images/default.png</find>
-      <find>default.png</find>
-      <find>CName</find>
-      <find>summary</find>
-      <find>commandDes</find>
-      <find>Content</find>
-      <find>con</find>
-      <find>Cartoon/IsRank</find>
-      <find>Cartoon/GetIndexOrderBy</find>
-      <find>pageStart</find>
-      <find>add</find>
-      <find>IsRank</find>
-      <find>snovelId</find>
-      <find>headerbox</find>
-      <find>novelId</find>
-      <find>137</find>
-      <find>cartoonId</find>
-      <find>images/cover.jpg</find>
-      <find>GetIndexOrderBy</find>
-      <find>Cartoon/LoadRecom</find>
       <find>56</find>
       <find>Cartoon/Read</find>
       <find>CartoonId</find>
@@ -227,14 +205,36 @@
       <find>read</find>
       <find>Cartoon/ChapterList</find>
       <find>目录</find>
+      <find>GetContent</find>
+      <find>cartoon.jpg</find>
+      <find>最新上架</find>
+      <find>Cartoon/LoadRecom</find>
+      <find>LoadInfo</find>
+      <find>Cartoon/LoadMore</find>
+      <find>Json</find>
+      <find>images/p.jpg</find>
+      <find>bindphone</find>
+      <find>脱离</find>
+      <find>user/login</find>
+      <find>LAU</find>
+      <find>keywords</find>
+      <find>imgUrl</find>
+      <find>GetInfo</find>
+      <find>readCount</find>
+      <find>phone/getcode</find>
+      <find>hiddloginUrl</find>
+      <find>支付宝</find>
+      <find>hrurl</find>
+      <find>index/recommend</find>
     </findStrings>
     <dirStrings>
       <dir>E:\zl\cartoonWeb\src\main\resources</dir>
       <dir>E:\zl\cartoonWeb\src\main\resources\assets\picture</dir>
       <dir>E:\zl\cartoonWeb\cartoon\src\main\resources\templates</dir>
       <dir>E:\zl\cartoonWeb\cartoon\src\main\resources</dir>
-      <dir>E:\zl\cartoonWeb\cartoon</dir>
       <dir>E:\zl\cartoonWeb\cartoon\src\main\resources\assets\js</dir>
+      <dir>E:\zl\cartoonWeb\cartoon</dir>
+      <dir>E:\zl\cartoonWeb\cartoon\src\main\java\com\zl\cartoon\controoler</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -248,57 +248,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/CartoonApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/Result.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/CartoonDaoMapper.tld" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/dao/CartoonDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/config/WebMvcConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/config/WebConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/config/ConfigApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/classify.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/hot.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/subscribe.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/my.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/index.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/cartoondetailchatper.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/CartoonModel.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/my.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/MyController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/bindphone.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/css/loading.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/js/jquery.min.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/js/clipboard.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/css/task.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/js/slide.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/js/loadImg.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/RecommendDetailModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/RecommendModel.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/css/detail.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/css/base.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/css/css1.css" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/GetIndexOrderResultModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/requestmodel/GetIndexOrderModel.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/CartoonType.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/CartoonDetailModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/config/CartoonConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/cartoonconfig.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/IndexController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/IndexServer.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/css/read02.css" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/js/cookies.js" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/js/jquery.lazyload.min.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/js/read.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/ChapterDetailModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/CartoonDetailServer.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/chapterlist.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/CartoonDetailController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/cartoondetail.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/ImageListModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/CartoonDetailController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/ChapterImageListModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/CartoonDetailServer.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/js/read.js" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/read.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/css/cate.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/requestmodel/LocaInfoModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/TypeModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/CatServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/CateController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/css/user.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/css/recharge.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/task.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/recharge.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/css/recharge.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/js/layer/mobile/layer.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/js/layer/mobile/need/layer.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/ReadCountModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/RecommendDetailModel.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/rank.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/requestmodel/SearchModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/SearchController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/search.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/subscribe.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/my.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/cate.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/usercartoon.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/js/jquery.unobtrusive-ajax.min.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/bindphone.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/util/Utils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/util/WebUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/util/ConvertHelp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/MyController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/cartoonconfig.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/config/CartoonConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/dao/CartoonDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/IndexServer.java" />
       </list>
     </option>
   </component>
@@ -329,6 +329,17 @@
           <item name="cartoon" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cartoon" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cartoon" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="com.ty.erp:erp-entitys:1.0-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
       </expand>
       <select />
     </treeState>
@@ -354,7 +365,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -390,70 +402,40 @@
             </path>
             <path>
               <item name="cartoon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cartoon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cartoon" type="462c0819:PsiDirectoryNode" />
-              <item name="controoler" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="cartoon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cartoon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cartoon" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.5" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="cartoon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cartoon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cartoon" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-              <item name="returnmodel" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.5" type="70bed36:NamedLibraryElementNode" />
+              <item name="jackson-mapper-asl-1.9.5.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cartoon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cartoon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.5" type="70bed36:NamedLibraryElementNode" />
+              <item name="jackson-mapper-asl-1.9.5.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="jackson" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cartoon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cartoon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cartoon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cartoon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cartoon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cartoon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.5" type="70bed36:NamedLibraryElementNode" />
+              <item name="jackson-mapper-asl-1.9.5.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="jackson" type="462c0819:PsiDirectoryNode" />
+              <item name="map" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -467,15 +449,15 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
-    <property name="last_opened_file_path" value="D:/qiansheng/beisitiqi/springmvc/NewWeb" />
+    <property name="last_opened_file_path" value="D:/qiansheng/biaozhun2 - 副本1/springmvc/NewWeb" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/zl/cartoonWeb/cartoon/src/main/java/com/zl/cartoon/controoler/CartoonDetailController.java" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.zl.cartoon.controoler" />
       <recent name="com.zl.cartoon.util" />
+      <recent name="com.zl.cartoon.controoler" />
       <recent name="com.zl.cartoon.interceptor" />
       <recent name="com.zl.cartoon.exception" />
     </key>
@@ -621,49 +603,65 @@
       <workItem from="1537176445760" duration="4616000" />
       <workItem from="1537195509973" duration="2929000" />
       <workItem from="1537234610314" duration="61000" />
-      <workItem from="1537247277714" duration="1824000" />
+      <workItem from="1537247277714" duration="1917000" />
+      <workItem from="1537278298820" duration="3511000" />
+      <workItem from="1537328976003" duration="47000" />
+      <workItem from="1537629259005" duration="4849000" />
+      <workItem from="1537672554711" duration="6580000" />
+      <workItem from="1537885907067" duration="4020000" />
+      <workItem from="1537924774668" duration="23000" />
+      <workItem from="1537943138735" duration="1345000" />
+      <workItem from="1537972120061" duration="2230000" />
+      <workItem from="1538011507707" duration="15000" />
+      <workItem from="1538059218622" duration="1635000" />
+      <workItem from="1538098053402" duration="85000" />
+      <workItem from="1538198547368" duration="1262000" />
+      <workItem from="1538233730865" duration="1598000" />
+      <workItem from="1538270333000" duration="595000" />
+      <workItem from="1538375845324" duration="763000" />
+      <workItem from="1539416322197" duration="424000" />
+      <workItem from="1539417589367" duration="1000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68272000" />
+    <option name="totallyTimeSpent" value="97348000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.152897" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21727468" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31584948" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36602053" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19259657" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29023606" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -672,7 +670,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.152897" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21727468" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
@@ -680,7 +678,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49714938" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31813" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -692,7 +690,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3111588" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25965664" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -758,201 +756,73 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/soft/maven/repository/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE-sources.jar!/org/springframework/ui/Model.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/ImageListModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="31" column="17" lean-forward="false" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        <state relative-caret-position="46">
+          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/ChapterDetailModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/CartoonDaoMapper.tld">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/soft/maven/repository/com/ty/erp/erp-entitys/1.0-SNAPSHOT/erp-entitys-1.0-SNAPSHOT-sources.jar!/com/ty/erp/entitys/entity/Cartoon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="28" column="9" lean-forward="false" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/js/mobile_new_comment2_17.3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9384">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/js/sort.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-566">
-          <caret line="0" column="12875" lean-forward="false" selection-start-line="0" selection-start-column="12875" selection-end-line="0" selection-end-column="12875" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/js/m_ps.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/MyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="e#253#254#0" expanded="false" />
-            <element signature="e#280#281#0" expanded="false" />
-            <element signature="e#358#359#0" expanded="false" />
-            <element signature="e#392#393#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/js/m_reader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="421" lean-forward="false" selection-start-line="0" selection-start-column="421" selection-end-line="0" selection-end-column="421" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/css/loading.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/bindphone.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="105" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/js/clipboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="938" column="3" lean-forward="false" selection-start-line="938" selection-start-column="3" selection-end-line="938" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/js/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="175" column="0" lean-forward="true" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/css/task.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="41" lean-forward="false" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/js/slide.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="33" column="38" lean-forward="true" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/CartoonModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="46">
+          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/RecommendModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="27" column="27" lean-forward="false" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+        <state relative-caret-position="207">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/requestmodel/SearchModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/SearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/ReadCountModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/RecommendDetailModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="29" column="28" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="28" />
+        <state relative-caret-position="299">
+          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/css/detail.css">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/search.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9">
-          <caret line="2" column="78" lean-forward="false" selection-start-line="2" selection-start-column="68" selection-end-line="2" selection-end-column="78" />
+        <state relative-caret-position="3979">
+          <caret line="189" column="24" lean-forward="false" selection-start-line="189" selection-start-column="24" selection-end-line="189" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/css/base.css">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/subscribe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="1403" lean-forward="false" selection-start-line="7" selection-start-column="1403" selection-end-line="7" selection-end-column="1403" />
+        <state relative-caret-position="2254">
+          <caret line="98" column="18" lean-forward="false" selection-start-line="98" selection-start-column="18" selection-end-line="98" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/css/css1.css">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/my.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="2216" lean-forward="false" selection-start-line="0" selection-start-column="2208" selection-end-line="0" selection-end-column="2216" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#256#257#0" expanded="false" />
-            <element signature="e#287#288#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cartoondetailchatper.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="2967">
+          <caret line="129" column="16" lean-forward="false" selection-start-line="129" selection-start-column="16" selection-end-line="129" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -963,226 +833,297 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/my.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cate.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4002">
-          <caret line="174" column="30" lean-forward="false" selection-start-line="174" selection-start-column="21" selection-end-line="174" selection-end-column="30" />
+        <state relative-caret-position="2668">
+          <caret line="116" column="23" lean-forward="false" selection-start-line="116" selection-start-column="23" selection-end-line="116" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/subscribe.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/usercartoon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2254">
+          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/js/jquery.unobtrusive-ajax.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="2659" lean-forward="false" selection-start-line="4" selection-start-column="2659" selection-end-line="4" selection-end-column="2659" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/util/JsonHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/soft/maven/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.5/jackson-mapper-asl-1.9.5-sources.jar!/org/codehaus/jackson/map/ObjectMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="56" column="13" lean-forward="false" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="103" column="11" lean-forward="false" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="771" column="25" lean-forward="false" selection-start-line="771" selection-start-column="25" selection-end-line="771" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/util/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="299" column="37" lean-forward="false" selection-start-line="299" selection-start-column="22" selection-end-line="299" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/util/ConvertHelp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1589">
+          <caret line="83" column="36" lean-forward="false" selection-start-line="83" selection-start-column="36" selection-end-line="83" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/util/WebUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="37" column="37" lean-forward="true" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/MyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/bindphone.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="261" column="23" lean-forward="false" selection-start-line="261" selection-start-column="23" selection-end-line="261" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1081">
+          <caret line="47" column="40" lean-forward="false" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/config/CartoonConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/cartoonconfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/recharge.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="238" column="41" lean-forward="false" selection-start-line="238" selection-start-column="41" selection-end-line="238" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6440">
+          <caret line="280" column="34" lean-forward="false" selection-start-line="280" selection-start-column="19" selection-end-line="280" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/CartoonDaoMapper.tld">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/dao/CartoonDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/CartoonModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/IndexServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2806">
+          <caret line="138" column="35" lean-forward="false" selection-start-line="138" selection-start-column="35" selection-end-line="138" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/CartoonDetailServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/chapterlist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5129">
+          <caret line="223" column="74" lean-forward="false" selection-start-line="223" selection-start-column="74" selection-end-line="223" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cartoondetailchatper.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/CartoonType.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cartoondetail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/CartoonDetailModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="73" column="23" lean-forward="false" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/config/CartoonConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/cartoonconfig.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="94" column="53" lean-forward="false" selection-start-line="94" selection-start-column="44" selection-end-line="94" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/js/loadImg.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="9" lean-forward="false" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2921">
-          <caret line="314" column="49" lean-forward="false" selection-start-line="314" selection-start-column="49" selection-end-line="314" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/requestmodel/GetIndexOrderModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="207">
+          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="49" column="32" lean-forward="false" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+        <state relative-caret-position="644">
+          <caret line="40" column="34" lean-forward="false" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/css/read02.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="870" lean-forward="false" selection-start-line="0" selection-start-column="870" selection-end-line="0" selection-end-column="870" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/IndexServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1863">
-          <caret line="111" column="56" lean-forward="false" selection-start-line="111" selection-start-column="56" selection-end-line="111" selection-end-column="56" />
-          <folding>
-            <element signature="method#getCartoonsTop#0;class#IndexServer#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/js/cookies.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/ChapterDetailModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding>
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/GetIndexOrderResultModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/CartoonDetailServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="79" column="21" lean-forward="false" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/js/jquery.lazyload.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="3309" lean-forward="false" selection-start-line="1" selection-start-column="3309" selection-end-line="1" selection-end-column="3309" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/chapterlist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="223" column="74" lean-forward="true" selection-start-line="223" selection-start-column="74" selection-end-line="223" selection-end-column="74" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cartoondetail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="269" column="25" lean-forward="true" selection-start-line="269" selection-start-column="25" selection-end-line="269" selection-end-column="25" />
-          <folding>
-            <element signature="n#style#0;n#a#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#2;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#2;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#2;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#script#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1537248671878" expanded="true" signature="6254:6291" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/CartoonDetailController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="40" column="42" lean-forward="false" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="299">
+          <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/js/read.js">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/rank.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="28" column="57" lean-forward="false" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/soft/maven/repository/org/springframework/boot/spring-boot/2.0.4.RELEASE/spring-boot-2.0.4.RELEASE-sources.jar!/org/springframework/boot/SpringBootConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="43" column="18" lean-forward="false" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/soft/maven/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.4.RELEASE/spring-boot-autoconfigure-2.0.4.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/AutoConfigurationPackages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2047">
+          <caret line="123" column="17" lean-forward="false" selection-start-line="123" selection-start-column="17" selection-end-line="123" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/soft/maven/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.4.RELEASE/spring-boot-autoconfigure-2.0.4.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/AutoConfigurationPackage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="40" column="31" lean-forward="false" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/soft/maven/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.4.RELEASE/spring-boot-autoconfigure-2.0.4.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/data/couchbase/CouchbaseDataAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="36" column="10" lean-forward="false" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/soft/maven/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.4.RELEASE/spring-boot-autoconfigure-2.0.4.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/AutoConfigurationImportSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="93" column="40" lean-forward="false" selection-start-line="93" selection-start-column="40" selection-end-line="93" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/soft/maven/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.4.RELEASE/spring-boot-autoconfigure-2.0.4.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/EnableAutoConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
-          <caret line="181" column="0" lean-forward="true" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
-          <folding>
-            <marker date="1537198320117" expanded="true" signature="4845:4883" ph="..." />
-          </folding>
+          <caret line="79" column="27" lean-forward="false" selection-start-line="79" selection-start-column="27" selection-end-line="79" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/read.html">
+    <entry file="jar://D:/soft/maven/repository/org/springframework/boot/spring-boot/2.0.4.RELEASE/spring-boot-2.0.4.RELEASE-sources.jar!/org/springframework/boot/context/TypeExcludeFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="118" column="10" lean-forward="true" selection-start-line="118" selection-start-column="10" selection-end-line="118" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="598">
+          <caret line="49" column="13" lean-forward="false" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/soft/maven/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.4.RELEASE/spring-boot-autoconfigure-2.0.4.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/AutoConfigurationExcludeFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/soft/maven/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.4.RELEASE/spring-boot-autoconfigure-2.0.4.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="53" column="59" lean-forward="false" selection-start-line="53" selection-start-column="59" selection-end-line="53" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/CartoonApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

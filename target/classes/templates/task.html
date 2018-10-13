@@ -1,0 +1,1120 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta charset="utf-8">
+    <meta content="width=device-width,height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+
+    <meta name="keywords" content="动漫,喵喵漫画动漫,漫画,动画,原创,正版,火影忍者,海贼王,捕王,充气女神,喵喵漫画官方网站" />
+    <meta name="description" content="正版动漫网站，连载众多原创国漫，原创动画，正版日漫等海内外最热正版动漫内容，为上千万动漫爱好者提供漫画、动画、资讯、论坛一站式全方位动漫服务，为原创动漫作者提供最优质的创作成长环境，为中国动漫产业打造梦想舞台。" />
+    <link href="/assets/css/base.css?v=22" rel="stylesheet" type="text/css">
+    <link href="/assets/css/loading.css" rel="stylesheet" />
+
+    <title>喵喵漫画 - 任务中心</title>
+
+
+
+    <link href="/assets/css/task.css?t=22" rel="stylesheet" type="text/css">
+    <link href="/assets/css/recharge.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        body {
+            min-height: 1000px;
+        }
+    </style>
+
+
+
+</head>
+<body>
+
+
+
+
+
+<input type="hidden" value="http://www.shandw.com/pc/auth/3thAuth?channel=11212&amp;openid=9027250&amp;nick=PrRQTq9027316&amp;avatar=https%3a%2f%2fss0.bdstatic.com%2f70cFuHSh_Q1YnxGkpoWK1HF6hhy%2fit%2fu%3d3831293878%2c2873939767%26fm%3d27%26gp%3d0.jpg&amp;sex=1&amp;time=1537673033&amp;sign=e3e75671bd18b6de4af19de0e6e30e12&amp;phone=&amp;gid=&amp;memo=PrRQTq9027316_7269833.0&amp;sdw_dl=1&amp;sdw_ac=1&amp;sdw_kf=1" id="GoToGameUrl" />
+<input type="hidden" value="http://www.shandw.com/pc/auth/3thAuth?channel=11212&amp;openid=9027250&amp;nick=PrRQTq9027316&amp;avatar=https%3a%2f%2fss0.bdstatic.com%2f70cFuHSh_Q1YnxGkpoWK1HF6hhy%2fit%2fu%3d3831293878%2c2873939767%26fm%3d27%26gp%3d0.jpg&amp;sex=1&amp;time=1537673033&amp;sign=e3e75671bd18b6de4af19de0e6e30e12&amp;phone=&amp;gid=2072357068&amp;memo=PrRQTq9027316_7269833.0&amp;sdw_dl=1&amp;sdw_ac=1&amp;sdw_kf=1" id="GoToGameUrl1" />
+<input type="hidden" value="http://www.shandw.com/pc/auth/3thAuth?channel=11212&amp;openid=9027250&amp;nick=PrRQTq9027316&amp;avatar=https%3a%2f%2fss0.bdstatic.com%2f70cFuHSh_Q1YnxGkpoWK1HF6hhy%2fit%2fu%3d3831293878%2c2873939767%26fm%3d27%26gp%3d0.jpg&amp;sex=1&amp;time=1537673033&amp;sign=e3e75671bd18b6de4af19de0e6e30e12&amp;phone=&amp;gid=1247433539&amp;memo=PrRQTq9027316_7269833.0&amp;sdw_dl=1&amp;sdw_ac=1&amp;sdw_kf=1" id="GoToGameUrl2" />
+
+<header class="tophead clf">
+    <div id="headerbox">
+        <a href="javascript:history.go(-1);" class="back"></a>
+        任务中心
+        <a href="/" class="home01"></a>
+    </div>
+</header>
+
+
+
+<section class="block">
+
+    <div style="padding:10px; line-height:30px; text-align:center; background:#f5f5f5">
+
+        <p><span class="red">第一步：</span>请复制你的任务码</p>
+        <p><span style="background:#F30; color:#fff; font-size:1.2em" id="theusername">PrRQTq9027316_7269833.0</span></p>
+
+        <button class="sign01" data-param="test" id="copyBtn" data-clipboard-action="copy" data-ctype="0"
+                data-clipboard-target="#copyTarget">
+            直接复制任务码
+        </button>
+        <p class="gray">注：如果没复制成功，请手动长按复制</p>
+
+    </div>
+
+    <div style="padding:10px 0 0 0; line-height:30px; text-align:center; border-bottom:1px solid #eee;">
+
+        <p><span class="red">第二步：</span>进入下方微信小程序领取</p>
+
+        <p class="gray">若已关注可再次领取</p>
+
+        <div style="margin:15px;font-size:1.3em;color:#f00;display:none" id="showerror">因公众号问题，任务暂时取消，请耐心等待恢复。</div>
+    </div>
+
+
+
+
+
+
+    <ul class="signbox" id="novelList"></ul>
+
+</section>
+
+
+
+<section id="taskcon5" style="position: fixed;display:none;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.8);
+    top: 0;
+    left: 0;
+    text-align: center;
+    font-size: 0.8em;">
+    <div class="taskBg">
+        <div class="sharMsg" id="" style="display: ;">
+            <div class="sharTitle">
+
+            </div>
+
+
+        </div>
+        <div class="sharMsg" id="showqrdiv5" style="display: ;">
+
+            <div style="padding:10px 0">
+                <p><span id="">请保存二维码到手机</span></p>
+                <p><img id="" src="/images/tcode13.png" width="120" height="120"></p>
+            </div>
+            <span onclick="$('#sharMsg006').show(); $('#showqrdiv5').hide()" class="sign02">已保存，下一步</span>
+        </div>
+        <div class="sharMsg" id="sharMsg006" style="display: none;">
+
+            <div style="padding:10px 0">
+                <p><span class="red">微信内识别二维码</span></p>
+
+
+            </div>
+            <a href="weixin://" class="sign02">点击进入微信</a>
+        </div>
+    </div>
+
+    <a href="javascript:;" onclick="$('#taskcon5').hide(); $('#sharMsg006').hide(); $('#showqrdiv5').show()"
+       style="display:block; color:#fff; text-align:center; line-height:50px;">关闭</a>
+</section>
+
+<section id="taskcon4" style="position: fixed;display:none;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.8);
+    top: 0;
+    left: 0;
+    text-align: center;
+    font-size: 0.8em;">
+    <div class="taskBg">
+        <div class="sharMsg" id="" style="display: ;">
+            <div class="sharTitle">
+
+            </div>
+
+
+        </div>
+        <div class="sharMsg" id="showqrdiv4" style="display: ;">
+
+            <div style="padding:10px 0">
+                <p><span id="">请保存二维码到手机</span></p>
+                <p><img id="" src="/images/tcode6.png" width="120" height="120"></p>
+            </div>
+            <span onclick="$('#sharMsg005').show(); $('#showqrdiv4').hide()" class="sign02">已保存，下一步</span>
+        </div>
+        <div class="sharMsg" id="sharMsg005" style="display: none;">
+
+            <div style="padding:10px 0">
+                <p><span class="red">微信内识别二维码</span></p>
+
+
+            </div>
+            <a href="weixin://" class="sign02">点击进入微信</a>
+        </div>
+    </div>
+
+    <a href="javascript:;" onclick="$('#taskcon4').hide(); $('#sharMsg005').hide(); $('#showqrdiv4').show()"
+       style="display:block; color:#fff; text-align:center; line-height:50px;">关闭</a>
+</section>
+
+<section id="taskcon3" style="position: fixed;display:none;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.8);
+    top: 0;
+    left: 0;
+    text-align: center;
+    font-size: 0.8em;">
+    <div class="taskBg">
+        <div class="sharMsg" id="" style="display: ;">
+            <div class="sharTitle">
+
+            </div>
+
+
+        </div>
+        <div class="sharMsg" id="showqrdiv3" style="display: ;">
+
+            <div style="padding:10px 0">
+                <p><span id="">请保存二维码到手机</span></p>
+                <p><img id="" src="/images/tcode3.png" width="120" height="120"></p>
+            </div>
+            <span onclick="$('#sharMsg004').show(); $('#showqrdiv3').hide()" class="sign02">已保存，下一步</span>
+        </div>
+        <div class="sharMsg" id="sharMsg004" style="display: none;">
+
+            <div style="padding:10px 0">
+                <p><span class="red">微信内识别二维码</span></p>
+
+
+            </div>
+            <a href="weixin://" class="sign02">点击进入微信</a>
+        </div>
+    </div>
+
+    <a href="javascript:;" onclick="$('#taskcon3').hide(); $('#sharMsg004').hide(); $('#showqrdiv3').show()"
+       style="display:block; color:#fff; text-align:center; line-height:50px;">关闭</a>
+</section>
+<section id="taskcon2" style="position: fixed;display:none;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.8);
+    top: 0;
+    left: 0;
+    text-align: center;
+    font-size: 0.8em;">
+    <div class="taskBg">
+        <div class="sharMsg" id="" style="display: ;">
+            <div class="sharTitle">
+
+            </div>
+
+
+        </div>
+        <div class="sharMsg" id="showqrdiv1" style="display: ;">
+
+            <div style="padding:10px 0">
+                <p><span id="">请保存二维码到手机</span></p>
+                <p><img id="" src="/images/tcode7.png" width="120" height="120"></p>
+            </div>
+            <span onclick="$('#sharMsg003').show(); $('#showqrdiv1').hide()" class="sign02">已保存，下一步</span>
+        </div>
+        <div class="sharMsg" id="sharMsg003" style="display: none;">
+
+            <div style="padding:10px 0">
+                <p><span class="red">微信内识别二维码</span></p>
+
+
+            </div>
+            <a href="weixin://" class="sign02">点击进入微信</a>
+        </div>
+    </div>
+
+    <a href="javascript:;" onclick="$('#taskcon2').hide(); $('#sharMsg003').hide(); $('#showqrdiv1').show()"
+       style="display:block; color:#fff; text-align:center; line-height:50px;">关闭</a>
+</section>
+
+
+<section id="taskcon1" style="position: fixed;display:none;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.8);
+    top: 0;
+    left: 0;
+    text-align: center;
+    font-size: 0.8em;">
+    <div class="taskBg">
+        <div class="sharMsg" id="" style="display: ;">
+            <div class="sharTitle">
+                <h3>任务领取成功! </h3>
+            </div>
+
+
+        </div>
+        <div class="sharMsg" id="showqrdiv" style="display: ;">
+
+            <div style="padding:10px 0">
+                <p><span id="">请保存二维码到手机</span></p>
+                <p><img id="" src="/images/t1.png" width="120" height="120"></p>
+            </div>
+            <span onclick="$('#sharMsg001').show(); $('#showqrdiv').hide()" class="sign02">已保存，下一步</span>
+        </div>
+        <div class="sharMsg" id="sharMsg001" style="display: none;">
+
+            <div style="padding:10px 0">
+                <p><span class="red">微信内识别二维码</span></p>
+
+
+            </div>
+            <a href="weixin://" class="sign02">点击进入微信</a>
+        </div>
+    </div>
+
+    <a href="javascript:;" onclick="$('#taskcon1').hide(); $('#sharMsg001').hide(); $('#showqrdiv').show()"
+       style="display:block; color:#fff; text-align:center; line-height:50px;">关闭</a>
+</section>
+
+<section id="taskCont" style="display:none;z-index:1"></section>
+
+<section class="block signbox">
+
+    <div class="fl w15"><img src="http://img3.xmh222.com//user/cover/31.jpg" onerror="this.src = '/assets/images/17.jpg'" class="userheader" /></div>
+    <div class="fl" style="width:55%; overflow:hidden;">
+        <p>
+            <span id="showusername">PrRQTq9027316</span> （<span class="red"><stv id="showusercoin">0</stv>阅币</span>）<br>
+            <span class="gray">每日一签赚50阅币</span>
+        </p>
+    </div>
+
+    <div class="fl w30">
+        <a href="javascript:;" onclick="sign()" class="sign">签到</a>    </div>
+</section>
+
+<script type="text/html" id="taskConttemp">
+
+
+    <div class="taskBg">
+
+        <div class="sharMsg" id="sharMsg02" style="display: ;">
+            <div class="sharTitle">
+                <h3>任务码复制成功！</h3>
+            </div>
+            <div style="padding:10px 0">
+                <p><span id="sharSubTitle">第2步：请保存二维码到手机</span></p>
+                <p><img id="sharQr" src="{sharQr}" width="120" height="120"></p>
+            </div>
+            <span onclick="next(1)" class="sign02">已保存，下一步</span>
+        </div>
+        <div class="sharMsg" id="sharMsg03" style="display: none;">
+            <div class="sharTitle">
+                <h3>最后一步</h3>
+            </div>
+            <div style="padding:10px 0">
+                <p>第3步：在<span class="red">微信内识别二维码</span>，关注公众号！</p>
+                <p class="red">在公众号内点击任务链接，输入任务码领取！</p>
+                <p>若已关注，输入任务码领取！</p>
+            </div>
+            <a href="weixin://" class="sign02">点击进入微信</a>
+        </div>
+    </div>
+
+    <a href="javascript:close();" style="display:block; color:#fff; text-align:center; line-height:50px;">关闭</a>
+
+
+</script>
+
+
+<script type="text/html" id="taskConttemp1">
+
+    <div class="taskBg">
+
+        <div class="sharMsg" style="display:;" id="sharMsg02">
+            <div class="sharTitle">
+                <h3>任务码复制成功！</h3>
+            </div>
+            <div style="padding:10px 0">
+                <p><span id="sharSubTitle">第2步：<span id="sharAcut" class="red">{sharAcut}</span></span></p>
+
+                <p>若已关注,可直接再次领取</p>
+            </div>
+            <a id="signbtn02" href="{signbtn02}" class="sign02" target="_blank">点击关注公众号</a>
+
+        </div>
+    </div>
+    <a href="javascript:close();" style="display:block; color:#fff; text-align:center; line-height:50px;">关闭</a>
+
+</script>
+
+
+<script type="text/html" id="litemp">
+
+    <li id="task{id}" data-img="{con}" data-title="{name}" data-key="{code}" data-mcode="{mcode}" data-ctype="{ctype}"
+        data-lurl="{lurl}" style="display:none">
+
+        <div class="fl w15"><img src="{img}" class="userheader" onerror="this.src = '/images/9.jpg'"></div>
+
+        <div class="fl w50" style="text-align:left; line-height:40px;">
+            <p>
+                <span>{name}</span> <br>
+                <span class="red">请务必复制任务码</span>
+            </p>
+        </div>
+
+        <div class="w30 fr">{check}</div>
+
+    </li>
+
+</script>
+
+
+<div id="copyTarget" style="opacity: 0;"></div>
+
+
+
+
+
+
+<script src="/assets/js/jquery.min.js?t=1"></script>
+
+<script src="/assets/js/clipboard/clipboard.js"></script>
+<script>
+
+
+    new ClipboardJS('.sign01', {
+        text: function (trigger) {
+            var param = $(trigger).data("param"); /*获取目标对象上挂载的参数test*/
+            var ct = $(trigger).data("ctype");
+
+            getCopyData(param, ct);
+
+            return trigger.getAttribute('aria-label');
+        }
+    });
+
+
+    function getCopyData(param, tp) {
+        var infodata = "";
+        if (param == "test") {
+
+            infodata = document.getElementById("theusername").innerText;
+
+            $("#copyTarget").text(infodata);  /*放入目标对象*/
+
+            //  sharMsg01.style.display = 'none';
+            //   sharMsg02.style.display = 'block';
+
+            alert("复制成功");
+        }
+    }
+
+
+
+    var sharCopy = document.getElementById("sharCopy");
+
+    function close() {
+        var taskCont = document.getElementById("taskCont");
+        taskCont.style.display = "none"
+    }
+    function show() {
+        var taskCont = document.getElementById("taskCont");
+        taskCont.style.display = "block"
+    }
+
+</script>
+
+
+<script>
+    var isgetapp = "False";
+
+    var app1 = "0";
+
+    $(function () {
+        Info();
+
+        try {
+
+            var s = android.getPinQuStatus();
+            if (parseInt(s) == 1) {
+                $("#showdownappname").html("打开App");
+
+            } else {
+                $("#showdownappname").html("下载App");
+                if (isgetapp == "True") {
+
+                    $("#showdownappname").html("已领60阅币");
+
+                }
+                //   location.href = "";
+            }
+            app1 = s;
+
+            $("#showpinquapp").show();
+
+        } catch (e) {
+            $("#showdownappname").html("下载App");
+            if (isgetapp == "True") {
+
+                $("#showdownappname").html("已领60阅币");
+
+            }
+
+            $("#showpinquapp").show();
+
+            console.log("error1");
+        }
+
+    });
+
+
+    function rand(minNum, maxNum) {
+        switch (arguments.length) {
+            case 1:
+                return parseInt(Math.random() * minNum + 1, 10);
+                break;
+            case 2:
+                return parseInt(Math.random() * (maxNum - minNum + 1) + minNum, 10);
+                break;
+            default:
+                return 0;
+                break;
+        }
+    }
+
+    var dArr = new Array();
+    function Info() {
+
+        $.ajax({
+            url: "LoadMore",
+            type: "POST",
+            dataType: "json",
+            success: function (msg) {
+                console.log(msg);
+
+                if (msg.code == "0") {
+                    var li = "";
+                    var lit = $("#litemp").html();
+                    var count = 0;
+
+                    if (msg.data.length == 0) {
+                        $("#showerror").show();
+                    }
+
+                    $.each(msg.data, function (j, v) {
+
+                        var take = '<a href="javascript:;" onclick="Take(' + v.Id + ')" class="sign01 checksgin">领取任务</a>';
+
+                        if (v.IsCheck == 1) {
+                            take = '<a href="javascript:;" onclick="Take(' + v.Id + ',1)" class="signed checksgin">已领取</a>';
+                        }
+
+                        if (v.IsDone == 1) {
+                            take = '<a href="javascript:;" class="signed checksgin">已完成</a>';
+
+                        } else {
+                            dArr[dArr.length] = v.Id;
+                        }
+
+                        li += lit.replace(/{id}/g, v.Id).replace(/{img}/g, v.ImgUrl).replace(/{check}/g, take).replace(/{mcode}/g, v.MCode)
+                            .replace(/{ctype}/g, v.CType).replace(/{lurl}/g, v.LUrl)
+                            .replace(/{summary}/g, v.Summary).replace(/{name}/g, v.Title).replace(/{con}/g, v.Content).replace(/{code}/g, v.KeyCode);
+
+                    });
+
+                    $("#novelList").html(li);
+                    //随机
+
+                    //for (var i = 0; i < 3; i++)
+                    {
+
+                        var ra = rand(0, dArr.length - 1);
+                        if (ra >= dArr.length) {
+                            return false;
+                        }
+
+                        var eq = dArr[ra];
+                        $("#task" + eq).show();
+                        console.log(dArr[ra]);
+                        dArr.splice(ra, 1);
+
+                    }
+                }
+
+            }
+        });
+    }
+
+    var tlist = new Array();
+
+    function Take(id, tp) {
+
+        if (tp == 1) {
+            tlist[tlist.length] = id;
+
+            //  return false;
+
+            //      $("#task" + id + " .checksgin").removeClass("sign01").addClass("signed").html("已领取");
+
+            var img = $("#task" + id).data("img");
+            var title = $("#task" + id).data("title");
+            var key = $("#task" + id).data("key");
+            var mcode = $("#task" + id).data("mcode");
+            var ct = $("#task" + id).data("ctype");
+            var lurl = $("#task" + id).data("lurl");
+
+            var li = "";
+
+            var lit = $("#taskConttemp").html();
+            if (ct == "1") {
+                lit = $("#taskConttemp1").html();
+            }
+
+            li += lit.replace(/{sharAcut}/g, title).replace(/{sharKeyword}/g, key).replace(/{sharKeyword1}/g, mcode)
+                .replace(/{sharQr}/g, img).replace(/{signbtn02}/g, lurl);
+
+
+            //$("#sharAcut").html(title);
+            //$("#sharKeyword").html(key);
+            //$("#sharKeyword1").html(mcode);
+            //$("#sharQr").attr("src", img);
+            $("#taskCont").html(li);
+
+            show();
+
+            // location.href = lurl;
+
+        } else {
+
+            TakeOne(id);
+        }
+    }
+    var checktake = false;
+
+    function TakeOne(id) {
+        if (checktake) {
+            return false;
+        }
+
+        if (tlist.indexOf(id) >= 0) {
+
+            // if (true) {
+
+
+            // tlist[tlist.length] = id;
+            //   $("#task" + id + " .checksgin").removeClass("sign02").addClass("signed").html("2、已领取");
+
+            //   return false;
+
+            var img = $("#task" + id).data("img");
+            var title = $("#task" + id).data("title");
+            var key = $("#task" + id).data("key");
+            var mcode = $("#task" + id).data("mcode");
+            var ct = $("#task" + id).data("ctype");
+            var lurl = $("#task" + id).data("lurl");
+
+            var li = "";
+
+            var lit = $("#taskConttemp").html();
+            if (ct == "1") {
+                lit = $("#taskConttemp1").html();
+            }
+
+            li += lit.replace(/{sharAcut}/g, title).replace(/{sharKeyword}/g, key).replace(/{sharKeyword1}/g, mcode)
+                .replace(/{sharQr}/g, img).replace(/{signbtn02}/g, lurl);
+
+
+            $("#taskCont").html(li);
+
+            // location.href = lurl;
+
+            show();
+
+            return false;
+        }
+
+        //   return false;
+
+        checktake = true;
+
+        $.ajax({
+            url: "TakeOne",
+            type: "POST",
+            dataType: "json",
+            data: { id: id },
+            success: function (msg) {
+                console.log(msg);
+
+                if (msg.code == "0") {
+
+                    tlist[tlist.length] = id;
+                    $("#task" + id + " .checksgin").removeClass("sign01").addClass("signed").html("已领取");
+
+                    $("#showusername").html(msg.data.name);
+
+
+                    var img = $("#task" + id).data("img");
+                    var title = $("#task" + id).data("title");
+                    var key = $("#task" + id).data("key");
+
+                    var mcode = msg.data.mcode;
+
+                    $("#task" + id).data("mcode", mcode);
+
+                    var ct = $("#task" + id).data("ctype");
+                    var lurl = $("#task" + id).data("lurl");
+
+                    var li = "";
+
+                    var lit = $("#taskConttemp").html();
+                    if (ct == "1") {
+                        lit = $("#taskConttemp1").html();
+                    }
+
+                    li += lit.replace(/{sharAcut}/g, title).replace(/{sharKeyword}/g, key).replace(/{sharKeyword1}/g, mcode)
+                        .replace(/{sharQr}/g, img).replace(/{signbtn02}/g, lurl);
+
+
+                    $("#taskCont").html(li);
+
+                    show();
+                    //  location.href = lurl;
+
+                } else {
+                    alert(msg.message)
+                }
+
+                checktake = false;
+
+            }, error: function () {
+
+                checktake = false;
+            }
+        });
+    }
+
+    var check = false;
+    function sign() {
+        if (check) {
+            return false;
+        }
+        check = true;
+        $.ajax({
+            url: "/user/sign",
+
+            type: "POST",
+            success: function (msg) {
+
+                if (msg.code == "0") {
+                    console.log(msg);
+                    $(".sign").html("已签到");
+                    var cc = $("#showusercoin").html();
+                    $("#showusercoin").html(parseInt(cc) + parseInt(msg.data.coin));
+                    $("#showusername").html(msg.data.name);
+
+                } else {
+                    check = false;
+                }
+
+            }, error: function () {
+
+                check = false;
+            }
+        })
+    }
+
+
+    function next(i) {
+
+        var sharMsg02 = document.getElementById("sharMsg02");
+        var sharMsg03 = document.getElementById("sharMsg03");
+
+        if (i == 1) {
+            sharMsg02.style.display = "none";
+            sharMsg03.style.display = "block";
+        }
+
+    }
+
+
+    function checkup() {
+
+        $.ajax({
+            url: "/user/CheckPt",
+            type: "POST",
+            dataType: "text",
+            success: function (msg) {
+
+            }
+        });
+    }
+
+
+
+    var isgetapp1 = "False";
+    var checku1 = false;
+
+    function checku(tn) {
+        if (checku1) {
+
+            return false;
+        }
+
+        if (isgetapp1 == "True") {
+            //直接打开
+            $("#taskcon1").show();
+            return false;
+        }
+
+        checku1 = true;
+
+        $.ajax({
+            url: "/user/CheckApp?c=60&tp=1",
+            type: "POST",
+            dataType: "text",
+            success: function (msg) {
+                console.log(msg);
+
+                $("#downloadapp2")//.removeClass("sign02").addClass("signed")
+                    .attr("href", "javascript:;").html("已领60阅币");
+
+                //打开
+                $("#taskcon1").show();
+
+                if (msg == "T") {
+                    //更改阅读币
+                    var cc = parseInt($("#showusercoin").html()) + 60;
+
+                    $("#showusercoin").html(cc);
+
+                } else if (msg == "F") {
+
+                } else if (msg == "Z") { //已领取
+
+                }
+            }, complete: function (XMLHttpRequest) {
+
+                checku1 = false;
+
+            }
+        });
+    }
+
+</script>
+
+<script>
+    var isgetapp2 = "False";
+    var checku3 = false;
+    function checkapp1(tn) {
+
+
+        if (isgetapp2 == "True") {
+
+            if (tn == 1) {
+                $("#taskcon2").show();
+            } else {
+                //  location.href = "http://tfyxb2017-1251304591.file.myqcloud.com/ahdxc2/ahdxc2_mzyw_1411601007.apk";
+            }
+            return false;
+        }
+
+        if (checku3) {
+
+            return false;
+        }
+
+        checku3 = true;
+
+        $.ajax({
+            url: "/user/CheckApp?c=60&tp=7",
+            type: "POST",
+            dataType: "text",
+            success: function (msg) {
+                console.log(msg);
+
+                $("#downloadappc7")//.removeClass("sign02").addClass("signed")
+                    .attr("href", "javascript:;").html("已领60阅币");
+                if (tn == 1) {
+                    $("#taskcon2").show();
+                } else {
+
+                    //   location.href = "http://tfyxb2017-1251304591.file.myqcloud.com/ahdxc2/ahdxc2_mzyw_1411601007.apk";
+                }
+
+                if (msg == "T") {
+                    //更改阅读币
+                    var cc = parseInt($("#showusercoin").html()) + 60;
+
+                    $("#showusercoin").html(cc);
+
+                } else if (msg == "F") {
+
+                } else if (msg == "Z") { //已领取
+
+                }
+
+            }, complete: function (XMLHttpRequest) {
+                //$("#downloadapp").removeClass("sign02").addClass("signed").attr("href", "javascript:;").html("已领150阅币");
+                checku3 = false;
+            }
+        });
+    }
+</script>
+
+
+<script>
+    var isgetapp3 = "False";
+    var checku4 = false;
+    function checkapp2(tn) {
+
+
+        if (isgetapp3 == "True") {
+
+            if (tn == 1) {
+                $("#taskcon3").show();
+            } else {
+                //  location.href = "http://tfyxb2017-1251304591.file.myqcloud.com/ahdxc2/ahdxc2_mzyw_1411601007.apk";
+            }
+            return false;
+        }
+
+        if (checku4) {
+
+            return false;
+        }
+
+        checku4 = true;
+
+        $.ajax({
+            url: "/user/CheckApp?c=60&tp=3",
+            type: "POST",
+            dataType: "text",
+            success: function (msg) {
+                console.log(msg);
+
+                $("#downloadappc3")//.removeClass("sign02").addClass("signed")
+                    .attr("href", "javascript:;").html("已领60阅币");
+                if (tn == 1) {
+                    $("#taskcon3").show();
+                } else {
+
+                    //   location.href = "http://tfyxb2017-1251304591.file.myqcloud.com/ahdxc2/ahdxc2_mzyw_1411601007.apk";
+                }
+
+                if (msg == "T") {
+                    //更改阅读币
+                    var cc = parseInt($("#showusercoin").html()) + 60;
+
+                    $("#showusercoin").html(cc);
+
+                } else if (msg == "F") {
+
+                } else if (msg == "Z") { //已领取
+
+                }
+
+            }, complete: function (XMLHttpRequest) {
+                //$("#downloadapp").removeClass("sign02").addClass("signed").attr("href", "javascript:;").html("已领150阅币");
+                checku4 = false;
+            }
+        });
+    }
+</script>
+
+
+<script>
+    var isgetapp4 = "False";
+    var checku5 = false;
+    function checkapp3(tn) {
+
+
+        if (isgetapp4 == "True") {
+
+            if (tn == 1) {
+                $("#taskcon4").show();
+            } else {
+                //  location.href = "http://tfyxb2017-1251304591.file.myqcloud.com/ahdxc2/ahdxc2_mzyw_1411601007.apk";
+            }
+            return false;
+        }
+
+        if (checku5) {
+
+            return false;
+        }
+
+        checku5 = true;
+
+        $.ajax({
+            url: "/user/CheckApp?c=60&tp=6",
+            type: "POST",
+            dataType: "text",
+            success: function (msg) {
+                console.log(msg);
+
+                $("#downloadappc6")//.removeClass("sign02").addClass("signed")
+                    .attr("href", "javascript:;").html("已领60阅币");
+                if (tn == 1) {
+                    $("#taskcon4").show();
+                } else {
+
+                    //   location.href = "http://tfyxb2017-1251304591.file.myqcloud.com/ahdxc2/ahdxc2_mzyw_1411601007.apk";
+                }
+
+                if (msg == "T") {
+                    //更改阅读币
+                    var cc = parseInt($("#showusercoin").html()) + 60;
+
+                    $("#showusercoin").html(cc);
+
+                } else if (msg == "F") {
+
+                } else if (msg == "Z") { //已领取
+
+                }
+
+            }, complete: function (XMLHttpRequest) {
+                //$("#downloadapp").removeClass("sign02").addClass("signed").attr("href", "javascript:;").html("已领150阅币");
+                checku5 = false;
+            }
+        });
+    }
+</script>
+
+
+
+<script>
+    var isgetapp5 = "False";
+    var checku6 = false;
+    function checkapp4(tn) {
+
+        location.href = $("#GoToGameUrl").val();
+        return false;
+
+        if (isgetapp5 == "True") {
+
+            if (tn == 1) {
+                $("#taskcon5").show();
+            } else {
+                location.href = $("#GoToGameUrl").val();
+            }
+            return false;
+        }
+
+        if (checku6) {
+
+            return false;
+        }
+
+        checku6 = true;
+
+        $.ajax({
+            url: "/user/CheckApp?c=60&tp=13",
+            type: "POST",
+            dataType: "text",
+            success: function (msg) {
+                console.log(msg);
+
+                $("#downloadappc13")//.removeClass("sign02").addClass("signed")
+                    .attr("href", "javascript:;").html("已领60阅币");
+                if (tn == 1) {
+                    $("#taskcon5").show();
+                } else {
+
+                    location.href = $("#GoToGameUrl").val();
+                }
+
+                if (msg == "T") {
+                    //更改阅读币
+                    var cc = parseInt($("#showusercoin").html()) + 60;
+
+                    $("#showusercoin").html(cc);
+
+                } else if (msg == "F") {
+
+                } else if (msg == "Z") { //已领取
+
+                }
+
+            }, complete: function (XMLHttpRequest) {
+                //$("#downloadapp").removeClass("sign02").addClass("signed").attr("href", "javascript:;").html("已领150阅币");
+                checku6 = false;
+            }
+        });
+    }
+</script>
+
+
+<script>
+    var isgetapp6 = "False";
+    var checku7 = false;
+    function checkapp5(tn) {
+        location.href = $("#GoToGameUrl1").val();
+
+        return false;
+
+        if (isgetapp6 == "True") {
+
+            if (tn == 1) {
+                $("#taskcon5").show();
+            } else {
+                location.href = $("#GoToGameUrl1").val();
+            }
+            return false;
+        }
+
+        if (checku7) {
+
+            return false;
+        }
+
+        checku6 = true;
+
+        $.ajax({
+            url: "/user/CheckApp?c=60&tp=14",
+            type: "POST",
+            dataType: "text",
+            success: function (msg) {
+                console.log(msg);
+
+                $("#downloadappc14")//.removeClass("sign02").addClass("signed")
+                    .attr("href", "javascript:;").html("已领60阅币");
+                if (tn == 1) {
+                    $("#taskcon5").show();
+                } else {
+
+                    location.href = $("#GoToGameUrl1").val();
+                }
+
+                if (msg == "T") {
+                    //更改阅读币
+                    var cc = parseInt($("#showusercoin").html()) + 60;
+
+                    $("#showusercoin").html(cc);
+
+                } else if (msg == "F") {
+
+                } else if (msg == "Z") { //已领取
+
+                }
+
+            }, complete: function (XMLHttpRequest) {
+                //$("#downloadapp").removeClass("sign02").addClass("signed").attr("href", "javascript:;").html("已领150阅币");
+                checku7 = false;
+            }
+        });
+    }
+</script>
+
+<script>
+
+
+    function checkapp6(tn) {
+        location.href = $("#GoToGameUrl2").val();
+
+        return false;
+
+    }
+</script>
+
+</body>
+</html>

@@ -55,6 +55,7 @@ public class CartoonDetailController {
     @ResponseBody
     public Result GetContent() {
         Result result = new Result();
+        result.setData(server.getChapterImageListModel());
         return result;
     }
 

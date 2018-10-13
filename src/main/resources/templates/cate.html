@@ -1,0 +1,331 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta charset="utf-8">
+    <meta content="width=device-width,height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+          name="viewport"/>
+
+    <meta name="keywords" content="动漫,喵喵漫画动漫,漫画,动画,原创,正版,火影忍者,海贼王,捕王,充气女神,喵喵漫画官方网站"/>
+    <meta name="description"
+          content="正版动漫网站，连载众多原创国漫，原创动画，正版日漫等海内外最热正版动漫内容，为上千万动漫爱好者提供漫画、动画、资讯、论坛一站式全方位动漫服务，为原创动漫作者提供最优质的创作成长环境，为中国动漫产业打造梦想舞台。"/>
+    <link href="/assets/css/base.css?v=21" rel="stylesheet" type="text/css">
+    <link href="/assets/css/loading.css" rel="stylesheet"/>
+
+    <title>喵喵漫画 - 分类</title>
+
+
+    <link href="/assets/css/cate.css?t=21" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        .changeBtn {
+            width: 25%;
+            height: 28px;
+            line-height: 28px;
+            display: block;
+            margin: 5px auto;
+            font-size: 0.8em;
+            overflow: hidden;
+            border-radius: 14px;
+            background: #eee;
+            padding-left: 0;
+        }
+
+        .changeBtn a.on {
+            color: #fff;
+            background: #F66;
+        }
+
+        .changeBtn a {
+            display: inline-block;
+            width: 50%;
+            border-radius: 14px;
+            background: #eee;
+        }
+    </style>
+
+
+</head>
+<body>
+
+
+<input type="hidden" value="0" id="rclassId"/>
+
+<header class="tophead">
+    <div id="headerbox">
+        <a href="javascript:history.go(-1);" class="back"></a>
+        分类
+
+        <a class="searchBtn01" id="searchBtn"></a>
+    </div>
+    <div id="searchbox" class="clf" style="display:none">
+        <input type="text" class="fl w80 searchInput" id="keywords" placeholder="输入 名称\作者\关键字 搜索"/>
+        <a class="cancleBtn fl w20" id="cancleBtn">取消</a>
+    </div>
+</header>
+<!--<div class="h50"></div>-->
+<section class="block">
+    <div class="catebox">
+        <a style="float: left" href="javascript:void(0);" class="red" onclick="SelClass(this,-1)">全部</a>
+
+        <ul style="list-style:none;padding:0;margin:0;float: left;text-decoration: none; ">
+            <li style="display:inline;" th:each="item : ${lists}">
+                <a href="javascript:void(0);" class=""
+                   th:onclick="'javascript:SelClass('+this+','+${item.getRowid()}+')'" th:text="${item.getTitle()}"></a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="catebox checkcatebox" data-str="st"><a class="red" data-value="-1">全部</a><a data-value="0">连载中</a><a
+            data-value="1">已完结</a></div>
+    <div class="catebox checkcatebox" data-str="coin"><a class="red" data-value="-1">全部</a><a data-value="0">免费</a><a
+            data-value="1">付费</a></div>
+    <div class="catebox checkcatebox" data-str="order"><a class="red" data-value="0">最新更新</a><a data-value="1"
+                                                                                                id="showorder">总点击</a>
+    </div>
+
+    <ul class="book_list" id="novelList"></ul>
+    <a href="javascript:void(0);" class="clickmore" id="loading" onclick="LoadMore()"></a>
+</section>
+
+<script type="text/html" id="litemp">
+    <li class="clf">
+        <a href="{nlink}" class="fl w25"><img src="{img}" height="90" onerror="this.src='/images/cover.jpg'"></a>
+        <div class="fl w73">
+            <b class="booktitle"><a href="{nlink}">{name}</a></b>
+
+            <div class="bookdesc"><a href="{nlink}">{summary}</a></div>
+
+            <div class="bookcat clf">
+                <p class="fl"><span class="red"><a href="search?keyValue={author}" class="wirteIcon">{author}</a></span>
+                </p>
+                <p class="fr redTag tag">{upstate}</p>
+            </div>
+
+        </div>
+    </li>
+
+</script>
+
+<div class="spinner">
+    <div class="double-bounce1"></div>
+    <div class="double-bounce2"></div>
+</div>
+
+<div class="h50"></div>
+
+
+<nav class="footnav clf">
+    <a href="/"><span class="m01">推荐</span></a>
+    <a href="/usercartoon"><span class="m05">书架</span></a>
+
+
+    <a href="/cate" class="selected"><span class="m03">分类</span></a>
+    <a href="/my"><span class="m04">我的</span></a>
+    <!--class="selected"-->
+</nav>
+
+
+<script src="/assets/js/jquery.min.js?t=1"></script>
+
+
+<script src="/assets/js/loadImg.js"></script>
+
+<script>
+    $(function () {
+
+        $(".checkcatebox").find("a").click(function () {
+
+            var that = $(this);
+            var sv = that.data("value");
+            console.log();
+            var ty = that.parents(".checkcatebox").data("str");
+            console.log(ty);
+            if (ty == "order") {
+                if (sv != s) {
+                    SelS(this, sv);
+                }
+            } else if (ty == "coin") {
+                if (sv != a) {
+                    SelA(this, sv);
+                }
+            } else if (ty == "st") {
+                if (sv != jd) {
+                    SelJd(this, sv);
+                }
+            }
+        })
+    })
+</script>
+
+<script>
+
+    var searchBtn = $("#searchBtn");
+    var headerbox = $("#headerbox");
+    var searchbox = $("#searchbox");
+    var cancleBtn = $("#cancleBtn");
+
+    $("#cancleBtn").click(function () {
+        searchbox.hide();
+        headerbox.show();
+
+    });
+
+    $("#searchBtn").click(function () {
+        searchbox.show();
+        headerbox.hide();
+
+    });
+
+    //回车键
+    document.onkeydown = function (event) {
+        var keywords = document.getElementById("keywords");
+        var e = event || window.event || arguments.callee.caller.arguments[0];
+        if (e && e.keyCode == 13 && keywords.value != '') {
+            GetNovelBySearch();
+        }
+    };
+
+    //输入框失去焦点搜索
+    function Serach() {
+        GetNovelBySearch();
+    }
+
+    //带参跳转
+    function GetNovelBySearch() {
+        var keywords = document.getElementById("keywords");
+        location.href = "Search?keyValue=" + keywords.value;
+    }
+
+    var pageIndex = 1;
+    var pageSize = 12;
+
+
+    var cId = 0;//分类
+    var jd = -1;  //进度
+    var a = -1;     //属性
+    var s = 0;      //排序
+    var rClassId = 0;   //推荐分类编号
+
+    window.onload = function () {
+
+        GetNovelInfo(0);
+    }
+
+    function removeSel(obj) {
+        pageIndex = 1;
+        obj.parentNode.parentNode.parentNode.getElementsByClassName("red")[0].className = "";
+        obj.className = "red";
+    }
+
+    //作品分类筛选
+    function SelClass(obj, novelClassId) {
+
+        removeSel(obj);
+        cId = novelClassId;
+        GetNovelInfo(0);
+    }
+
+    //进度筛选
+    function SelJd(obj, type) {
+
+        removeSel(obj);
+        jd = type;
+        GetNovelInfo(0);
+    }
+
+    //属性筛选
+    function SelA(obj, type) {
+
+        removeSel(obj)
+        a = type;
+        GetNovelInfo(0);
+    }
+
+    //排序筛选
+    function SelS(obj, type) {
+
+        removeSel(obj)
+        s = type;
+        GetNovelInfo(0);
+    }
+
+    var last = 0;
+
+    //加载更多
+    function LoadMore() {
+        if (last == 0) {
+
+            pageIndex = pageIndex + 1;
+            GetNovelInfo(1);
+        }
+    }
+
+    //根据不同条件查询信息
+    function GetNovelInfo(loadType) {
+
+        var data = {
+            "page": pageIndex,
+            "pageSize": pageSize,
+            "novelClassId": cId,
+            "Jindu": jd,
+            "attribute": a,
+            "sort": s,
+            "RClassId": rClassId
+        };
+        $.ajax({
+            url: "/cate/LoadInfo",
+            data: JSON.stringify(data),
+            type: "POST",
+            dataType: "json",
+            contentType: "application/json",
+            beforeSend: function () {
+                $(".spinner").show();
+            },
+            complete: function () {
+                $(".spinner").hide();
+            },
+            success: function (msg) {
+
+                if (msg.code == "0") {
+
+                    var li = "";
+                    var lit = $("#litemp").html();
+
+                    $.each(msg.data, function (j, v) {
+
+                        var up = "完结";
+                        if (v.UpdateStatus == 0) {
+                            up = "更新至:第" + v.LChapter + "章";
+                        }
+
+                        li += lit.replace(/{nlink}/g, v.linkUrl).replace(/{cname}/g, v.cname).replace(/{img}/g, v.imgUrl).replace(/{upstate}/g, v.upstr)
+                            .replace(/{author}/g, v.author).replace(/{name}/g, v.title).replace(/{summary}/g, v.summary);
+
+                    });
+
+                    if (loadType == 0) {
+                        $("#novelList").html(li);
+
+                    }
+                    else {
+                        $("#novelList").append(li);
+                    }
+                    loadPicNow();
+                }
+
+                if (msg == null || msg.data.length == 0 || msg.data.length < pageSize) {
+                    document.getElementById("loading").innerHTML = "数据见底";
+                    last = 1;
+                } else {
+                    last = 0;
+                    document.getElementById("loading").innerHTML = "点击加载更多";
+                }
+
+            }
+        });
+    }
+</script>
+
+
+</body>
+</html>

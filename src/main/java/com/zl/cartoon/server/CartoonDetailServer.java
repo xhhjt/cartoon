@@ -1,10 +1,8 @@
 package com.zl.cartoon.server;
 
 import com.zl.cartoon.entity.requestmodel.GetIndexOrderModel;
-import com.zl.cartoon.entity.returnmodel.CartoonDetailModel;
-import com.zl.cartoon.entity.returnmodel.CartoonType;
-import com.zl.cartoon.entity.returnmodel.ChapterDetailModel;
-import com.zl.cartoon.entity.returnmodel.GetIndexOrderResultModel;
+import com.zl.cartoon.entity.returnmodel.*;
+import com.zl.cartoon.util.JsonHelper;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -17,7 +15,7 @@ public class CartoonDetailServer {
     public CartoonDetailModel getCartoonDetailModel(long rowid) {
         CartoonDetailModel model = new CartoonDetailModel();
         model.setRowId(12L);
-        model.setHidprice(50);
+        model.setHidprice(0);
         model.setTitle("不错哦");
         model.setAuthor("zl");
         model.setVisitCount(1314);
@@ -77,6 +75,33 @@ public class CartoonDetailServer {
         model.setTitle("zl");
         model.setCatoonRowid(13L);
         model.setChapterRowid(14L);
+        return model;
+    }
+
+    public ChapterImageListModel getChapterImageListModel(){
+        ChapterImageListModel model=new ChapterImageListModel();
+        model.setChapterid(1234L);
+        model.setCoin(0);
+        model.setCode(0);
+        model.setIndex(0);
+        model.setIndex(1);
+        model.setMax(40);
+        model.setUsercoin(0);
+        model.setUrl("%2fCartoon%2fread%3fcartoonId%3d137%26chapterId%3d7245");
+        List<ImageListModel> imageList=new ArrayList<>();
+        ImageListModel model1=new ImageListModel();
+        ImageListModel model2=new ImageListModel();
+        ImageListModel model3=new ImageListModel();
+        ImageListModel model4=new ImageListModel();
+        model1.setU("http://img1.xmh222.com/img/1374589rl/72458009-1179994zu");
+        model2.setU("http://img1.xmh222.com/img/1374589rl/72458009-1179994zu");
+        model3.setU("http://img1.xmh222.com/img/1374589rl/72458009-1179994zu");
+        model4.setU("http://img1.xmh222.com/img/1374589rl/72458009-1179994zu");
+        imageList.add(model1);
+        imageList.add(model2);
+        imageList.add(model3);
+        imageList.add(model4);
+        model.setImglist(JsonHelper.writeValueAsString(imageList));
         return model;
     }
 }
