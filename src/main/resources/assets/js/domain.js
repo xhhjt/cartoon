@@ -1,1 +1,0 @@
-var domain_name="";

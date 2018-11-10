@@ -1,201 +1,69 @@
 <!doctype html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html>
 <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta charset="utf-8">
-    <meta content="width=device-width,height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <meta content="yes" name="apple-mobile-web-app-capable">
 
-    <meta name="keywords" content="动漫,喵喵漫画动漫,漫画,动画,原创,正版,火影忍者,海贼王,捕王,充气女神,喵喵漫画官方网站" />
-    <meta name="description" content="正版动漫网站，连载众多原创国漫，原创动画，正版日漫等海内外最热正版动漫内容，为上千万动漫爱好者提供漫画、动画、资讯、论坛一站式全方位动漫服务，为原创动漫作者提供最优质的创作成长环境，为中国动漫产业打造梦想舞台。" />
-    <link href="/assets/css/base.css?v=22" rel="stylesheet" type="text/css">
-    <link href="/assets/css/loading.css" rel="stylesheet" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="full-screen" content="yes">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="wap-font-scale" content="no">
+    <title>搜索</title>
+    <script>
+        window.NRUM = window.NRUM || {};
+        window.NRUM.config = {key:'069d65bf5b344ad79ed2bbeeba552eb3',clientStart: +new Date()};
+        (function() {var n = document.getElementsByTagName('script')[0],s = document.createElement('script');s.type = 'text/javascript';s.async = true;s.src = '//nos.netease.com/apmsdk/napm-web-min-1.1.6.js';n.parentNode.insertBefore(s, n);})();
+    </script>
+    <script type="text/javascript">
+        !function(a,b){function c(){var b=f.getBoundingClientRect().width;b/i>540&&(b=540*i);var c=b/10;f.style.fontSize=c+"px",k.rem=a.rem=c}var d,e=a.document,f=e.documentElement,g=e.querySelector('meta[name="viewport"]'),h=e.querySelector('meta[name="flexible"]'),i=0,j=0,k=b.flexible||(b.flexible={});if(g){console.warn("将根据已有的meta标签来设置缩放比例");var l=g.getAttribute("content").match(/initial\-scale=([\d\.]+)/);l&&(j=parseFloat(l[1]),i=parseInt(1/j))}else if(h){var m=h.getAttribute("content");if(m){var n=m.match(/initial\-dpr=([\d\.]+)/),o=m.match(/maximum\-dpr=([\d\.]+)/);n&&(i=parseFloat(n[1]),j=parseFloat((1/i).toFixed(2))),o&&(i=parseFloat(o[1]),j=parseFloat((1/i).toFixed(2)))}}if(!i&&!j){var p=a.navigator.userAgent,q=(!!p.match(/android/gi),!!p.match(/iphone/gi)),r=q&&!!p.match(/OS 9_3/),s=a.devicePixelRatio;i=q&&!r?s>=3&&(!i||i>=3)?3:s>=2&&(!i||i>=2)?2:1:1,j=1/i}if(f.setAttribute("data-dpr",i),!g)if(g=e.createElement("meta"),g.setAttribute("name","viewport"),g.setAttribute("content","initial-scale="+j+", maximum-scale="+j+", minimum-scale="+j+", user-scalable=no"),f.firstElementChild)f.firstElementChild.appendChild(g);else{var t=e.createElement("div");t.appendChild(g),e.write(t.innerHTML)}a.addEventListener("resize",function(){clearTimeout(d),d=setTimeout(c,300)},!1),a.addEventListener("pageshow",function(a){a.persisted&&(clearTimeout(d),d=setTimeout(c,300))},!1),"complete"===e.readyState?e.body.style.fontSize=12*i+"px":e.addEventListener("DOMContentLoaded",function(){e.body.style.fontSize=12*i+"px"},!1),c(),k.dpr=a.dpr=i,k.refreshRem=c,k.rem2px=function(a){var b=parseFloat(a)*this.rem;return"string"==typeof a&&a.match(/rem$/)&&(b+="px"),b},k.px2rem=function(a){var b=parseFloat(a)/this.rem;return"string"==typeof a&&a.match(/px$/)&&(b+="rem"),b}}(window,window.lib||(window.lib={}));
+    </script>
 
-    <title>喵喵漫画 - 搜索</title>
+    <script type="text/javascript">
+        window.cdn = "https://st.kuxuanbook.com/dist/"
+    </script>
 
+    <script type="text/javascript">
+        var headDoc=document.getElementsByTagName("head")[0];
+        function loadJS(url) {
+            var _doc=headDoc,js=document.createElement("script");js.setAttribute("type","text/javascript"),js.setAttribute("src",url),_doc.appendChild(js);
 
+            js.onerror = function(e) {
+                var xhr = new XMLHttpRequest();
+                xhr.onreadystatechange=function(){
+                    if (xhr.readyState==4 && xhr.status==200){
+                        location.reload(true);
+                        // window.location.href = location.href+'?time='+((new Date()).getTime());
+                    }
+                }
+                xhr.open('get', '/log/reportError.json', true);
+                xhr.send(null);
+            }
 
-    <link href="/assets/css/cate.css?t=22" rel="stylesheet" type="text/css">
+            js.onload = function(e) {
+                console.log("-----" + cdn + "test.js?1539402143269 loaded-----")
+            }
+        }
+        loadJS(cdn + "test.js?1539402143269");
+    </script>
 
+    <link rel="stylesheet" href="/assets/css/common.css?042cf94a"></script>
 
+    <link rel="stylesheet" href="https://st.kuxuanbook.com/dist/css/search.css?1bdbc863"></script>
 
 </head>
+
 <body>
+<section id="root"></section>
 
+<script type="text/javascript" src="/assets/js/jweixin-1.3.0.js"></script>
 
+<script type="text/javascript" src="/assets/js/vendor-a1ea3237.bundle.js"></script>
 
+<script type="text/javascript" src="/assets/js/common.bundle.js?c4cffa72"></script>
 
-<header class="tophead">
-    <a href="javascript:history.go(-1);" class="back"></a>
-    搜索结果
-    <a href="/Home/Index" class="home01"></a>
-</header>
-
-<section class="block">
-    <div id="searchbox" class="clf" style="padding:10px 0 10px 10px; border-bottom:1px dashed #eee;">
-        <input type="text" class="fl w80 searchInput" id="keywords" th:value="${keyword}" placeholder="输入 名称\作者\关键字 搜索" />
-        <a class="cancleBtn fl w20" onclick="GetNovelBySearch()">搜索</a>
-    </div>
-    <div class="catebox">
-        <p style="font-size:0.8em">搜索结果如下：</p>
-    </div>
-    <ul class="book_list" id="novelList"></ul>
-
-    <a href="javascript:void(0);" class="clickmore" id="loading" onclick="loadSearchMore()"></a>
-</section>
-
-<script type="text/html" id="litemp">
-    <li class="clf">
-        <a href="{nlink}" class="fl w25"><img src="{img}" height="90" onerror="this.src='/images/cover.jpg'"></a>
-        <div class="fl w73">
-            <b class="booktitle"><a href="{nlink}">{name}</a></b>
-
-            <div class="bookdesc"><a href="{nlink}">{summary}</a></div>
-
-            <div class="bookcat clf">
-                <p class="fl"><span class="red"><a href="search?keyValue={author}" class="wirteIcon">{author}</a></span></p>
-                <p class="fr redTag tag">{upstate}</p>
-            </div>
-
-        </div>
-    </li>
-
-</script>
-
-<div class="spinner">
-    <div class="double-bounce1"></div>
-    <div class="double-bounce2"></div>
-</div>
-
-
-<div class="h50"></div>
-
-
-<nav class="footnav clf">
-    <a href="/"><span class="m01">推荐</span></a>
-    <a href="/usercartoon"><span class="m05">书架</span></a>
-
-
-    <a href="/cate" class="selected"><span class="m03">分类</span></a>
-    <a href="/my"><span class="m04">我的</span></a>
-    <!--class="selected"-->
-</nav>
-
-
-
-
-
-
-
-<script src="/assets/js/jquery.min.js?t=1"></script>
-
-<script src="/assets/js/loadImg.js"></script>
-
-<script>
-
-    //回车键
-    document.onkeydown = function (event) {
-        var keywords = document.getElementById("keywords");
-        var e = event || window.event || arguments.callee.caller.arguments[0];
-        if (e && e.keyCode == 13 && keywords.value != '') {
-
-            GetNovelBySearch();
-        }
-    };
-
-    //带参跳转
-    function GetNovelBySearch() {
-        var keywords = document.getElementById("keywords").value;
-
-
-        if (keywords == thes) {
-            return false;
-        }
-
-        last = 0;
-        pageIndex = 0;
-        count = 0;
-        $("#novelList").html("");
-
-
-        loadSearchMore();
-    }
-
-    window.onload = function () {
-
-        loadSearchMore();
-    }
-    var last = 0;
-    var pageIndex = 0;
-    var pageSize = 5;
-    var count = 0;
-
-    var thes = "";
-
-    //加载更多
-    function loadSearchMore() {
-
-        if (last == 1) {
-            return false;
-        }
-        var keywords = document.getElementById("keywords");
-
-        if (keywords.value==thes) {
-            return false;
-        } else {
-            thes = keywords.value;
-        }
-
-        count++;
-        pageIndex = pageSize * parseInt(count-1);
-
-        var data = { "keyValue": keywords.value, "pageIndex": pageIndex, "pageSize": pageSize };
-        $.ajax({
-            url: "/home/GetInfo",
-            data: JSON.stringify(data),
-            type: "POST",
-            dataType: "json",
-            contentType: "application/json",
-            beforeSend: function () {
-                $(".spinner").show();
-            },
-            complete: function () {
-                $(".spinner").hide();
-            },
-            success: function (msg) {
-                //  console.log(msg)
-                if (msg.code == "0") {
-
-                    var li = "";
-                    var lit = $("#litemp").html();
-
-                    $.each(msg.data, function (j, v) {
-
-                        var up = "完结";
-                        if (v.updateStatus==0) {
-                            up = "更新至:第" + v.lchapter + "章";
-                        }
-                        li += lit.replace(/{nlink}/g, v.linkUrl).replace(/{cname}/g, v.cname).replace(/{img}/g, v.imgUrl).replace(/{upstate}/g, up)
-                            .replace(/{author}/g, v.author).replace(/{name}/g, v.title).replace(/{summary}/g, v.summary);
-
-                    });
-
-                    $("#novelList").append(li);
-
-                }
-
-
-                if (msg == null || msg.data.length == 0 || msg.data.length < pageSize) {
-                    document.getElementById("loading").innerHTML = "数据见底";
-                    last = 1;
-                } else {
-                    last = 0;
-                    document.getElementById("loading").innerHTML = "点击加载更多";
-                }
-            }
-        });
-    }
-</script>
-
+<script type="text/javascript" src="/assets/js/search.js?927a0061"></script>
 
 </body>
 </html>

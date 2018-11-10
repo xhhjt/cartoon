@@ -1,382 +1,69 @@
-﻿<!doctype html>
-<html >
+<!doctype html>
+<html>
 <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta charset="utf-8">
-    <meta content="width=device-width,height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <meta content="yes" name="apple-mobile-web-app-capable">
 
-    <meta name="keywords" content="动漫,喵喵漫画动漫,漫画,动画,原创,正版,火影忍者,海贼王,捕王,充气女神,喵喵漫画官方网站" />
-    <meta name="description" content="正版动漫网站，连载众多原创国漫，原创动画，正版日漫等海内外最热正版动漫内容，为上千万动漫爱好者提供漫画、动画、资讯、论坛一站式全方位动漫服务，为原创动漫作者提供最优质的创作成长环境，为中国动漫产业打造梦想舞台。" />
-    <link href="/assets/css/base.css?v=21" rel="stylesheet" type="text/css">
-    <link href="/assets/css/loading.css" rel="stylesheet" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="full-screen" content="yes">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="wap-font-scale" content="no">
+    <title></title>
+    <script>
+        window.NRUM = window.NRUM || {};
+        window.NRUM.config = {key:'069d65bf5b344ad79ed2bbeeba552eb3',clientStart: +new Date()};
+        (function() {var n = document.getElementsByTagName('script')[0],s = document.createElement('script');s.type = 'text/javascript';s.async = true;s.src = '//nos.netease.com/apmsdk/napm-web-min-1.1.6.js';n.parentNode.insertBefore(s, n);})();
+    </script>
+    <script type="text/javascript">
+        !function(a,b){function c(){var b=f.getBoundingClientRect().width;b/i>540&&(b=540*i);var c=b/10;f.style.fontSize=c+"px",k.rem=a.rem=c}var d,e=a.document,f=e.documentElement,g=e.querySelector('meta[name="viewport"]'),h=e.querySelector('meta[name="flexible"]'),i=0,j=0,k=b.flexible||(b.flexible={});if(g){console.warn("将根据已有的meta标签来设置缩放比例");var l=g.getAttribute("content").match(/initial\-scale=([\d\.]+)/);l&&(j=parseFloat(l[1]),i=parseInt(1/j))}else if(h){var m=h.getAttribute("content");if(m){var n=m.match(/initial\-dpr=([\d\.]+)/),o=m.match(/maximum\-dpr=([\d\.]+)/);n&&(i=parseFloat(n[1]),j=parseFloat((1/i).toFixed(2))),o&&(i=parseFloat(o[1]),j=parseFloat((1/i).toFixed(2)))}}if(!i&&!j){var p=a.navigator.userAgent,q=(!!p.match(/android/gi),!!p.match(/iphone/gi)),r=q&&!!p.match(/OS 9_3/),s=a.devicePixelRatio;i=q&&!r?s>=3&&(!i||i>=3)?3:s>=2&&(!i||i>=2)?2:1:1,j=1/i}if(f.setAttribute("data-dpr",i),!g)if(g=e.createElement("meta"),g.setAttribute("name","viewport"),g.setAttribute("content","initial-scale="+j+", maximum-scale="+j+", minimum-scale="+j+", user-scalable=no"),f.firstElementChild)f.firstElementChild.appendChild(g);else{var t=e.createElement("div");t.appendChild(g),e.write(t.innerHTML)}a.addEventListener("resize",function(){clearTimeout(d),d=setTimeout(c,300)},!1),a.addEventListener("pageshow",function(a){a.persisted&&(clearTimeout(d),d=setTimeout(c,300))},!1),"complete"===e.readyState?e.body.style.fontSize=12*i+"px":e.addEventListener("DOMContentLoaded",function(){e.body.style.fontSize=12*i+"px"},!1),c(),k.dpr=a.dpr=i,k.refreshRem=c,k.rem2px=function(a){var b=parseFloat(a)*this.rem;return"string"==typeof a&&a.match(/rem$/)&&(b+="px"),b},k.px2rem=function(a){var b=parseFloat(a)/this.rem;return"string"==typeof a&&a.match(/px$/)&&(b+="rem"),b}}(window,window.lib||(window.lib={}));
+    </script>
 
-    <title>喵喵漫画基地</title>
+    <script type="text/javascript">
+        window.cdn = "https://st.kuxuanbook.com/dist/"
+    </script>
 
+    <script type="text/javascript">
+        var headDoc=document.getElementsByTagName("head")[0];
+        function loadJS(url) {
+            var _doc=headDoc,js=document.createElement("script");js.setAttribute("type","text/javascript"),js.setAttribute("src",url),_doc.appendChild(js);
 
-    <link href="/assets/css/css1.css?t=21" rel="stylesheet" type="text/css">
-    <link href="/assets/css/task.css?t=21" rel="stylesheet" type="text/css">
-    <style>
-        .titleBar .time {
-            color: #F63;
-            margin: 0 15px;
-            font-weight: normal;
-            float: right;
-        }
-
-        .titleBar .time em {
-            font-style: normal;
-        }
-
-
-
-    </style>
-
-
-
-</head>
-<body>
-
-
-
-
-
-
-
-<header class="tophead clf">
-    <div id="headerbox">
-        <div id="headerbox">
-            <a href="javascript:void(0);" class="logo" style="background: url(/assets/images/qr/1.png) no-repeat 0 0;background-size: 120px 35px;"></a>
-            <span class=""></span>
-            <a class="searchBtn01" id="searchBtn"></a>
-        </div>
-    </div>
-    <div id="searchbox" class="clf" style="display:none">
-        <input type="text" class="fl w80 searchInput" id="keywords" placeholder="输入 名称\作者\关键字 搜索" />
-        <a class="cancleBtn fl w20" id="cancleBtn">取消</a>
-    </div>
-</header>
-
-<section id="taskCont" style="z-index:100000;display:none">
-    <div class="taskBg">
-        <div class="sharMsg" id="sharMsg01">
-            <div class="sharTitle">
-                <h3>输入任务码，领取阅币</h3>
-            </div>
-            <div style="padding:10px 0;">
-                <p><input type="text" id="inputusername" placeholder="请输入任务码" style="width:90%; border:1px solid #eee; height:40px; line-height:40px; text-align:center;" /></p>
-                <p>任务码请到任务中心领取</p>
-            </div>
-            <span onclick="addcoin()" class="sign01">领取阅币</span>
-        </div>
-    </div>
-    <a href="javascript:close();" style="display:block; color:#fff; text-align:center; line-height:50px;">关闭</a>
-
-
-
-</section>
-<section id="slider">
-    <ul id="sliderItem">
-
-        <li>
-            <div><a href="/Cartoon/Read?cno=&amp;cartoonId=54&amp;chapterId=4302#chaptername"><img src="http://img2.xmh222.com//uploadfiles/20180824/26aac95607be48198a2604937fdc8bf3904.jpg" /></a></div>
-        </li>
-        <li>
-            <div><a href="/Cartoon/Read?cno=&amp;cartoonId=132&amp;chapterId=6914#chaptername"><img src="http://img2.xmh222.com//uploadfiles/20180824/c81a9c16a6044b17bb575c88ed6c713e527.jpg" /></a></div>
-        </li>
-        <li>
-            <div><a href="/Cartoon/Read?cno=&amp;cartoonId=104&amp;chapterId=5626#chaptername"><img src="http://img2.xmh222.com//uploadfiles/20180824/0cc6476942b44989b57094fba5559180958.jpg" /></a></div>
-        </li>
-    </ul>
-    <div id="slideNav"></div>
-</section>
-
-
-<section class="block" style="margin:0; padding:10px 0; text-align:center">
-
-    <ul class="btnList clf">
-        <li><a href="/my/task" class="circleBtn01 bg01"></a>每日任务</li>
-        <li><a href="/my/recharge" class="circleBtn01 bg02"></a>VIP充值</li>
-        <li><a href="/rank" class="circleBtn01 bg03"></a> 热门排行</li>
-        <li>
-            <a href="mqqwpa://im/chat?chat_type=wpa&amp;uin=3257494368&amp;version=1&amp;src_type=web&amp;web_src=oicqzone.com"
-               class="circleBtn01 bg04"></a> 客服QQ
-        </li>
-    </ul>
-
-</section>
-
-<span id="splitcontent"></span>
-
-<script type="text/html" id="litemp1">
-    <li>
-        <a href="{nlink}">
-            <img src="{img}" width="90" onerror="this.src = '/assets/images/cover.jpg'">
-        </a>
-        <span class="booktitle">{name}</span>
-    </li>
-</script>
-
-<script type="text/html" id="litemp2">
-    <li>
-        <a href="{nlink}">
-            <img src="{img}" alt="{img}" onerror="this.src = '/assets/images/cover.jpg'">
-        </a>
-        <span class="booktitle">{name}</span>
-        <span class="commandDes">{con}</span>
-    </li>
-</script>
-
-
-<!--模板-->
-<script type="text/template" id="sectiontemp">
-    <section class="block">
-        <div class="titleBar clf"><i class="fl">{name}</i></div>
-        <div style="overflow:scroll">
-            <ul class="book_list{vv} clf">{content}</ul>
-        </div>
-        <a href="/home/Cate" class="morebtn">查看更多</a>
-    </section>
-</script>
-
-<script type="text/template" id="freesectiontemp">
-    <section class="block">
-        <div class="titleBar clf">
-            <i class="fl">限时免费</i>
-            <span class="fl time" style="display:inline-block "><em id="d62">0</em>天<em id="h62">00</em>小时<em id="m62">00</em>分<em id="s62">00</em>秒</span>
-        </div>
-        <ul class="book_list">{content}</ul>
-        <a href="/home/Cate" class="morebtn">查看更多</a>
-    </section>
-
-</script>
-
-<script type="text/template" id="litemp">
-    <li class="clf">
-        <a href="{nlink}" class="fl w25">
-            <img src="{img}" height="90" onerror="this.src = '/assets/images/cover.jpg'">
-        </a>
-        <div class="fl w73">
-            <b class="booktitle"><a href="{nlink}">&#65279;{name}</a></b>
-            <div class="bookdesc">
-                <a href="{nlink}">{summary}</a>
-            </div>
-            <div class="bookcat clf">
-                <p class="fl"><a href="/Home/Search?keyValue={author}" class="wirteIcon">{author}</a></p>
-                <a><p class="fr blueTag tag">{upstate}</p></a><a><p class="fr blueTag tag">{cname}</p></a>
-            </div>
-        </div>
-    </li>
-</script>
-
-<div class="spinner">
-    <div class="double-bounce1"></div>
-    <div class="double-bounce2"></div>
-</div>
-
-<div class="h50"></div>
-
-<nav class="footnav clf">
-    <a href="/" class="selected"><span class="m01">推荐</span></a>
-    <a href="/usercartoon"><span class="m05">书架</span></a>
-
-
-    <a href="/cate"><span class="m03">分类</span></a>
-    <a href="/my"><span class="m04">我的</span></a>
-    <!--class="selected"-->
-</nav>
-
-
-
-
-<script src="/assets/js/jquery.min.js?t=1"></script>
-
-<script src="/assets/js/slide.js?t=1"></script>
-<script src="/assets/js/loadImg.js"></script>
-
-
-
-<script>
-
-    function close() {
-        var taskCont = document.getElementById("taskCont");
-        taskCont.style.display = "none"
-    }
-    var checkapp = "0";
-
-    $(function () {
-
-        if (checkapp == "1") {
-            $("#taskCont").show();
-        }
-    })
-
-    function addcoin() {
-        var ind = $("#inputusername").val();
-        if (ind.length < 5) {
-            alert("任务码错误");
-            return false;
-
-        }
-        if (checkapp == "1") {
-            $.ajax({ //异步数据加载
-                type: "POST",
-                data: { name: ind },
-                url: "/api/addcoin",
-                success: function (msg) {
-                    if (msg == "T") {
-                        alert("领取成功");
-
-                        $("#taskCont").hide();
-
-                    } else if (msg == "Z") {
-                        alert("任务码有误");
-                    } else {
-                        alert("已领取，无法重复领取");
-
-                        $("#taskCont").hide();
+            js.onerror = function(e) {
+                var xhr = new XMLHttpRequest();
+                xhr.onreadystatechange=function(){
+                    if (xhr.readyState==4 && xhr.status==200){
+                        location.reload(true);
+                        // window.location.href = location.href+'?time='+((new Date()).getTime());
                     }
                 }
-            });
-        }
-
-        console.log(1);
-    }
-
-</script>
-
-<script>
-    $(function () {
-
-        var searchBtn = $("#searchBtn");
-        var headerbox = $("#headerbox");
-        var searchbox = $("#searchbox");
-        var cancleBtn = $("#cancleBtn");
-
-        $("#cancleBtn").click(function () {
-            searchbox.hide();
-            headerbox.show();
-
-        });
-
-        $("#searchBtn").click(function () {
-            searchbox.show();
-            headerbox.hide();
-
-        });
-        document.onkeydown = function (event) {
-            var keywords = document.getElementById("keywords");
-            var e = event || window.event || arguments.callee.caller.arguments[0];
-            if (e && e.keyCode == 13 && keywords.value != '') {
-                GetNovelBySearch();
+                xhr.open('get', '/log/reportError.json', true);
+                xhr.send(null);
             }
-        };
-        recommend();
-    });
 
-
-    function recommend() {
-
-        $.ajax({ //异步数据加载
-            type: "POST",
-            url: "/index/recommend",
-            beforeSend: function () {
-                $(".spinner").show();
-            },
-            complete: function () {
-                $(".spinner").hide();
-            },
-            success: function (msg) {
-
-                var ft = '2018-12-12 23:59:00:000';
-
-                var html = "";
-                $.each(msg.data, function (i, o) {
-                    var r = o.list;
-                    //   console.log(o);
-                    var li = "";
-                    var lit = $("#litemp2").html();
-                    var vv = "03";
-                    if (o.rtype == 1) {
-                        lit = $("#litemp1").html();
-                        vv = "01";
-                    } else if (o.rtype == 2) {
-                        lit = $("#litemp").html();
-                        vv = "";
-                    }
-
-                    $.each(r, function (j, v) {
-
-
-                        if (j == 6) {
-                            return false;
-                        }
-
-                        var cname = "";
-                        if (v.cname != "null" && v.cname != null) {
-                            cname = v.cname;
-                        }
-
-                        li += lit.replace(/{nlink}/g, v.linkUrl).replace(/{cname}/g, cname).replace(/{img}/g, v.imgUrl).replace(/{upstate}/g, v.upstr)
-                            .replace(/{author}/g, v.author).replace(/{name}/g, v.title).replace(/{summary}/g, v.summary).replace(/{con}/g, v.content);
-
-                    });
-
-                    if (o.isfree == 0) {
-                        html += $("#sectiontemp").html().replace(/{content}/g, li).replace(/{name}/g, o.name).replace(/{link}/g, o.linkurl).replace(/{vv}/g, vv);
-                    } else {
-                        html += $("#freesectiontemp").html().replace(/{content}/g, li);
-                    }
-
-                });
-                $("#splitcontent").after(html);
-
-                loadPicNow();
-
-                //时间倒计时
-
-                var sj = ft.split('-');
-                var sj1 = sj[2].substring(0, 2);
-                var sj2 = sj[2].substring(3, sj[2].length);
-                var t = sj2.split(':');
-                window.setInterval(function () { ShowCountDown(sj[0], sj[1], sj1, t[0], t[1], t[2], t[3]); }, 1000);
-
+            js.onload = function(e) {
+                console.log("-----" + cdn + "test.js?1539402143269 loaded-----")
             }
-        });
-    }
-
-    function ShowCountDown(year, month, day, h, m, s, ms) {
-        var now = new Date();
-        var endDate = new Date(year, month - 1, day, h, m, s, ms);
-        var leftTime = endDate.getTime() - now.getTime();
-        var leftsecond = parseInt(leftTime / 1000);
-
-        var day1 = Math.floor(leftTime / 1000 / (60 * 60 * 24));
-        var hour = Math.floor((leftTime / 1000 - day1 * 24 * 60 * 60) / 3600);
-        var minute = Math.floor((leftTime / 1000 - day1 * 24 * 60 * 60 - hour * 3600) / 60);
-        var second = Math.floor(leftTime / 1000 - day1 * 24 * 60 * 60 - hour * 3600 - minute * 60);
-
-        day1 = day1 < 10 ? "0" + day1 : day1;
-        hour = hour < 10 ? "0" + hour : hour;
-        minute = minute < 10 ? "0" + minute : minute;
-        second = second < 10 ? "0" + second : second;
-
-        try {
-            $("#d62").html(day1);
-            $("#h62").html(hour);
-            $("#m62").html(minute);
-            $("#s62").html(second);
         }
-        catch (e) { }
-    }
+        loadJS(cdn + "test.js?1539402143269");
+    </script>
 
+    <link rel="stylesheet" href="/assets/css/common.css?021"></script>
 
-    //带参跳转
-    function GetNovelBySearch() {
-        location.href = "/Home/Search?keyValue=" + $("#keywords").val();
-    }
+    <link rel="stylesheet" href="/assets/css/index.css?2ef"></script>
 
+</head>
 
-</script>
+<body>
+<section id="root"></section>
+
+<script type="text/javascript" src="/assets/js/jweixin-1.3.0.js"></script>
+
+<script type="text/javascript" src="/assets/js/vendor-a1ea3237.bundle.js"></script>
+
+<script type="text/javascript" src="/assets/js/common.bundle.js?c4cffa72"></script>
+
+<script type="text/javascript" src="/assets/js/index.js?994322"></script>
 
 </body>
 </html>

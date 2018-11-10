@@ -1,33 +1,47 @@
 package com.zl.cartoon.controoler;
 
-import com.zl.cartoon.entity.Result;
-import com.zl.cartoon.entity.requestmodel.SearchModel;
-import com.zl.cartoon.server.IndexServer;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.zl.cartoon.entity.returnmodel.SearchBookResult;
+import com.zl.cartoon.entity.returnmodel.SearchHintResult;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class SearchController {
 
-    @Autowired
-    IndexServer indexServer;
-    @RequestMapping(value = "home/Search")
-    public String Search(@RequestParam(value = "keyValue") String keyValue, Model model) {
-        model.addAttribute("keyword", keyValue);
+    @RequestMapping(value = "/search")
+    public String index(Model model) {
         return "search";
     }
 
-    @RequestMapping("home/GetInfo")
+    @RequestMapping(value = "search/books.json", method = RequestMethod.GET)
     @ResponseBody
-    public Result GetInfo(@RequestBody SearchModel model) {
-        Result result = new Result();
-        result.setCode(0);
-        result.setData(indexServer.setRecommendDetailModelList(12,1));
+    public SearchBookResult searchBook(@RequestParam(value = "keyword")String keyword,
+                                       @RequestParam(value = "page")int page,
+                                       @RequestParam(value = "pageSize")int pageSize) {
+        SearchBookResult result = new SearchBookResult();
+
         return result;
     }
+
+    @RequestMapping(value = "/search/book.do",method = RequestMethod.GET)
+    @ResponseBody
+    public SearchBookResult searchBookDo(@RequestParam(value = "keyword")String keyword) {
+        SearchBookResult result = new SearchBookResult();
+
+        return result;
+    }
+
+    @RequestMapping(value = "search/hint.json",method = RequestMethod.GET)
+    @ResponseBody
+    public SearchHintResult searchHint(){
+        SearchHintResult result=new SearchHintResult();
+
+        return result;
+    }
+
+
 }
