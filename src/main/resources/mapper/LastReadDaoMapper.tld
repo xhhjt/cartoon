@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zl.cartoon.dao.LastReadDao">
+
+    <select id="Get" resultType="LastRead">
+        SELECT * FROM LastRead WHERE BookDetailRowId=#{BookDetailRowId} and UserRowId=#{UserRowId}
+    </select>
+
+    <insert id="save">
+        INNER INTO lastRead (RowId,UserRowId,BookRowId,BookDetailRowId) VALUES (
+        #{RowId},
+        #{UserRowId},
+        #{BookRowId},
+        #{BookDetailRowId}
+        )
+    </insert>
+
+    <update id="update">
+        UPDATE lastRead SET BookRowId=#{BookRowId},BookDetailRowId=#{BookDetailRowId}
+        where RowId=#{RowId}
+    </update>
+
+    <select id="getLastRead" resultType="LastRead">
+        SELECT * FROM lastRead INNER JOIN bookdetail ON bookdetail.RowId=lastRead.BookDetailRowId
+        WHERE UserRowId=#{userRowid} limit 1;
+    </select>
+
+</mapper>

@@ -2,655 +2,90 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cd92281-9f4d-4fb9-b5a9-ba683a489004" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_websocket_javax_websocket_api_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_annotations_9_4_11_v20180605.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_client_9_4_11_v20180605.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_continuation_9_4_11_v20180605.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_11_v20180605.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_11_v20180605.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_plus_9_4_11_v20180605.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_4_11_v20180605.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_4_11_v20180605.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_4_11_v20180605.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlets_9_4_11_v20180605.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_11_v20180605.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_webapp_9_4_11_v20180605.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_xml_9_4_11_v20180605.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_javax_websocket_client_impl_9_4_11_v20180605.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_javax_websocket_server_impl_9_4_11_v20180605.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_4_11_v20180605.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_4_11_v20180605.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_4_11_v20180605.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_server_9_4_11_v20180605.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_servlet_9_4_11_v20180605.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jasper_apache_el_8_5_24_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_analysis_6_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_commons_6_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_tree_6_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/CatalogController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/CommonController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/CouponController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/FreeController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/HistoryController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/HoneBaoController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/PayController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/RankController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/ReaderController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/UserController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/menu/CateTypeMenu.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/menu/SerialMenu.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/menu/WordCountMenu.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/requestmodel/ConfirmModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/requestmodel/GetMessageModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/ActivityModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/BannerModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/BannerResult.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/BaseInfoResult.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/BaseResult.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/BookCatalogResult.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/BookContentResult.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/BookInfoModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/BookInfoResult.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/BookModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/BookNavBarModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/BookPromotionResult.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/BooksResult.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/CategoryType.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/CategoryTypeModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/CategoryTypeResult.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/CategorysDataModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/CategorysModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/CurrentChapterBean.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/GetCustomerModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/GetCustomerResult.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/GetMessageResult.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/IndexListResult.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/LastReadProgressModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/LastReadResult.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/LinkListModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/PopupActivityResult.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/RechargeConfirmModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/RechargeConfirmResult.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/RechargeListModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/RechargeModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/RechargeResult.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/SearchBookResult.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/SearchHintResult.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/ShareConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/ShareResult.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/TemplatesModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/TradePendingResult.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/UserModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/css/catalog.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/css/category.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/css/common.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/css/coupon.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/css/free.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/css/history.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/css/hongbao.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/css/index.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/css/info.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/css/rank.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/css/reader.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/css/search.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/image/04ec8d5b.bg_guide_2@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/image/503be0f0.bg_rechargeItem_vip_hot@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/image/5d74475b.loading-img.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/image/60f339f6.bg_guide_3@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/image/7508fa02.loading.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/image/7ae8fa44.bg_rechargeItem_vip@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/image/88bb809d.bg_guide_3@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/image/9a503442.bg_continue@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/image/a52e8c37.bg_guide_2@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/image/ca188432.bg_end@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/9f74b74d16216f4a601fc9a26ee44f03.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/catalog.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/category.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/common.bundle.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/coupon.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/free.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/history.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/hongbao.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/info.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/jweixin-1.3.0.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/rank.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/reader.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/recharge.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/search.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/vendor-a1ea3237.bundle.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/catalog.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/category.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/coupon.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/free.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/history.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/hongbao.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/pay.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/reader.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/user.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_22.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_0_4_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/smartfox_info.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/NewBookController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/NewIndexController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/dao/BookDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/dao/LastReadDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/CurrentUser.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/menu/SexEnum.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/requestmodel/SignParamsRequestModel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/BannerInfoBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/BookDetailModel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/ChapterModel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/CircleRecommendsBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/CustomNovelsModel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/FreeNovelsBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/LastestChapter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/MaleNovelsBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/NewBookModel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/NewIndexRecommend.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/NewNovelsBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/NewReturnBase.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/NewUserInfo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/RecommendsBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/RewardRank.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/RewardRankModel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/SignParamsModel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/BookService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/LastReadService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/ReadService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/UserService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/util/NumberUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/util/RequestParam.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/css/app3.e106b.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/images/style3-top1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/images/style3-top2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/images/style3-top3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/images/style3-top4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/images/style3-top5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/images/style3-top6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/images/style3-top7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/images/style3-top8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/images/xianmian.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/app3.e106b.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/fastclick.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/jweixin-1.2.0.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/vendor.4e409.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/zepto.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/logback-spring.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/BookDaoMapper.tld" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/LastReadDaoMapper.tld" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/book.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/newindex.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_qs_PlatUtils_1_0_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_qs_PlatUtils_1_0_SNAPSHOT.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_qs_platforms_1_0_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_qs_platforms_1_0_SNAPSHOT.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_32.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_32.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_32.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_6_2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jetty_2_0_4_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/cartoonWeb.iml" afterPath="$PROJECT_DIR$/cartoonWeb.iml" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/CartoonDetailController.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/CateController.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/ClassifyController.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/HotController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/config/CartoonConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/config/CartoonConfig.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/IndexController.java" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/IndexController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/LoginController.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/MyController.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/SearchController.java" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/SearchController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/SubscribeController.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/CartoonDetailModel.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/CartoonModel.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/CartoonType.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/ChapterDetailModel.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/ChapterImageListModel.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/GetIndexOrderResultModel.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/ImageListModel.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/ReadCountModel.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/RecommendDetailModel.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/RecommendModel.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/TypeModel.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/CartoonDetailServer.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/CatServer.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/IndexServer.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/ReaderController.java" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/ReaderController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/UserController.java" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/css/animate.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/css/base.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/css/cate.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/css/css1.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/css/detail.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/css/font-awesome.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/css/global.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/css/loading.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/css/newIcons01.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/css/read02.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/css/recharge.css" afterPath="$PROJECT_DIR$/src/main/resources/assets/css/recharge.css" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/css/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/css/task.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/css/user.css" afterPath="$PROJECT_DIR$/src/main/resources/assets/css/user.css" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/image/btnIconhome.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/image/memu.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/image/sprite-header.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/app_down_btn.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_account.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_accountbug.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_app_close.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_app_home.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_app_text.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_btn_qq.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_btn_sina.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_buy.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_coin.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_end.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_head_01.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_head_02.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_head_03.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_head_04.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_head_05.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_head_06.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_his.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_icon_01.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_icon_02.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_icon_03.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_icon_04.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_icon_05.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_icon_06.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_icon_del.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_icon_del_h.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_icon_j.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_icon_login01.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_icon_login02.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_icon_login03.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_icon_ret.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_icon_ret_h.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_icon_sb.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_icon_shar.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_index_more.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_index_update.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_key.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_layer_close.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_layer_close_h.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_look.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_look_h.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_news.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_order.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_pay_alipay.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_pay_qq.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_pay_wx.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_select.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_serch_close.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_service.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_shar_sina.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_shar_tqq.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_shar_zone.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_sub.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/bg_success.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/btnIconhome.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/btn_px3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/btn_px4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/btn_seq.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/cartoon.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/cartton_place_holder.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/chapter_switch_next.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/chapter_switch_prev.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/check.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/checked.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/cover.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/default.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/delete.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/footer_icon_1_c.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/footer_icon_1_n.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/footer_icon_2_c.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/footer_icon_2_n.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/footer_icon_3_c.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/footer_icon_3_n.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/footer_icon_4_c.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/footer_icon_4_n.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/gold_icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/hcm_icon_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/hcm_icon_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/hcm_icon_3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/hcm_icon_4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/hcm_icon_5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/head_line.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/icon_01.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/icon_02.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/icon_03.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/icon_04.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/icon_05.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/icon_06.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/icon_07.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/icon_08.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/icon_09.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/icon_coll.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/icon_comment.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/icon_h2_10.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/icon_tip1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/icon_tip2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/icon_unfold.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/iconitem.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/int_bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/left_white.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/loadlist.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/memu.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/nav_cur.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/nav_line.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/newIcons01.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/no_content.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/p.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/page_icon13.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/page_icon14.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/page_type_02.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/page_type_03.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/page_type_06.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/page_type_07.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/page_type_10.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/page_type_11.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/page_type_12.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/qr/1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/send_mail.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/sprite-header.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/timead-bg.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/tohome.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/tointro.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/top_wnd_cover.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/user-icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/vol_icon_buy.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/vol_icon_free.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/vol_icon_pay.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/wode_kouzhan.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/js/clipboard.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/js/common.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/js/cookies.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/js/domain.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/js/indextouchslider.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/js/jquery.cookie.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/js/jquery.lazyload.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/js/jquery.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/js/jquery.unobtrusive-ajax.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/js/layer/mobile/layer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/js/layer/mobile/need/layer.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/js/loadImg.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/js/m_classify.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/js/m_ps.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/js/m_reader.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/js/m_subscribe.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/js/mobile_new_comment2_17.3.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/js/read.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/js/slide.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/js/sort.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/js/tsb.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/picture/12c3500dd71f48dcacbbe34ec2365d98.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/picture/1326478519c1cb998325626fe5efc5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/picture/142f89c544a348a49eb2627d5946f3cb.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/picture/263146994c324292a7c93b587db0c637.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/picture/42246f54b929409c974c581b7d6ea59f.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/picture/4384df68cb734ec0b10d1ac4ad1b6126.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/picture/48f67d51c0e24a78bdb5122f6babc20b.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/picture/5e519263014a4428bd2e1d4ceab0bd33.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/picture/7479b481f6de44ab9fd835a0f9bc6887.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/picture/781f7eba00f246279083c31e85f5abb4.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/picture/79b16497550f2ffbd8cfaa16aa7651.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/picture/7aef3f485ead42dfafd54e4abb7aeb30.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/picture/7dffcf489a39400a80d3c199dcc8b287.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/picture/82eb2c2406274696a3fc2acddd0e4aa9.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/picture/8894b84f7fbd485a89d3062f24bcfbd1.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/picture/8de45ab8036943359a5b2a54c0790767.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/picture/8f46d40d2e7b434da01b7ad9074b553c.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/picture/94a489b64c07d5cf9cdce40127cc9f.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/picture/a_5_2fa62d.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/picture/accfac6c76d94583bc2dc07a37557479.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/picture/afd8f14885ac4129b15d105f5a004828.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/picture/app_download.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/picture/arrow_right.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/picture/b5a1414a1d2d43129910ac0b9ecb85ab.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/picture/b9377c8bf3294813a8a3086ace1ae3af.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/picture/bcf743c1b2384eb8982c521271e09a97.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/picture/bottom_bar.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/picture/c874362b0bb7e8521ad16ea2f66d31.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/picture/cdef9038eeea4bdfb7b64dbfaf74d68c.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/picture/d0f8cf9deeb145a8b0b572b6430fb982.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/picture/e1f5b4441d7048229bc897f948fa8486.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/picture/ee2dc862a0f3469cad444f10768f6c2b.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/picture/f5e3776d64b74f2e9c7532ec32ed1f95.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/picture/f61eb846ab914df6bb87ffc8815dcdbd.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/picture/fd1368c25b89405497976f27fe5f9b02.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/picture/fd16eb3cfe294106822e6135ae0fb149.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/picture/head_logo.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/picture/photo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/picture/top_logo_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/picture/top_logo_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/picture/top_logo_3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/picture/top_logo_4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/bindphone.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/cartoondetail.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/cartoondetailchatper.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/cate.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/chapterlist.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/classify.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/hot.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/my.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/rank.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/rank.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/read.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/recharge.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/search.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/search.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/subscribe.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/task.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/usercartoon.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/cartoonconfig.properties" afterPath="$PROJECT_DIR$/src/main/resources/cartoonconfig.properties" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zl/cartoon/CartoonApplicationTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/zl/cartoon/CartoonApplicationTests.java" />
+      <change beforePath="$PROJECT_DIR$/target/cartoon-0.0.1-SNAPSHOT.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cartoon-0.0.1-SNAPSHOT.jar.original" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/css/animate.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/css/base.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/css/cate.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/css/css1.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/css/detail.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/css/font-awesome.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/css/global.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/css/loading.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/css/newIcons01.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/css/read02.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/css/recharge.css" afterPath="$PROJECT_DIR$/target/classes/assets/css/recharge.css" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/css/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/css/task.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/css/user.css" afterPath="$PROJECT_DIR$/target/classes/assets/css/user.css" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/image/btnIconhome.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/image/memu.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/image/sprite-header.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/app_down_btn.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_account.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_accountbug.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_app_close.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_app_home.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_app_text.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_btn_qq.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_btn_sina.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_buy.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_coin.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_end.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_head_01.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_head_02.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_head_03.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_head_04.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_head_05.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_head_06.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_his.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_icon_01.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_icon_02.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_icon_03.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_icon_04.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_icon_05.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_icon_06.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_icon_del.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_icon_del_h.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_icon_j.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_icon_login01.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_icon_login02.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_icon_login03.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_icon_ret.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_icon_ret_h.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_icon_sb.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_icon_shar.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_index_more.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_index_update.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_key.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_layer_close.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_layer_close_h.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_look.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_look_h.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_news.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_order.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_pay_alipay.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_pay_qq.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_pay_wx.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_select.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_serch_close.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_service.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_shar_sina.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_shar_tqq.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_shar_zone.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_sub.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/bg_success.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/btnIconhome.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/btn_px3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/btn_px4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/btn_seq.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/cartoon.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/cartton_place_holder.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/chapter_switch_next.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/chapter_switch_prev.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/check.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/checked.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/cover.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/default.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/delete.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/footer_icon_1_c.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/footer_icon_1_n.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/footer_icon_2_c.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/footer_icon_2_n.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/footer_icon_3_c.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/footer_icon_3_n.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/footer_icon_4_c.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/footer_icon_4_n.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/gold_icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/hcm_icon_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/hcm_icon_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/hcm_icon_3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/hcm_icon_4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/hcm_icon_5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/head_line.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/icon_01.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/icon_02.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/icon_03.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/icon_04.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/icon_05.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/icon_06.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/icon_07.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/icon_08.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/icon_09.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/icon_coll.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/icon_comment.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/icon_h2_10.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/icon_tip1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/icon_tip2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/icon_unfold.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/iconitem.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/int_bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/left_white.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/loadlist.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/memu.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/nav_cur.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/nav_line.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/newIcons01.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/no_content.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/p.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/page_icon13.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/page_icon14.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/page_type_02.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/page_type_03.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/page_type_06.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/page_type_07.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/page_type_10.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/page_type_11.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/page_type_12.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/qr/1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/send_mail.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/sprite-header.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/timead-bg.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/tohome.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/tointro.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/top_wnd_cover.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/user-icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/vol_icon_buy.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/vol_icon_free.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/vol_icon_pay.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/wode_kouzhan.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/js/clipboard.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/js/common.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/js/cookies.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/js/domain.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/js/indextouchslider.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/js/jquery.cookie.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/js/jquery.lazyload.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/js/jquery.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/js/jquery.unobtrusive-ajax.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/js/layer/mobile/layer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/js/layer/mobile/need/layer.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/js/loadImg.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/js/m_classify.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/js/m_ps.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/js/m_reader.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/js/m_subscribe.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/js/mobile_new_comment2_17.3.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/js/read.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/js/slide.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/js/sort.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/js/tsb.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/picture/12c3500dd71f48dcacbbe34ec2365d98.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/picture/1326478519c1cb998325626fe5efc5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/picture/142f89c544a348a49eb2627d5946f3cb.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/picture/263146994c324292a7c93b587db0c637.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/picture/42246f54b929409c974c581b7d6ea59f.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/picture/4384df68cb734ec0b10d1ac4ad1b6126.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/picture/48f67d51c0e24a78bdb5122f6babc20b.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/picture/5e519263014a4428bd2e1d4ceab0bd33.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/picture/7479b481f6de44ab9fd835a0f9bc6887.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/picture/781f7eba00f246279083c31e85f5abb4.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/picture/79b16497550f2ffbd8cfaa16aa7651.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/picture/7aef3f485ead42dfafd54e4abb7aeb30.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/picture/7dffcf489a39400a80d3c199dcc8b287.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/picture/82eb2c2406274696a3fc2acddd0e4aa9.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/picture/8894b84f7fbd485a89d3062f24bcfbd1.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/picture/8de45ab8036943359a5b2a54c0790767.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/picture/8f46d40d2e7b434da01b7ad9074b553c.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/picture/94a489b64c07d5cf9cdce40127cc9f.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/picture/a_5_2fa62d.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/picture/accfac6c76d94583bc2dc07a37557479.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/picture/afd8f14885ac4129b15d105f5a004828.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/picture/app_download.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/picture/arrow_right.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/picture/b5a1414a1d2d43129910ac0b9ecb85ab.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/picture/b9377c8bf3294813a8a3086ace1ae3af.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/picture/bcf743c1b2384eb8982c521271e09a97.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/picture/bottom_bar.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/picture/c874362b0bb7e8521ad16ea2f66d31.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/picture/cdef9038eeea4bdfb7b64dbfaf74d68c.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/picture/d0f8cf9deeb145a8b0b572b6430fb982.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/picture/e1f5b4441d7048229bc897f948fa8486.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/picture/ee2dc862a0f3469cad444f10768f6c2b.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/picture/f5e3776d64b74f2e9c7532ec32ed1f95.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/picture/f61eb846ab914df6bb87ffc8815dcdbd.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/picture/fd1368c25b89405497976f27fe5f9b02.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/picture/fd16eb3cfe294106822e6135ae0fb149.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/picture/head_logo.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/picture/photo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/picture/top_logo_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/picture/top_logo_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/picture/top_logo_3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/picture/top_logo_4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/CartoonApplication.class" afterPath="$PROJECT_DIR$/target/classes/com/zl/cartoon/CartoonApplication.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/config/WebMvcConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/zl/cartoon/config/WebMvcConfig.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/controoler/CartoonDetailController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/controoler/CateController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/controoler/ClassifyController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/controoler/HotController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cartoonconfig.properties" afterPath="$PROJECT_DIR$/target/classes/cartoonconfig.properties" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/config/CartoonConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/zl/cartoon/config/CartoonConfig.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/controoler/CategoryController.class" afterPath="$PROJECT_DIR$/target/classes/com/zl/cartoon/controoler/CategoryController.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/controoler/IndexController.class" afterPath="$PROJECT_DIR$/target/classes/com/zl/cartoon/controoler/IndexController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/controoler/LoginController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/controoler/MyController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/controoler/SearchController.class" afterPath="$PROJECT_DIR$/target/classes/com/zl/cartoon/controoler/SearchController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/controoler/SubscribeController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/entity/Result.class" afterPath="$PROJECT_DIR$/target/classes/com/zl/cartoon/entity/Result.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/entity/returnmodel/CartoonDetailModel.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/entity/returnmodel/CartoonModel.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/entity/returnmodel/CartoonType.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/entity/returnmodel/ChapterDetailModel.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/entity/returnmodel/ChapterImageListModel.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/entity/returnmodel/GetIndexOrderResultModel.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/entity/returnmodel/ImageListModel.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/entity/returnmodel/ReadCountModel.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/entity/returnmodel/RecommendDetailModel.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/entity/returnmodel/RecommendModel.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/entity/returnmodel/TypeModel.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/exception/GlobalExceptionHandler.class" afterPath="$PROJECT_DIR$/target/classes/com/zl/cartoon/exception/GlobalExceptionHandler.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/interceptor/WebInterceptor.class" afterPath="$PROJECT_DIR$/target/classes/com/zl/cartoon/interceptor/WebInterceptor.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/server/CartoonDetailServer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/server/CatServer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/server/IndexServer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/util/ArrayUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/zl/cartoon/util/ArrayUtils.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/util/Checker.class" afterPath="$PROJECT_DIR$/target/classes/com/zl/cartoon/util/Checker.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/util/FileExecutor.class" afterPath="$PROJECT_DIR$/target/classes/com/zl/cartoon/util/FileExecutor.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/util/FileUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/zl/cartoon/util/FileUtils.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/util/NetUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/zl/cartoon/util/NetUtils.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/bindphone.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/cartoondetail.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/cartoondetailchatper.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/cate.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/chapterlist.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/classify.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/hot.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/my.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/rank.html" afterPath="$PROJECT_DIR$/target/classes/templates/rank.html" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/read.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/recharge.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/search.html" afterPath="$PROJECT_DIR$/target/classes/templates/search.html" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/subscribe.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/task.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/usercartoon.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zl/cartoon/controoler/UserController.class" afterPath="$PROJECT_DIR$/target/classes/com/zl/cartoon/controoler/UserController.class" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.zl.cartoon.CartoonApplicationTests.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.zl.cartoon.CartoonApplicationTests.txt" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -680,65 +115,81 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="CategoryController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/CategoryController.java">
+      <file leaf-file-name="ReaderController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/ReaderController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+            <state relative-caret-position="345">
+              <caret line="71" column="73" lean-forward="false" selection-start-line="71" selection-start-column="73" selection-end-line="71" selection-end-column="87" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/IndexController.java">
+      <file leaf-file-name="ReadService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/ReadService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="30" column="16" lean-forward="false" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/BookModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookInfoModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/BookInfoModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookInfoResult.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/BookInfoResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            <state relative-caret-position="-25">
+              <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
               <folding>
-                <element signature="e#710#711#0" expanded="true" />
-                <element signature="e#742#743#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReaderController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/ReaderController.java">
+      <file leaf-file-name="Transactional.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/soft/maven/repository/org/springframework/spring-tx/5.0.8.RELEASE/spring-tx-5.0.8.RELEASE-sources.jar!/org/springframework/transaction/annotation/Transactional.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="25" />
+            <state relative-caret-position="229">
+              <caret line="83" column="58" lean-forward="false" selection-start-line="83" selection-start-column="50" selection-end-line="83" selection-end-column="58" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LastReadDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/dao/LastReadDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LastRead.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/soft/maven/repository/com/ty/erp/erp-entitys/1.0-SNAPSHOT/erp-entitys-1.0-SNAPSHOT-sources.jar!/com/ty/erp/entitys/entity/LastRead.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LastReadDaoMapper.tld" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/LastReadDaoMapper.tld">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+              <folding>
+                <marker date="1543829880206" expanded="true" signature="253:343" ph="SELECT * FRO... LastRead" />
+                <marker date="1543829880206" expanded="true" signature="610:716" ph="UPDATE lastRead... " />
+                <marker date="1543829880206" expanded="true" signature="792:918" ph="SELECT * FRO... lastRead" />
+                <marker date="1543829880206" expanded="true" signature="792:926" ph="SELECT * FRO... lastRead" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LastReadService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/LastReadService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -748,29 +199,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
-        <option value="Tag Library Descriptor" />
-        <option value="FxmlFile" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Tag Library Descriptor" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>m-main</find>
-      <find>setState</find>
-      <find>pageDidReload</find>
-      <find>1jwibo</find>
-      <find>m-content</find>
-      <find>getBase64</find>
-      <find>category.d</find>
-      <find>pay</find>
-      <find>category</find>
-      <find>history.do</find>
       <find>history</find>
       <find>投</find>
       <find>user/baseinfo.json</find>
@@ -791,6 +232,16 @@
       <find>他人代充</find>
       <find>index.do</find>
       <find>header.json</find>
+      <find>recommend</find>
+      <find>男生</find>
+      <find>index/recommend</find>
+      <find>rank/books.json</find>
+      <find>home/list.json</find>
+      <find>ConfigurationProperties</find>
+      <find>user/lastRead.json</find>
+      <find>nmyslog</find>
+      <find>history/recommended</find>
+      <find>nextChapter</find>
     </findStrings>
     <dirStrings>
       <dir>E:\zl\cartoonWeb\src\main\resources</dir>
@@ -798,9 +249,9 @@
       <dir>E:\zl\cartoonWeb\cartoon\src\main\resources\templates</dir>
       <dir>E:\zl\cartoonWeb\cartoon\src\main\resources\assets\css</dir>
       <dir>E:\zl\cartoonWeb\cartoon\src</dir>
-      <dir>E:\zl\cartoonWeb\cartoon\src\main\resources</dir>
       <dir>E:\zl\cartoonWeb\cartoon\src\main\java\com\zl\cartoon\controoler</dir>
       <dir>E:\zl\cartoonWeb\cartoon\src\main\resources\assets\js</dir>
+      <dir>E:\zl\cartoonWeb\cartoon\src\main\resources</dir>
       <dir>E:\zl\cartoonWeb\cartoon</dir>
     </dirStrings>
   </component>
@@ -815,62 +266,68 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/BaseResult.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/TradePendingResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/NewNovelsBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/FreeNovelsBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/MaleNovelsBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/NewIndexRecommend.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/js/fastclick.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/js/zepto.min.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/js/vendor.4e409.min.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/js/app3.e106b.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/js/jweixin-1.2.0.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/CustomNovelsModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/SignParamsModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/requestmodel/SignParamsRequestModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/NewUserInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/NewBookModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/NewIndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/book.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/DetailModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/ChapterModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/LastestChapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/BookDetailModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/RewardRank.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/RewardRankModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/NewBookController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/dao/Cartoon.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/dao/CartoonDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/config/CartoonConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/cartoonconfig.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/menu/SexMeun.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/dao/BookDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/util/NumberUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/util/ParamUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/menu/SexTypeMeun.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/menu/SexEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/menu/SexType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/util/RequestParam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/BookService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/BookDaoMapper.tld" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/logback-spring.xml.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/logback-spring.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/CurrentChapterBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/BookNavBarModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/BookContentResult.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/js/test1.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/LinkListModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/BookPromotionResult.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/ReaderController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/js/index.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/js/info.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/user.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/CategorysDataModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/CategorysModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/BookCatalogResult.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/CatalogController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/ShareConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/ShareResult.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/BannersResult.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/UserModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/BaseInfoResult.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/GetCustomerModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/GetCustomerResult.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/RechargeListModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/RechargeModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/RechargeResult.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/CommonController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/GetMessageResult.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/requestmodel/GetMessageModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/requestmodel/ConfirmModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/RechargeConfirmModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/RechargeConfirmResult.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/PayController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/js/recharge.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/pay.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/js/reader.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/reader.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/SearchBookResult.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/SearchHintResult.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/SearchController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/CategoryType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/CategoryTypeModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/CategoryTypeResult.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/menu/CateTypeMenu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/menu/SerialMenu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/menu/WordCountMenu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/CategoryController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/UserController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/zl/cartoon/CartoonApplicationTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/ReaderController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/CurrentUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/dao/LastReadDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/LastReadDaoMapper.tld" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/LastReadService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/ReadService.java" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -886,30 +343,18 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cartoon" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cartoon" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cartoon" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-116" />
-    <option name="y" value="106" />
+    <option name="x" value="-138" />
+    <option name="y" value="165" />
     <option name="width" value="1934" />
     <option name="height" value="1036" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -926,8 +371,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -969,15 +412,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cartoon" type="462c0819:PsiDirectoryNode" />
-              <item name="controoler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cartoon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cartoon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cartoon" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -996,50 +430,35 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cartoon" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-              <item name="menu" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cartoon" type="b2602c69:ProjectViewProjectNode" />
               <item name="cartoon" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cartoon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cartoon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cartoon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cartoon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cartoon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cartoon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cartoon" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-              <item name="returnmodel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cartoon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cartoon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cartoon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cartoon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cartoon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cartoon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cartoon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cartoon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cartoon" type="b2602c69:ProjectViewProjectNode" />
@@ -1049,12 +468,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -1065,8 +486,9 @@
     <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="last_opened_file_path" value="D:/qiansheng/biaozhun2 - 副本1 - 副本/springmvc/NewWeb" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="SearchEverywhereHistoryKey" value="Callresult&#9;PSI&#9;JAVA://com.ty.erp.entitys.businessmodel.CallResult" />
+    <property name="SearchEverywhereHistoryKey" value="additional-spring-configuration-metadata.json&#9;FILE&#9;jar://D:/soft/maven/repository/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/1.3.2/mybatis-spring-boot-autoconfigure-1.3.2.jar!/META-INF/additional-spring-configuration-metadata.json&#10;Callresult&#9;PSI&#9;JAVA://com.ty.erp.entitys.businessmodel.CallResult" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -1076,11 +498,11 @@
       <recent name="com.zl.cartoon.exception" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\zl\cartoonWeb\cartoon\src\main\resources\mapper" />
+      <recent name="E:\zl\cartoonWeb\cartoon\src\main\resources\assets\images" />
       <recent name="E:\zl\cartoonWeb\cartoon\src\main\resources\assets\js" />
       <recent name="E:\zl\cartoonWeb\cartoon\src\main\resources\assets\image" />
-      <recent name="E:\zl\cartoonWeb\cartoon\src\main\resources\assets\images" />
       <recent name="E:\zl\cartoonWeb\cartoon\src\main\resources\assets\css" />
-      <recent name="E:\zl\cartoonWeb\cartoon\src\main\resources\assets\images\qr" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1248,11 +670,25 @@
       <workItem from="1539825654430" duration="4382000" />
       <workItem from="1540004246818" duration="287000" />
       <workItem from="1540975176304" duration="442000" />
+      <workItem from="1541833959929" duration="15353000" />
+      <workItem from="1541892654975" duration="556000" />
+      <workItem from="1541999803647" duration="598000" />
+      <workItem from="1542160566015" duration="481000" />
+      <workItem from="1542619135663" duration="860000" />
+      <workItem from="1542677419800" duration="597000" />
+      <workItem from="1542960157310" duration="1259000" />
+      <workItem from="1542982820018" duration="596000" />
+      <workItem from="1543030624762" duration="594000" />
+      <workItem from="1543547489754" duration="4552000" />
+      <workItem from="1543556780031" duration="5020000" />
+      <workItem from="1543566286049" duration="387000" />
+      <workItem from="1543816000520" duration="5268000" />
+      <workItem from="1543827699683" duration="3437000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152647000" />
+    <option name="totallyTimeSpent" value="192205000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -1268,28 +704,28 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46589595" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43785632" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839224" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3438841" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25643778" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1306,9 +742,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45952109" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.51083237" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839224" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1318,7 +754,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295699" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25643778" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1359,13 +795,56 @@
           <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/UserController.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/UserService.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/ReaderController.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="17" />
+      <option name="time" value="24" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>service.getLastRead(0L)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>lastReadDao.getLastRead(userRowId)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>bookDao.books(params)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cartoonConfig.getPicPath()+&quot;&quot;+book.getPic()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cartoonConfig.getSetTitle()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>request.getParameter(&quot;couponId&quot;)</expression-string>
         <language-id>JAVA</language-id>
@@ -1386,290 +865,292 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>server.getCartoonDetailModel(rowid)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>dao.getAll()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/CatalogController.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="752">
-          <caret line="53" column="33" lean-forward="false" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
+        <state relative-caret-position="2875">
+          <caret line="125" column="21" lean-forward="false" selection-start-line="125" selection-start-column="21" selection-end-line="125" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/ShareConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback-spring.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="24" />
-          <folding>
-            <element signature="e#388#389#0" expanded="false" />
-            <element signature="e#416#417#0" expanded="false" />
-            <element signature="e#458#459#0" expanded="false" />
-            <element signature="e#492#493#0" expanded="false" />
-            <element signature="e#527#528#0" expanded="false" />
-            <element signature="e#558#559#0" expanded="false" />
-            <element signature="e#606#607#0" expanded="false" />
-            <element signature="e#646#647#0" expanded="false" />
-            <element signature="e#680#681#0" expanded="false" />
-            <element signature="e#712#713#0" expanded="false" />
-            <element signature="e#760#761#0" expanded="false" />
-            <element signature="e#802#803#0" expanded="false" />
-            <element signature="e#838#839#0" expanded="false" />
-            <element signature="e#870#871#0" expanded="false" />
-            <element signature="e#920#921#0" expanded="false" />
-            <element signature="e#962#963#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/ShareResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#188#189#0" expanded="false" />
-            <element signature="e#220#221#0" expanded="false" />
-            <element signature="e#271#272#0" expanded="false" />
-            <element signature="e#313#314#0" expanded="false" />
-            <element signature="e#351#352#0" expanded="false" />
-            <element signature="e#380#381#0" expanded="false" />
-            <element signature="e#429#430#0" expanded="false" />
-            <element signature="e#465#466#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/BannerResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="25" />
+        <state relative-caret-position="4025">
+          <caret line="175" column="20" lean-forward="false" selection-start-line="175" selection-start-column="20" selection-end-line="175" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/BannersResult.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/UserModel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="598">
+          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding>
-            <element signature="e#421#422#0" expanded="false" />
-            <element signature="e#446#447#0" expanded="false" />
-            <element signature="e#482#483#0" expanded="false" />
-            <element signature="e#510#511#0" expanded="false" />
-            <element signature="e#541#542#0" expanded="false" />
-            <element signature="e#568#569#0" expanded="false" />
-            <element signature="e#608#609#0" expanded="false" />
-            <element signature="e#640#641#0" expanded="false" />
-            <element signature="e#674#675#0" expanded="false" />
-            <element signature="e#704#705#0" expanded="false" />
-            <element signature="e#750#751#0" expanded="false" />
-            <element signature="e#788#789#0" expanded="false" />
-            <element signature="e#821#822#0" expanded="false" />
-            <element signature="e#850#851#0" expanded="false" />
-            <element signature="e#894#895#0" expanded="false" />
-            <element signature="e#930#931#0" expanded="false" />
-            <element signature="e#967#968#0" expanded="false" />
-            <element signature="e#1000#1001#0" expanded="false" />
-            <element signature="e#1052#1053#0" expanded="false" />
-            <element signature="e#1096#1097#0" expanded="false" />
-            <element signature="e#1131#1132#0" expanded="false" />
-            <element signature="e#1162#1163#0" expanded="false" />
-            <element signature="e#1210#1211#0" expanded="false" />
-            <element signature="e#1250#1251#0" expanded="false" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/BaseInfoResult.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <folding>
-            <element signature="e#153#154#0" expanded="false" />
-            <element signature="e#180#181#0" expanded="false" />
-            <element signature="e#223#224#0" expanded="false" />
-            <element signature="e#255#256#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="782">
+          <caret line="34" column="51" lean-forward="false" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/GetCustomerModel.java">
+    <entry file="jar://D:/soft/maven/repository/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/1.3.2/mybatis-spring-boot-autoconfigure-1.3.2.jar!/org/mybatis/spring/boot/autoconfigure/MybatisProperties.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="29" />
+        <state relative-caret-position="1334">
+          <caret line="102" column="50" lean-forward="false" selection-start-line="102" selection-start-column="50" selection-end-line="102" selection-end-column="50" />
           <folding>
-            <element signature="e#275#276#0" expanded="false" />
-            <element signature="e#309#310#0" expanded="false" />
-            <element signature="e#363#364#0" expanded="false" />
-            <element signature="e#409#410#0" expanded="false" />
-            <element signature="e#445#446#0" expanded="false" />
-            <element signature="e#477#478#0" expanded="false" />
-            <element signature="e#527#528#0" expanded="false" />
-            <element signature="e#569#570#0" expanded="false" />
-            <element signature="e#602#603#0" expanded="false" />
-            <element signature="e#631#632#0" expanded="false" />
-            <element signature="e#675#676#0" expanded="false" />
-            <element signature="e#711#712#0" expanded="false" />
+            <marker date="1536289002207" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1536289002207" expanded="false" signature="161:730" ph="..." />
+            <marker date="1536289002207" expanded="true" signature="732:782" ph="@{...}" />
+            <marker date="1536289002207" expanded="true" signature="1269:1276" ph="{}" />
+            <marker date="1536289002207" expanded="false" signature="1315:1326" ph=" { " />
+            <marker date="1536289002207" expanded="false" signature="1353:1359" ph=" }" />
+            <marker date="1536289002207" expanded="false" signature="1417:1428" ph=" { " />
+            <marker date="1536289002207" expanded="false" signature="1465:1471" ph=" }" />
+            <marker date="1536289002207" expanded="true" signature="1477:1495" ph="/**...*/" />
+            <marker date="1536289002207" expanded="false" signature="1541:1552" ph=" { " />
+            <marker date="1536289002207" expanded="false" signature="1579:1585" ph=" }" />
+            <marker date="1536289002207" expanded="true" signature="1591:1609" ph="/**...*/" />
+            <marker date="1536289002207" expanded="false" signature="1666:1677" ph=" { " />
+            <marker date="1536289002207" expanded="false" signature="1706:1712" ph=" }" />
+            <marker date="1536289002207" expanded="false" signature="1754:1765" ph=" { " />
+            <marker date="1536289002207" expanded="false" signature="1793:1799" ph=" }" />
+            <marker date="1536289002207" expanded="false" signature="1861:1872" ph=" { " />
+            <marker date="1536289002207" expanded="false" signature="1911:1917" ph=" }" />
+            <marker date="1536289002207" expanded="false" signature="1961:1972" ph=" { " />
+            <marker date="1536289002207" expanded="false" signature="2004:2010" ph=" }" />
+            <marker date="1536289002207" expanded="false" signature="2078:2089" ph=" { " />
+            <marker date="1536289002207" expanded="false" signature="2136:2142" ph=" }" />
+            <marker date="1536289002207" expanded="false" signature="2185:2196" ph=" { " />
+            <marker date="1536289002207" expanded="false" signature="2227:2233" ph=" }" />
+            <marker date="1536289002207" expanded="false" signature="2299:2310" ph=" { " />
+            <marker date="1536289002207" expanded="false" signature="2355:2361" ph=" }" />
+            <marker date="1536289002207" expanded="false" signature="2405:2416" ph=" { " />
+            <marker date="1536289002207" expanded="false" signature="2448:2454" ph=" }" />
+            <marker date="1536289002207" expanded="false" signature="2523:2534" ph=" { " />
+            <marker date="1536289002207" expanded="false" signature="2581:2587" ph=" }" />
+            <marker date="1536289002207" expanded="false" signature="2630:2641" ph=" { " />
+            <marker date="1536289002207" expanded="false" signature="2666:2672" ph=" }" />
+            <marker date="1536289002207" expanded="false" signature="2732:2743" ph=" { " />
+            <marker date="1536289002207" expanded="false" signature="2776:2782" ph=" }" />
+            <marker date="1536289002207" expanded="false" signature="2834:2845" ph=" { " />
+            <marker date="1536289002207" expanded="false" signature="2881:2887" ph=" }" />
+            <marker date="1536289002207" expanded="true" signature="2968:3039" ph="{...}" />
+            <marker date="1536289002207" expanded="false" signature="3084:3095" ph=" { " />
+            <marker date="1536289002207" expanded="false" signature="3121:3127" ph=" }" />
+            <marker date="1536289002207" expanded="false" signature="3190:3201" ph=" { " />
+            <marker date="1536289002207" expanded="false" signature="3236:3242" ph=" }" />
+            <marker date="1536289002207" expanded="true" signature="3291:4041" ph="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/GetCustomerResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#170#171#0" expanded="false" />
-            <element signature="e#197#198#0" expanded="false" />
-            <element signature="e#247#248#0" expanded="false" />
-            <element signature="e#279#280#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/RechargeModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#484#485#0" expanded="false" />
-            <element signature="e#511#512#0" expanded="false" />
-            <element signature="e#551#552#0" expanded="false" />
-            <element signature="e#583#584#0" expanded="false" />
-            <element signature="e#620#621#0" expanded="false" />
-            <element signature="e#656#657#0" expanded="false" />
-            <element signature="e#711#712#0" expanded="false" />
-            <element signature="e#761#762#0" expanded="false" />
-            <element signature="e#794#795#0" expanded="false" />
-            <element signature="e#826#827#0" expanded="false" />
-            <element signature="e#873#874#0" expanded="false" />
-            <element signature="e#915#916#0" expanded="false" />
-            <element signature="e#953#954#0" expanded="false" />
-            <element signature="e#990#991#0" expanded="false" />
-            <element signature="e#1047#1048#0" expanded="false" />
-            <element signature="e#1099#1100#0" expanded="false" />
-            <element signature="e#1145#1146#0" expanded="false" />
-            <element signature="e#1187#1188#0" expanded="false" />
-            <element signature="e#1257#1258#0" expanded="false" />
-            <element signature="e#1319#1320#0" expanded="false" />
-            <element signature="e#1381#1382#0" expanded="false" />
-            <element signature="e#1422#1423#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/soft/maven/repository/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE-sources.jar!/org/springframework/web/bind/annotation/RequestMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="36" column="4" lean-forward="false" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="17" column="77" lean-forward="false" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
+        <state relative-caret-position="368">
+          <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/RechargeListModel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#831#832#0" expanded="false" />
-            <element signature="e#859#860#0" expanded="false" />
-            <element signature="e#898#899#0" expanded="false" />
-            <element signature="e#932#933#0" expanded="false" />
-            <element signature="e#958#959#0" expanded="false" />
-            <element signature="e#983#984#0" expanded="false" />
-            <element signature="e#1016#1017#0" expanded="false" />
-            <element signature="e#1044#1045#0" expanded="false" />
-            <element signature="e#1075#1076#0" expanded="false" />
-            <element signature="e#1105#1106#0" expanded="false" />
-            <element signature="e#1148#1149#0" expanded="false" />
-            <element signature="e#1186#1187#0" expanded="false" />
-            <element signature="e#1221#1222#0" expanded="false" />
-            <element signature="e#1255#1256#0" expanded="false" />
-            <element signature="e#1306#1307#0" expanded="false" />
-            <element signature="e#1352#1353#0" expanded="false" />
-            <element signature="e#1385#1386#0" expanded="false" />
-            <element signature="e#1414#1415#0" expanded="false" />
-            <element signature="e#1459#1460#0" expanded="false" />
-            <element signature="e#1495#1496#0" expanded="false" />
-            <element signature="e#1529#1530#0" expanded="false" />
-            <element signature="e#1559#1560#0" expanded="false" />
-            <element signature="e#1605#1606#0" expanded="false" />
-            <element signature="e#1643#1644#0" expanded="false" />
-            <element signature="e#1675#1676#0" expanded="false" />
-            <element signature="e#1706#1707#0" expanded="false" />
-            <element signature="e#1751#1752#0" expanded="false" />
-            <element signature="e#1791#1792#0" expanded="false" />
-            <element signature="e#1826#1827#0" expanded="false" />
-            <element signature="e#1860#1861#0" expanded="false" />
-            <element signature="e#1911#1912#0" expanded="false" />
-            <element signature="e#1957#1958#0" expanded="false" />
-            <element signature="e#1994#1995#0" expanded="false" />
-            <element signature="e#2030#2031#0" expanded="false" />
-            <element signature="e#2085#2086#0" expanded="false" />
-            <element signature="e#2135#2136#0" expanded="false" />
-            <element signature="e#2174#2175#0" expanded="false" />
-            <element signature="e#2212#2213#0" expanded="false" />
-            <element signature="e#2271#2272#0" expanded="false" />
-            <element signature="e#2325#2326#0" expanded="false" />
-            <element signature="e#2364#2365#0" expanded="false" />
-            <element signature="e#2402#2403#0" expanded="false" />
-            <element signature="e#2461#2462#0" expanded="false" />
-            <element signature="e#2515#2516#0" expanded="false" />
-            <element signature="e#2550#2551#0" expanded="false" />
-            <element signature="e#2581#2582#0" expanded="false" />
-            <element signature="e#2629#2630#0" expanded="false" />
-            <element signature="e#2669#2670#0" expanded="false" />
-            <element signature="e#2701#2702#0" expanded="false" />
-            <element signature="e#2732#2733#0" expanded="false" />
-            <element signature="e#2777#2778#0" expanded="false" />
-            <element signature="e#2817#2818#0" expanded="false" />
-            <element signature="e#2852#2853#0" expanded="false" />
-            <element signature="e#2883#2884#0" expanded="false" />
-            <element signature="e#2932#2933#0" expanded="false" />
-            <element signature="e#2972#2973#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="506">
+          <caret line="36" column="47" lean-forward="false" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/CommonController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/util/RequestParam.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state relative-caret-position="414">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/css/recharge.css">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/menu/SexEnum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/js/vendor-a1ea3237.bundle.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/menu/SerialMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="0" column="55761" lean-forward="false" selection-start-line="0" selection-start-column="55761" selection-end-line="0" selection-end-column="55761" />
+        <state relative-caret-position="253">
+          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/RechargeResult.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/util/NumberUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/dao/BookDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/BookDaoMapper.tld">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <marker date="1543566557430" expanded="true" signature="249:277" ph="SELECT * FRO... Book" />
+            <marker date="1543566557430" expanded="true" signature="343:371" ph="SELECT * FRO... Book" />
+            <marker date="1543566557430" expanded="true" signature="343:489" ph="SELECT * FRO... Book" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/BookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="41" column="39" lean-forward="true" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/util/RequestParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/menu/SexEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/menu/SerialMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/util/NumberUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/dao/BookDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/BookDaoMapper.tld">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <marker date="1543566557430" expanded="true" signature="249:277" ph="SELECT * FRO... Book" />
+            <marker date="1543566557430" expanded="true" signature="343:371" ph="SELECT * FRO... Book" />
+            <marker date="1543566557430" expanded="true" signature="343:489" ph="SELECT * FRO... Book" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/soft/maven/repository/org/springframework/spring-core/5.0.8.RELEASE/spring-core-5.0.8.RELEASE-sources.jar!/org/springframework/util/Assert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="190" column="23" lean-forward="false" selection-start-line="190" selection-start-column="23" selection-end-line="190" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="211" column="6" lean-forward="false" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/soft/maven/repository/org/springframework/spring-core/5.0.8.RELEASE/spring-core-5.0.8.RELEASE-sources.jar!/org/springframework/util/ClassUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="330" column="17" lean-forward="false" selection-start-line="330" selection-start-column="17" selection-end-line="330" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/soft/maven/repository/org/springframework/spring-core/5.0.8.RELEASE/spring-core-5.0.8.RELEASE-sources.jar!/org/springframework/core/io/support/SpringFactoriesLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="116" column="31" lean-forward="false" selection-start-line="116" selection-start-column="31" selection-end-line="116" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/CartoonApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding>
+            <element signature="e#327#328#0" expanded="false" />
+            <element signature="e#387#388#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/soft/maven/repository/org/springframework/boot/spring-boot/2.0.4.RELEASE/spring-boot-2.0.4.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="761" column="62" lean-forward="true" selection-start-line="761" selection-start-column="62" selection-end-line="761" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/soft/maven/repository/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-201">
+          <caret line="515" column="16" lean-forward="false" selection-start-line="515" selection-start-column="16" selection-end-line="515" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/BookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="37" column="30" lean-forward="false" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/LastReadResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/LastReadProgressModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -1677,195 +1158,128 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/GetMessageResult.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback-spring.xml.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback-spring.tld" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/Properties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="29" />
+        <state relative-caret-position="141">
+          <caret line="121" column="6" lean-forward="false" selection-start-line="121" selection-start-column="6" selection-end-line="121" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/soft/maven/repository/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/1.3.2/mybatis-spring-boot-autoconfigure-1.3.2.jar!/org/mybatis/spring/boot/autoconfigure/MybatisProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1334">
+          <caret line="102" column="50" lean-forward="false" selection-start-line="102" selection-start-column="50" selection-end-line="102" selection-end-column="50" />
           <folding>
-            <element signature="e#176#177#0" expanded="false" />
-            <element signature="e#207#208#0" expanded="false" />
-            <element signature="e#253#254#0" expanded="false" />
-            <element signature="e#293#294#0" expanded="false" />
+            <marker date="1536289002207" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1536289002207" expanded="false" signature="161:730" ph="..." />
+            <marker date="1536289002207" expanded="true" signature="732:782" ph="@{...}" />
+            <marker date="1536289002207" expanded="true" signature="1269:1276" ph="{}" />
+            <marker date="1536289002207" expanded="false" signature="1315:1326" ph=" { " />
+            <marker date="1536289002207" expanded="false" signature="1353:1359" ph=" }" />
+            <marker date="1536289002207" expanded="false" signature="1417:1428" ph=" { " />
+            <marker date="1536289002207" expanded="false" signature="1465:1471" ph=" }" />
+            <marker date="1536289002207" expanded="true" signature="1477:1495" ph="/**...*/" />
+            <marker date="1536289002207" expanded="false" signature="1541:1552" ph=" { " />
+            <marker date="1536289002207" expanded="false" signature="1579:1585" ph=" }" />
+            <marker date="1536289002207" expanded="true" signature="1591:1609" ph="/**...*/" />
+            <marker date="1536289002207" expanded="false" signature="1666:1677" ph=" { " />
+            <marker date="1536289002207" expanded="false" signature="1706:1712" ph=" }" />
+            <marker date="1536289002207" expanded="false" signature="1754:1765" ph=" { " />
+            <marker date="1536289002207" expanded="false" signature="1793:1799" ph=" }" />
+            <marker date="1536289002207" expanded="false" signature="1861:1872" ph=" { " />
+            <marker date="1536289002207" expanded="false" signature="1911:1917" ph=" }" />
+            <marker date="1536289002207" expanded="false" signature="1961:1972" ph=" { " />
+            <marker date="1536289002207" expanded="false" signature="2004:2010" ph=" }" />
+            <marker date="1536289002207" expanded="false" signature="2078:2089" ph=" { " />
+            <marker date="1536289002207" expanded="false" signature="2136:2142" ph=" }" />
+            <marker date="1536289002207" expanded="false" signature="2185:2196" ph=" { " />
+            <marker date="1536289002207" expanded="false" signature="2227:2233" ph=" }" />
+            <marker date="1536289002207" expanded="false" signature="2299:2310" ph=" { " />
+            <marker date="1536289002207" expanded="false" signature="2355:2361" ph=" }" />
+            <marker date="1536289002207" expanded="false" signature="2405:2416" ph=" { " />
+            <marker date="1536289002207" expanded="false" signature="2448:2454" ph=" }" />
+            <marker date="1536289002207" expanded="false" signature="2523:2534" ph=" { " />
+            <marker date="1536289002207" expanded="false" signature="2581:2587" ph=" }" />
+            <marker date="1536289002207" expanded="false" signature="2630:2641" ph=" { " />
+            <marker date="1536289002207" expanded="false" signature="2666:2672" ph=" }" />
+            <marker date="1536289002207" expanded="false" signature="2732:2743" ph=" { " />
+            <marker date="1536289002207" expanded="false" signature="2776:2782" ph=" }" />
+            <marker date="1536289002207" expanded="false" signature="2834:2845" ph=" { " />
+            <marker date="1536289002207" expanded="false" signature="2881:2887" ph=" }" />
+            <marker date="1536289002207" expanded="true" signature="2968:3039" ph="{...}" />
+            <marker date="1536289002207" expanded="false" signature="3084:3095" ph=" { " />
+            <marker date="1536289002207" expanded="false" signature="3121:3127" ph=" }" />
+            <marker date="1536289002207" expanded="false" signature="3190:3201" ph=" { " />
+            <marker date="1536289002207" expanded="false" signature="3236:3242" ph=" }" />
+            <marker date="1536289002207" expanded="true" signature="3291:4041" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/requestmodel/GetMessageModel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback-spring.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="28" />
+        <state relative-caret-position="4025">
+          <caret line="175" column="20" lean-forward="false" selection-start-line="175" selection-start-column="20" selection-end-line="175" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/RechargeConfirmModel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="33" />
-          <folding>
-            <element signature="e#729#730#0" expanded="false" />
-            <element signature="e#761#762#0" expanded="false" />
-            <element signature="e#811#812#0" expanded="false" />
-            <element signature="e#853#854#0" expanded="false" />
-            <element signature="e#888#889#0" expanded="false" />
-            <element signature="e#919#920#0" expanded="false" />
-            <element signature="e#967#968#0" expanded="false" />
-            <element signature="e#1007#1008#0" expanded="false" />
-            <element signature="e#1041#1042#0" expanded="false" />
-            <element signature="e#1071#1072#0" expanded="false" />
-            <element signature="e#1117#1118#0" expanded="false" />
-            <element signature="e#1155#1156#0" expanded="false" />
-            <element signature="e#1187#1188#0" expanded="false" />
-            <element signature="e#1215#1216#0" expanded="false" />
-            <element signature="e#1257#1258#0" expanded="false" />
-            <element signature="e#1291#1292#0" expanded="false" />
-            <element signature="e#1326#1327#0" expanded="false" />
-            <element signature="e#1357#1358#0" expanded="false" />
-            <element signature="e#1405#1406#0" expanded="false" />
-            <element signature="e#1445#1446#0" expanded="false" />
-            <element signature="e#1480#1481#0" expanded="false" />
-            <element signature="e#1511#1512#0" expanded="false" />
-            <element signature="e#1559#1560#0" expanded="false" />
-            <element signature="e#1599#1600#0" expanded="false" />
-            <element signature="e#1638#1639#0" expanded="false" />
-            <element signature="e#1673#1674#0" expanded="false" />
-            <element signature="e#1729#1730#0" expanded="false" />
-            <element signature="e#1777#1778#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/RechargeConfirmResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#182#183#0" expanded="false" />
-            <element signature="e#209#210#0" expanded="false" />
-            <element signature="e#263#264#0" expanded="false" />
-            <element signature="e#295#296#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/config/ConfigApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="42" lean-forward="false" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        <state relative-caret-position="782">
+          <caret line="34" column="51" lean-forward="false" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2622">
-          <caret line="114" column="21" lean-forward="false" selection-start-line="114" selection-start-column="21" selection-end-line="114" selection-end-column="21" />
+        <state relative-caret-position="2875">
+          <caret line="125" column="21" lean-forward="false" selection-start-line="125" selection-start-column="21" selection-end-line="125" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/requestmodel/ConfirmModel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/js/common.bundle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="0" column="8018" lean-forward="false" selection-start-line="0" selection-start-column="8018" selection-end-line="0" selection-end-column="8018" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="132" column="4" lean-forward="false" selection-start-line="132" selection-start-column="4" selection-end-line="132" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/pay.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/js/recharge.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="1515" column="62" lean-forward="true" selection-start-line="1515" selection-start-column="62" selection-end-line="1515" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/js/reader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="0" column="19867" lean-forward="false" selection-start-line="0" selection-start-column="19867" selection-end-line="0" selection-end-column="19867" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/reader.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="67" column="64" lean-forward="false" selection-start-line="67" selection-start-column="64" selection-end-line="67" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/SearchBookResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="147">
+          <caret line="28" column="51" lean-forward="true" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/SearchHintResult.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/BookNavBarModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="48" lean-forward="false" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+        <state relative-caret-position="481">
+          <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/SearchController.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zl/cartoon/CartoonApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="437">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/PayController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="44" column="41" lean-forward="true" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
+        <state relative-caret-position="292">
+          <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/CategoryType.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/ReaderController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding>
-            <element signature="e#200#201#0" expanded="false" />
-            <element signature="e#228#229#0" expanded="false" />
-            <element signature="e#267#268#0" expanded="false" />
-            <element signature="e#301#302#0" expanded="false" />
-            <element signature="e#332#333#0" expanded="false" />
-            <element signature="e#359#360#0" expanded="false" />
-            <element signature="e#399#400#0" expanded="false" />
-            <element signature="e#431#432#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/CategoryTypeModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="30" />
+        <state relative-caret-position="345">
+          <caret line="71" column="73" lean-forward="false" selection-start-line="71" selection-start-column="73" selection-end-line="71" selection-end-column="87" />
           <folding />
         </state>
       </provider>
@@ -1874,134 +1288,85 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/CategoryTypeResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/menu.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/menu/SerialMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/menu/CateTypeMenu.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/CurrentUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="24" />
+        <state relative-caret-position="138">
+          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="24" />
           <folding>
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="false" />
+            <element signature="e#234#235#0" expanded="false" />
+            <element signature="e#274#275#0" expanded="false" />
+            <element signature="e#303#304#0" expanded="false" />
+            <element signature="e#333#334#0" expanded="false" />
+            <element signature="e#359#360#0" expanded="false" />
+            <element signature="e#397#398#0" expanded="false" />
+            <element signature="e#422#423#0" expanded="false" />
+            <element signature="e#457#458#0" expanded="false" />
+            <element signature="e#488#489#0" expanded="false" />
+            <element signature="e#536#537#0" expanded="false" />
+            <element signature="e#571#572#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/menu/WordCountMenu.java">
+    <entry file="jar://D:/soft/maven/repository/com/ty/erp/erp-entitys/1.0-SNAPSHOT/erp-entitys-1.0-SNAPSHOT-sources.jar!/com/ty/erp/entitys/entity/LastRead.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-          <folding>
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#554#555#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="230">
+          <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/RankController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/HistoryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/FreeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/IndexController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/LastReadDaoMapper.tld">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
-          <caret line="30" column="16" lean-forward="false" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/BookModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/BookInfoModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/entity/returnmodel/BookInfoResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
           <folding>
-            <element signature="e#710#711#0" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
+            <marker date="1543829880206" expanded="true" signature="253:343" ph="SELECT * FRO... LastRead" />
+            <marker date="1543829880206" expanded="true" signature="610:716" ph="UPDATE lastRead... " />
+            <marker date="1543829880206" expanded="true" signature="792:918" ph="SELECT * FRO... lastRead" />
+            <marker date="1543829880206" expanded="true" signature="792:926" ph="SELECT * FRO... lastRead" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/ReaderController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/dao/LastReadDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="25" />
+        <state relative-caret-position="230">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/controoler/CategoryController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/LastReadService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+        <state relative-caret-position="207">
+          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/soft/maven/repository/org/springframework/spring-tx/5.0.8.RELEASE/spring-tx-5.0.8.RELEASE-sources.jar!/org/springframework/transaction/annotation/Transactional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="83" column="58" lean-forward="false" selection-start-line="83" selection-start-column="50" selection-end-line="83" selection-end-column="58" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zl/cartoon/server/ReadService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,6 +1,7 @@
 package com.zl.cartoon.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 
@@ -13,6 +14,7 @@ public class CartoonConfig {
     private String commonIP;
 
     private String picPath;
+    private String setTitle;
 
     public String getCommonIP() {
         return commonIP;
@@ -36,5 +38,13 @@ public class CartoonConfig {
 
     public void setDomain(String domain) {
         this.domain = domain;
+    }
+
+    public String getSetTitle() {
+        return setTitle;
+    }
+
+    public void setSetTitle(String setTitle) {
+        this.setTitle = setTitle;
     }
 }

@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: com.qs:platforms:1.0-SNAPSHOT">
     <CLASSES>
-      <root url="jar://D:/soft/maven/repository/com/qs/platforms/1.0-SNAPSHOT/platforms-1.0-20181011.100351-255.jar!/" />
+      <root url="jar://D:/soft/maven/repository/com/qs/platforms/1.0-SNAPSHOT/platforms-1.0-20181129.024530-284.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://D:/soft/maven/repository/com/qs/platforms/1.0-SNAPSHOT/platforms-1.0-20181011.100351-255-javadoc.jar!/" />
+      <root url="jar://D:/soft/maven/repository/com/qs/platforms/1.0-SNAPSHOT/platforms-1.0-20181129.024530-284-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://D:/soft/maven/repository/com/qs/platforms/1.0-SNAPSHOT/platforms-1.0-20181011.100351-255-sources.jar!/" />
+      <root url="jar://D:/soft/maven/repository/com/qs/platforms/1.0-SNAPSHOT/platforms-1.0-20181129.024530-284-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
